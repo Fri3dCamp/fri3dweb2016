@@ -2,3 +2,4 @@ permalink: none
 pygments: true
 safe: true
 markdown: kramdown
+exclude: ['bootstrap','Gruntfile.js','node_modules','npm-debug.log','package.json','README.md','source']
