@@ -1,0 +1,50 @@
+.schedule-row-hour {
+	border-top:1px solid @gray-light;
+	height:120px;
+	box-sizing: border-box;
+}
+.schedule-row {
+	box-sizing: border-box;
+}
+.schedule-col {
+	position: relative;
+}
+.schedule-halfhour {
+	border-top:1px dotted @gray-light;
+	height:60px;
+	box-sizing: border-box;
+	&:first-of-type {
+		border-top:none;
+	}
+}
+.schedule-timelabel {
+	height:30px;
+	margin-top: -10px;
+	background-color: white;
+	box-sizing: border-box;
+	width: 50px;
+	float:left;
+	clear: left;
+}
+.schedule-item {
+	//border:1px solid @brand-secondary-light;
+	padding-left:80px;
+	box-sizing: border-box;
+	width: 100%;
+	.schedule-clickarea {
+		//background-color: fade(@brand-secondary-lighter, 80%);
+		padding:5px;
+		display: block;
+		height: 100%;
+		box-sizing: border-box;
+		width:100%;
+		border-top: 1px solid @brand-secondary;
+		border-bottom: 1px solid @brand-secondary-light;
+		&.bg1 {
+			background-image:url('../img/basketball.png');
+			background-repeat: repeat;
+		}
+	}
+	position: absolute;
+	right:15px;
+}
