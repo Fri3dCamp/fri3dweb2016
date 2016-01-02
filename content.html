@@ -4,7 +4,7 @@ title: Content
 {% include header.html %}
     <div class="jumbotron">
       <div class="container">   
-        <h1>Content</h1>
+        <h1>Programma</h1>
         <p>Dit schema wordt live up to date gehouden.</p>
       </div>
     </div>
@@ -24,12 +24,6 @@ title: Content
         //console.log(returnedcontent);
         return returnedcontent
       }
-      $( document ).ready(function() {
-        //console.log( "ready!" );
-        $("#day1").prepend(drawday());
-        $("#day2").prepend(drawday());
-        $("#day3").prepend(drawday());
-      });      
       </script>    
       <div class="schedule clearfix">
         <div class="row">
@@ -58,4 +52,13 @@ title: Content
       </div>
       {% include pagefooter.html %}
     </div> <!-- /container -->
+{% include javascript.html %}
+    <script>
+      $(document).ready(function() {
+        //console.log( "ready!" );
+        $("#day1").prepend(drawday());
+        $("#day2").prepend(drawday());
+        $("#day3").prepend(drawday());
+      });      
+    </script>
 {% include footer.html %}

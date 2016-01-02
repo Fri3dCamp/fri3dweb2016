@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     syncImport: true
                 },
                 files: {
-                    "httpdocs/css/app.css": "source/app.less"
+                    "css/app.css": "source/app.less"
                 }
             }
         },
@@ -23,8 +23,8 @@ module.exports = function(grunt) {
                 files: [
                   // includes files within path
                   // {expand: true, flatten: true, src: ['bootstrap/dist/css/bootstrap.min.css'], dest: 'httpdocs/css/', filter: 'isFile'},
-                  {expand: true, flatten: true, src: ['bootstrap/dist/fonts/*'], dest: 'httpdocs/fonts/', filter: 'isFile'},
-                  {expand: true, flatten: true, src: ['bootstrap/dist/js/*.min.js'], dest: 'httpdocs/js/', filter: 'isFile'}
+                  {expand: true, flatten: true, src: ['bootstrap/dist/fonts/*'], dest: 'fonts/', filter: 'isFile'},
+                  {expand: true, flatten: true, src: ['bootstrap/dist/js/*.min.js'], dest: 'js/', filter: 'isFile'}
 
                   // includes files within path and its sub-directories
                   //{expand: true, src: ['path/**'], dest: 'dest/'},
