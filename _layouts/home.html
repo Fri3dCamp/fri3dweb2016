@@ -1,0 +1,54 @@
+{% include header.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="center-block" id="mainlogo" class="logo"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="260px" height="230px" viewBox="0 0 260 230" enable-background="new 0 0 257.9 228.9" xml:space="preserve">
+<polygon fill="none" stroke="#DD7222" stroke-width="5" stroke-miterlimit="10" points="28.5,103.3 128.9,203.7 218.2,25.2 "/>
+<polygon fill="none" stroke="#0E98AF" stroke-width="5" stroke-miterlimit="10" points="229.4,103.3 128.9,203.7 39.7,25.2 "/>
+</svg><div class="logo-name">Fri3d<br>Camp</div><div class="logo-year">2016</div>
+</div>
+        <p>{{page.intro}}</p>
+        <p><a class="btn btn-primary btn-lg" href="http://twitter.com/fri3dcamp" role="button"><i class="fa fa-twitter"></i> @Fri3dCamp</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-8">          
+          {{page.col1}}
+        </div>
+        <div class="col-md-4">         
+          {{page.col2}}
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <div class="container">
+      <h2>Dit was Fri3d Camp 2014</h2>
+      <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          {% for i in (0..29) %}
+          <li data-target="#carousel1" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>          
+          {% endfor %}               
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          {% for i in (1..30) %}
+          <div class="item{% if i == 1 %} active{% endif %}">
+            <img data-src="/images/fri3d2014/{{ i }}.jpg" alt="Foto van Fri3d Camp 2014" src="/images/fri3d2014/{{ i }}.jpg" data-holder-rendered="true">
+          </div>
+          {% endfor %}     
+        </div>
+        <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      {% include pagefooter.html %}
+    </div><!-- /container -->
+{% include javascript.html %}
+{% include footer.html %}
