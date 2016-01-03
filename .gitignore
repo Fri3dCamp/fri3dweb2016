@@ -1,4 +1,4 @@
-bootstrap
 _site
 *.log
 *.lock
+node_modules

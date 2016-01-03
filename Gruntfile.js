@@ -15,7 +15,9 @@ module.exports = function(grunt) {
         },
         copy: {
             updatevars: {
-                files: [                    
+                files: [
+                  // backup before we replace it
+                  {src: ['bootstrap/less/variables.less'], dest: 'bootstrap/less/variables.backup', filter: 'isFile'},
                   {expand: true, flatten: true, src: ['source/variables.less'], dest: 'bootstrap/less/', filter: 'isFile'},
                 ]
             },
@@ -35,25 +37,36 @@ module.exports = function(grunt) {
                   // flattens results to a single level
                   //{expand: true, flatten: true, src: ['path/**'], dest: 'dest/', filter: 'isFile'},
                 ]
+            },
+            restore: {
+              files: [
+                // restore original bootstrap less file
+                {src: ['bootstrap/less/variables.backup'], dest: 'bootstrap/less/variables.less', filter: 'isFile'},
+              ]
             }
         },
-        exec: {
-            production: 'cd bootstrap;grunt dist'
-        },
-        watch: {
-          updatevars: {
-            files: ['source/*.less'],
-            tasks: ['copy:updatevars']
-          },
-          production: {
-            files: ['source/*.less'],
-            tasks: ['less:production','copy:production']
-          }
+        clean: {
+          backup: ['bootstrap/less/variables.backup']
         }
+        // exec: {
+        //     production: 'cd bootstrap;grunt dist'
+        // },
+        // watch: {
+        //   updatevars: {
+        //     files: ['source/*.less'],
+        //     tasks: ['copy:updatevars']
+        //   },
+        //   production: {
+        //     files: ['source/*.less'],
+        //     tasks: ['less:production','copy:production']
+        //   }
+        // }
     });
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-exec');
-    grunt.registerTask('default', ['copy:updatevars','less:production','copy:production']);
+    grunt.loadNpmTasks('grunt-contrib-clean');
+
+    grunt.registerTask('default', ['copy:updatevars','less:production','copy:production', 'copy:restore', 'clean:backup']);
 };
