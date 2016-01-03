@@ -36,6 +36,28 @@ $ git submodule init
 $ git submodule update
 ```
 
+Daarnaast heb je nood aan een aantal `node js` packages:
+
+```bash
+$ npm update
+npm WARN deprecated lodash@0.9.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+npm WARN deprecated lodash@1.0.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+npm WARN prefer global jshint@2.5.11 should be installed with -g
+rofl@0.1.0 /Users/xtof/Workspace/fri3d/www.fri3d.be
+├── grunt@0.4.5 
+├── grunt-contrib-clean@0.7.0 
+├── grunt-contrib-copy@0.8.2 
+├── grunt-contrib-jshint@0.10.0 
+├── grunt-contrib-less@1.0.1 
+├── grunt-contrib-uglify@0.5.1 
+├── grunt-contrib-watch@0.6.1 
+├── grunt-exec@0.4.6 
+└── normalize.css@3.0.3 
+
+npm WARN EPACKAGEJSON rofl@0.1.0 No repository field.
+npm WARN EPACKAGEJSON rofl@0.1.0 No license field.
+```
+
 ### Installeer Grunt
 
 Grunt wordt gebruikt om alle design elementen samen te brengen in één `app.css` vanuit `less` bestanden.
