@@ -82,15 +82,21 @@ $ sudo npm install -g grunt-cli
 ### De stijl van de site opbouwen
 
 ```bash
- grunt
+$ grunt
 Running "copy:updatevars" (copy) task
-Copied 1 file
+Copied 2 files
 
 Running "less:production" (less) task
 File css/app.css created
 
 Running "copy:production" (copy) task
 Copied 6 files
+
+Running "copy:restore" (copy) task
+Copied 1 file
+
+Running "clean:backup" (clean) task
+>> 1 path cleaned.
 
 Done, without errors.
 ```
