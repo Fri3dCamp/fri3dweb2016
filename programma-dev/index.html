@@ -1,0 +1,81 @@
+---
+title: Programma
+---
+{% include header.html %}
+    <div class="jumbotron">
+      <div class="container">   
+        <h1>Programma</h1>
+        <p>Dit schema wordt live up to date gehouden.</p>
+      </div>
+    </div>
+    <div class="container"> 
+      <script>
+      function drawday() {
+        var startat=10;
+        var endat = 22;
+        var returnedcontent = "";
+        for (var i=startat;i<=endat;i++) {
+          if (i<endat) {
+            returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p><p class=\"schedule-timelabel\">"+i+":15</p></div><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":30</p><p class=\"schedule-timelabel\">"+i+":45</p></div></div>";
+          } else {
+            returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p></div></div>";
+          }
+        }
+        //console.log(returnedcontent);
+        return returnedcontent
+      }
+      </script>    
+      <div class="schedule clearfix">
+        <div class="row">
+          <!-- begin track 1 -->
+          <div class="col-md-3 schedule-col">   
+            <h2>Tutorials</h2>   
+            <div class="schedule-items" id="track1">
+              <article class="schedule-item" data-event-start="1000" data-event-end="1045" style="top:0px;height:90px;">
+              <a class="schedule-clickarea bg1" href="#">Opening</a>
+              </article>
+              <article class="schedule-item" data-event-start="1100" data-event-end="1215" style="top:120px;height:150px;">
+                <a class="schedule-clickarea" href="#">Testgegevens</a>
+              </article>
+              <article class="schedule-item" data-event-start="1215" data-event-end="1315" style="top:270px;height:120px;">
+                <a class="schedule-clickarea" href="#">Testgegevens</a>
+              </article>
+            </div>            
+          </div> 
+          <!-- end track 1 -->    
+          <!-- begin track 2 -->
+          <div class="col-md-3 schedule-col">  
+            <h2>Sprekers</h2>
+            <div class="schedule-items" id="track2">
+            </div>
+          </div> 
+          <!-- end track 2 -->         
+          <!-- begin track 3 -->
+          <div class="col-md-3 schedule-col">    
+            <h2>Workshops</h2>
+            <div class="schedule-items" id="track3">
+            </div>
+          </div> 
+          <!-- end track 3 -->        
+          <!-- begin track 4 -->
+          <div class="col-md-3 schedule-col">    
+            <h2>Events</h2>
+            <div class="schedule-items" id="track4">
+            </div>
+          </div> 
+          <!-- end track 4 -->        
+        </div>
+      </div>
+      {% include pagefooter.html %}
+    </div> <!-- /container -->
+{% include javascript.html %}
+    <script>
+      $(document).ready(function() {
+        //console.log( "ready!" );
+        $("#track1").append(drawday());
+        $("#track2").append(drawday());
+        $("#track3").append(drawday());
+        $("#track4").append(drawday());
+      });      
+    </script>
+{% include footer.html %}
