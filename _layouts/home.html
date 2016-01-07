@@ -17,20 +17,23 @@
 </g>
 </svg><div class="logo-name">Fri3d<br>Camp</div><div class="logo-year">2016</div>
 </div>
-        <p>{{page.intro}}</p>
-        <p><a class="btn btn-primary btn-lg" href="http://twitter.com/fri3dcamp" role="button"><i class="fa fa-twitter"></i> @Fri3dCamp</a></p>
-      </div>
+    <p>{{page.intro}}</p>
+  
+        
+       
     </div>
-
+</div>
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-8">          
+        <div class="col-md-6">          
           {{page.col1}}
         </div>
-        <div class="col-md-4">         
-          {{page.col2}}
-        </div>
+        <div class="col-md-6">         
+          <h2>Blijf op de hoogte</h2>
+          {% include mc_form.html %}
+          {% include socialbuttons.html %}
+        </div>        
       </div>
     </div> <!-- /container -->
     <div class="container">
