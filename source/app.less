@@ -12,19 +12,59 @@
 }
 @import "bootstrap/less/bootstrap.less";
 @import "schedule.less";
+
+// breakpoints
+@bp-logo: 460px;
+
 #mainlogo {
-    width:260px;
+    width:420px;
+    height:220px;
     font-size:80px;
+    position: relative;
     line-height: 70px;
+    margin-bottom: 20px;
     font-family: "montserratultra_light";
     text-align: center;
+    @media screen and (max-width:@bp-logo) {
+        width:300px;
+        height:150px;
+        font-size: 55px;
+        line-height: 50px;
+    }
+}
+.logo-fox {
+    position: absolute;
+    left:0;
+    top:30px;
+    width:150px;
+    height:150px;
+    @media screen and (max-width:@bp-logo) {
+        width:107px;
+        height:107px;
+    }
 }
 .logo-name {
     text-transform: uppercase;
+    position: absolute;
+    top:30px;
+    left:170px;
+    width:250px;
+    text-align: left;
+    @media screen and (max-width:@bp-logo) {
+        left:120px;
+        width:170px;
+    }
 }
 .logo-year {
     color:@brand-primary;
     font-size: 40%;
+    top:160px;
+    position: absolute;
+    left:170px;
+    @media screen and (max-width:@bp-logo) {
+        top:120px;
+        left:120px;
+    }
 }
 .cclicense {
     margin-right: 15px;
