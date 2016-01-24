@@ -60,12 +60,12 @@
     position: absolute;
     left:170px;
     @media screen and (max-width:@bp-logo) {
-        top:120px;
+        top:90px;
         left:120px;
     }
 }
 .cclicense {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 .carousel-inner>.item>img {
     width: 100%;
@@ -74,9 +74,56 @@
 .socialbuttons {
     margin-top: 15px;
 }
+.well-fri3d {
+    background-color: transparent;
+    border-radius: 0;
+    border-color:white;
+    border-left:0;
+    border-right: 0;
+}
 a.icon {
     text-decoration: none;
     &:hover {
         text-decoration: none;
     }
+}
+.footer-fri3d {
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: @gray-darker;
+    color:@gray-lighter;
+    a {
+        color:@brand-secondary-light;
+    }
+    .logo-fox {
+        width: 30px;
+        height:30px;
+        position: relative;
+        path {
+            fill:@gray-lighter;
+            stroke:@gray-lighter;
+            stroke-width:2px;
+        }
+        line {
+            stroke:@gray-lighter;
+        }
+        vertical-align: middle;
+    }
+}
+.footerlogo {
+    font-family: "montserratultra_light";
+    text-transform: uppercase;
+}
+// logo lines
+path.logoline-A {
+    fill:@brand-primary;
+}
+line.logoline-A {
+    stroke: @brand-primary;
+}
+path.logoline-B {
+    fill:@brand-secondary;
+}
+line.logoline-B {
+    stroke: @brand-secondary;
 }

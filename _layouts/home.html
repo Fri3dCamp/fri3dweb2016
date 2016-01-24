@@ -2,47 +2,27 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <div class="center-block" id="mainlogo" class="logo"><svg version="1.1" class="logo-fox" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="260px" height="230px" viewBox="0 0 260 230" enable-background="new 0 0 260 230" xml:space="preserve">
-
-<g>
-  <g>
-    <path fill="#DD7222" d="M227.1,17.2l-98.5,197L17.8,103.4L227.1,17.2 M237.6,7.5L9,101.6l121,121L237.6,7.5L237.6,7.5z"/>
-  </g>
-  <g>
-    <path fill="#0E98AF" d="M32.9,17.2l209.3,86.2L131.4,214.2L32.9,17.2 M22.4,7.5L130,222.6l121-121L22.4,7.5L22.4,7.5z"/>
-  </g>
-  
-    <line fill="none" stroke="#DD7222" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="93" y1="70.3" x2="32.8" y2="95"/>
-</g>
-</svg><div class="logo-name">Fri3d<br>Camp</div><div class="logo-year">2016</div>
-</div>
-    <p>{{page.intro}}</p>
-  
-        
-       
+        <div class="center-block" id="mainlogo" class="logo">{% include logo.html %} <div class="logo-name">Fri3d<br>Camp</div><div class="logo-year">2016</div>
     </div>
+    
+    <div class="well well-fri3d text-center">
+      13 tem. 15 augustus, Hoge Rielen (Kasterlee,&nbsp;België)
+    </div>
+    <p>{{page.intro}}</p>  
+    <hr/>
+      <p>Wat wil jij op Fri3d Camp 2016? <a href="https://driesderoeck.typeform.com/to/CMZbJ2" class="btn btn-info">Laat je stem horen!</a>  </p>    
+  </div>
 </div>
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-6">          
-          {{page.col1}}
-        </div>
-        <div class="col-md-6">         
-          <h2>Blijf op de hoogte</h2>
-          {% include mc_form.html %}
-          {% include socialbuttons.html %}
-        </div>        
-      </div>
-    </div> <!-- /container -->
-    <div class="container">
-      <h2>Dit was Fri3d Camp 2014</h2>
-      <p>{{page.fotocredits}}</p>
+        <div class="col-md-6">   
+        <!-- begin fotocarousel -->
+      <h2>Foto's van editie 2014</h2>
       <div id="carousel1" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           {% for i in (0..29) %}
-          <li data-target="#carousel1" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>          
+          <li data-target="#carousel1" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>        
           {% endfor %}               
         </ol>
         <div class="carousel-inner" role="listbox">
@@ -54,14 +34,25 @@
         </div>
         <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">Vorige</span>
         </a>
         <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only">Volgende</span>
         </a>
       </div>
-      {% include pagefooter.html %}
-    </div><!-- /container -->
+      <p><small>{{page.fotocredits}}</small></p>
+      <!-- end fotocarousel -->    
+        </div>
+        <div class="col-md-6">           
+          <h2>Blijf op de hoogte</h2>
+          {% include mc_form.html %}
+          {% include socialbuttons.html %}
+          <hr/>
+          {{page.ticketinfo}}
+        </div>    
+      </div>
+    </div> <!-- /container -->
+{% include pagefooter.html %}
 {% include javascript.html %}
 {% include footer.html %}
