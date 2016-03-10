@@ -14,7 +14,7 @@ tagline: Alles om je dag helemaal Fri3d te maken...
 
 <h1>Wallpaper</h1>
 <p>
-  Zet Fri3d Camp op d&ecut; plek waar je hem het liefste ziet... Op je desktop!<br>
+  Zet Fri3d Camp op d&eacute; plek waar je hem het liefste ziet... Op je desktop!<br>
   <br>
   <a href="Fri3dCamp2016Wallpaper-4608x3072.jpg"><img src="Fri3dCamp2016Wallpaper-200x133.jpg"></a><br>
   (4608x3072)
