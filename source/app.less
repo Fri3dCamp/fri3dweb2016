@@ -32,6 +32,70 @@
         line-height: 50px;
     }
 }
+
+DIV.page DIV.logo {
+    float: left;
+    display: block-inline;
+    position: relative;
+    width:150px;
+    height:150px;
+    font-size:80px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    font-family: "montserratultra_light";
+    @media screen and (max-width:@bp-logo) {
+        width:300px;
+        height:150px;
+        font-size: 55px;
+        line-height: 50px;
+    }
+}
+
+DIV.page H1 {
+   position: relative;
+   top: 18px;
+   left: 10px;
+}
+
+DIV.page H2 {
+   position: relative;
+   left: 15px;
+}
+
+DIV.page DIV.info {
+  display: block-inline;
+  float: right;
+  width:220px;
+  height:200px;
+}
+
+DIV.page DIV.info-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size:50px;
+    line-height: 40px;
+}
+
+DIV.page DIV.info-year {
+    color:@brand-primary;
+    text-align: center;
+    font-size:50px;
+    line-height: 50px;
+}
+
+DIV.page DIV.info-when {
+    text-align: center;
+    border-top: 1px solid white;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+DIV.page DIV.info-where {
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
 .logo-fox {
     position: absolute;
     left:0;
@@ -42,6 +106,7 @@
         height:107px;
     }
 }
+
 .logo-name {
     text-transform: uppercase;
     position: absolute;
