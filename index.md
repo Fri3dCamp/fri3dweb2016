@@ -2,7 +2,7 @@
 title: Home
 layout: home
 
-intro: <strong>Fri3d Camp</strong> is een gezinsvriendelijk zomerkamp voor hackers, makers en DIY'ers. Voor haar tweede editie gaat Fri3d Camp 2016 door van <strong>zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee. Als je mee wil bijdragen aan de organisatie van het kamp, neem dan contact op met <a href="mailto:info@fri3d.be">info@fri3d.be</a>.
+intro: <strong>Fri3d Camp</strong> is een gezinsvriendelijk zomerkamp voor hackers, makers en DIY'ers. Voor haar tweede editie vindt Fri3d Camp 2016 plaats van <strong>zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee. Als je mee wil bijdragen aan de organisatie van het kamp, neem dan contact op met <a href="mailto:info@fri3d.be">info@fri3d.be</a>.
 
 watisfri3d: >
   <h2>Wat je zoal mag verwachten ...</h2>
