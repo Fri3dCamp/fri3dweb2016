@@ -1,0 +1,31 @@
+---
+layout: page
+title: Veelgestelde vragen
+tagline: Praktische antwoorden
+portfolio:
+  - question: Wanneer gaat het kamp door?
+    answer: >
+      <p>Het kampprogramma zal beginnen op <strong>zaterdag 13 augustus</strong> in de voormiddag, tot en met <strong>maandag 15 augustus</strong> (een vrije dag!), in de namiddag.</p>
+      <p>We verwachten de meeste kampeerders vrijdagavond 12 augustus, na het avondeten, om de tenten op te stellen en het kamp te verkennen. </p>
+      <p>Op dinsdag 16 augustus, de dag na het kamp, zoeken we vrijwilligers om te helpen met de afbraak en opruim van het kamp, met pizza en drank. Laat ons zeker weten als je ons die dag kan helpen!</p>
+      <p>Om ons te helpen met de opbouw ben je welkom vanaf donderdag 11 augustus, maar dan laat je ons ook best iets weten.</p>
+      
+  - question: Waar gaat het kamp door?
+    answer: >
+      <p>Net zoals onze eerste editie in 2014, vindt Fri3d Camp 2016 plaats op kampeergronden K2 en K8 van <strong>de Hoge Rielen</strong> in Kasterlee.</p>
+      <p>Parkeerplaats is voorzien op de parking bij Poort 5, Ossengoor (dat is de straatnaam) in Kasterlee. Let op dat de kampeergronden een dikke kilometer verwijderd zijn van de parking. We zullen een paar bakfietsen en ander rollend materiaal ter beschikking stellen, maar probeer in alle geval licht te pakken!</p>
+      
+  - question: I thought this was a Belgian camp, why is everything in Dutch?
+    answer: >
+      <p>At our first event in 2014, we noticed that the majority of attendees (and their children) were Flemish. A lot of the content and communication in camp was therefore in Dutch. Instead of pretending to be an English speaking event, we have moved our main communication to Dutch.</p>
+      <p>However, you are very welcome to join camp, even if you don't speak Flemish, as most of the grown-ups are fluent in English.</p>
+---
+
+<p>Met het hele gezin kamperen, dat levert heel wat praktische vragen op. We proberen hier zoveel mogelijk van je vragen te beantwoorden. Je kan ook altijd een mailtje sturen naar <a href="mailto:info@fri3d.be">info@fri3d.be</a> als je nog op je honger blijft zitten.</p>
+
+{% for item in page.portfolio %}
+  <h2>{{ item.question }}</h2>
+	{{ item.answer }}
+{% endfor %}
+
+<br/>
