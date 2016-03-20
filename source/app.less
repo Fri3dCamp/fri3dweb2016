@@ -15,6 +15,8 @@
 
 // breakpoints
 @bp-logo: 460px;
+@bp-page-title1: 1200px;
+@bp-page-title2: 991px;
 
 #mainlogo {
     width:420px;
@@ -55,11 +57,24 @@ DIV.page H1 {
    position: relative;
    top: 18px;
    left: 10px;
+   white-space: nowrap;
+   @media screen and (max-width:@bp-page-title1) {
+     font-size: 48px;
+   }
+   @media screen and (max-width:@bp-page-title2) {
+     font-size: 32px;
+   }
 }
 
 DIV.page H2 {
    position: relative;
    left: 15px;
+   @media screen and (max-width:@bp-page-title1) {
+     font-size: 24px;
+   }
+   @media screen and (max-width:@bp-page-title2) {
+     font-size: 20px;
+   }
 }
 
 DIV.page DIV.info {
