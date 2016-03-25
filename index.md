@@ -22,7 +22,7 @@ kalender: >
   <table class="calendar">
     <tr>
         <th>1 april</th>
-        <td>Lancering van onze <strong>oproep tot deelname</strong> (call for participation).</td>
+        <td>Lancering van onze <strong>uitnodiging tot deelname</strong> (call for participation).</td>
     </tr>
     <tr>
         <th>mei</th>
