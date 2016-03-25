@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Uitnodiging
+title: Uitnodiging tot Deelname
 tagline: Gelieve verder te verspreiden
 ---
 <div style="float:right">
