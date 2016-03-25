@@ -1,21 +1,18 @@
 {% include header.html %}
     <div class="jumbotron">
-      <div class="container page">
-        <div class="info">          
-          <div class="info-name">F<span style="letter-spacing: -2.5px;">r</span>i<span style="letter-spacing: -1.5px;">3d</span><br>C<span style="letter-spacing: -1.5px;">a</span><span style="letter-spacing: -4px;">mp</span></div><div class="info-year">2016</div>
-          <div class="info-when">13 tem. 15 augustus</div>
-          <div class="info-where">Hoge Rielen (Kasterlee, België)</div>
-        </div>
-        <div class="logo" align="center">{% include logo.html %}</div>
+      <header class="container">
+          <a href="/" class="pull-right promo">
+              <img src="/images/site_promobutton.png" alt="13-15 augustus 2016, Hoge Rielen, Kasterlee, België" />
+          </a>
         <h1>{{page.title}}</h1>
         <h2>{{page.tagline}}</h2>
-      </div>
+      </header>
     </div>
-      
+
     <div class="container">
       {{content}}
     </div>
 
 {% include pagefooter.html %}
-{% include javascript.html %}  
+{% include javascript.html %}
 {% include footer.html %}

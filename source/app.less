@@ -18,6 +18,11 @@
 @bp-page-title1: 1200px;
 @bp-page-title2: 991px;
 
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 #mainlogo {
     width:420px;
     height:190px;
@@ -25,8 +30,9 @@
     position: relative;
     line-height: 70px;
     margin-bottom: 20px;
-    font-family: "montserratultra_light";
+    font-family: @headings-font-family;
     text-align: center;
+    margin-top: 30px;
     @media screen and (max-width:@bp-logo) {
         width:300px;
         height:150px;
@@ -35,7 +41,86 @@
     }
 }
 
-DIV.page DIV.logo {
+.headerbg {
+    background-image: url('../images/headerbg.jpg');
+    background-position: center;
+}
+.navbar-fixed-top {
+    border-bottom: 0;
+}
+.navbar-default.headerbg .navbar-nav>li {
+    &.active {
+        a {
+            background-color: @gray-lighter;
+            color:@brand-primary;
+            &:hover {
+                color:@brand-primary-dark;
+            }
+        }
+    }
+    a {
+        color:@brand-secondary-light;
+        &:hover {
+            color:@brand-secondary-lighter;
+        }
+    }
+}
+
+.navbar-default.headerbg .navbar-nav>li.herolink {
+    background-color: @gray-base;
+    text-transform: uppercase;
+    font-family: @headings-font-family;
+    a {
+        display: inline-block;
+        padding-left: 45px;
+        color:white;
+    }
+    &.active {
+        a {
+            color:@gray-darker;
+        }
+        .logo-fox {
+            path,line {
+                fill:@gray-darker;
+                stroke:@gray-darker;
+            }
+        }
+    }
+}
+.herolink .logo-fox {
+    display: inline-block;
+    width:30px;
+    height:30px;
+    left:10px;
+    top:11px;
+    path {
+        fill:@gray-lighter;
+        stroke:@gray-lighter;
+        stroke-width:2px;
+    }
+    line {
+        stroke:@gray-lighter;
+    }
+}
+
+table.calendar {
+    border-spacing: 10px;
+    border-collapse: separate;
+    th, td {
+        vertical-align: top;
+    }
+    th {
+        white-space: nowrap;
+        padding-right: 10px;
+        border-right:1px solid @brand-primary;
+        text-align: right;
+    }
+    th + td {
+        padding-left: 10px;
+    }
+}
+
+div.page div.logo {
     float: left;
     display: block-inline;
     position: relative;
@@ -44,7 +129,7 @@ DIV.page DIV.logo {
     font-size:80px;
     line-height: 70px;
     margin-bottom: 20px;
-    font-family: "montserratultra_light";
+    font-family: @headings-font-family;
     @media screen and (max-width:@bp-logo) {
         width:300px;
         height:150px;
@@ -52,65 +137,34 @@ DIV.page DIV.logo {
         line-height: 50px;
     }
 }
-
-DIV.page H1 {
-   position: relative;
-   top: 18px;
-   left: 10px;
-   white-space: nowrap;
-   @media screen and (max-width:@bp-page-title1) {
-     font-size: 48px;
-   }
-   @media screen and (max-width:@bp-page-title2) {
-     font-size: 32px;
-   }
+.jumbotron {
+    @media screen and (max-width:@screen-sm-min) {
+        padding-top: 48px;
+    }
+}
+.jumbotron header.container {
+     @media screen and (max-width:@screen-sm-min) {
+        h1 {
+             font-size: 48px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+     }
 }
 
-DIV.page H2 {
-   position: relative;
-   left: 15px;
-   @media screen and (max-width:@bp-page-title1) {
-     font-size: 24px;
-   }
-   @media screen and (max-width:@bp-page-title2) {
-     font-size: 20px;
-   }
-}
+.pull-right.promo {
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    img {
+        width: 100%;
+        height:100%;
+    }
+    @media (max-width: @screen-xs-max) {
+        display: none;      
 
-DIV.page DIV.info {
-  display: block-inline;
-  float: right;
-  width:220px;
-  height:200px;
-}
-
-DIV.page DIV.info-name {
-    font-family: "montserratultra_light";
-    text-transform: uppercase;
-    text-align: center;
-    font-size:40px;
-    line-height: 35px;
-}
-
-DIV.page DIV.info-year {
-    font-family: "montserratultra_light";
-    color:@brand-primary;
-    text-align: center;
-    font-size:40px;
-    line-height: 35px;
-}
-
-DIV.page DIV.info-when {
-    text-align: center;
-    border-top: 1px solid white;
-    margin-top: 5px;
-    padding-top: 5px;
-}
-
-DIV.page DIV.info-where {
-    text-align: center;
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
+    }
 }
 
 .logo-fox {
@@ -193,7 +247,7 @@ a.icon {
     }
 }
 .footerlogo {
-    font-family: "montserratultra_light";
+    font-family: @headings-font-family;
     text-transform: uppercase;
 }
 // logo lines
