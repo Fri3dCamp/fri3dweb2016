@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Uitnodiging tot Deelname
-tagline: Gelieve verder te verspreiden
+title: Call for Participation
+tagline: Please Circulate Freely
 ---
 <div style="float:right">
-  You can also consult an <a href="en/">English version of this document</a>.
+  Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
+  lezen.
 </div>
 
 # Over Fri3d Camp
