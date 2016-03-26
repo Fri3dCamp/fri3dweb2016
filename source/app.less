@@ -15,8 +15,6 @@
 
 // breakpoints
 @bp-logo: 460px;
-@bp-page-title1: 1200px;
-@bp-page-title2: 991px;
 
 body {
     font-size: 16px;
@@ -38,12 +36,17 @@ body {
         height:150px;
         font-size: 55px;
         line-height: 50px;
+        margin-top: 0;
     }
 }
 
 .headerbg {
     background-image: url('../images/headerbg.jpg');
     background-position: center;
+    @media screen and (max-width:@screen-xs-max) {
+        background-image: none;
+        background-color: @gray-lighter;
+    }
 }
 .navbar-fixed-top {
     border-bottom: 0;
@@ -59,19 +62,42 @@ body {
         }
     }
     a {
-        color:@brand-secondary-light;
+        color:white;
+        @media screen and (min-width:@screen-sm-min) {
+            color:@brand-secondary-light;
+        }
         &:hover {
             color:@brand-secondary-lighter;
         }
     }
 }
 
+.navbar-collapse {
+    @media screen and (max-width:@screen-xs-max) {
+        background-color: @brand-secondary;
+    }
+}
+
+.navbar-nav {
+    @media screen and (max-width:@screen-xs-max) {
+        margin-top: 0;
+        border-top: 4px solid @brand-secondary-dark;
+        border-bottom: 4px solid @gray;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+}
+
 .navbar-default.headerbg .navbar-nav>li.herolink {
-    background-color: @gray-base;
+    @media screen and (min-width:@screen-sm-min) {
+        background-color: @gray-base;
+    }
     text-transform: uppercase;
     font-family: @headings-font-family;
     a {
-        display: inline-block;
+        @media screen and (min-width:@screen-sm-min) {
+            display: inline-block;
+        }
         padding-left: 45px;
         color:white;
     }
@@ -92,7 +118,12 @@ body {
     width:30px;
     height:30px;
     left:10px;
-    top:11px;
+    @media screen and (max-width:@screen-xs-max) {
+        top:6px;
+    }
+    @media screen and (min-width:@screen-sm-min) {
+        top:11px;
+    }
     path {
         fill:@gray-lighter;
         stroke:@gray-lighter;
@@ -138,12 +169,12 @@ div.page div.logo {
     }
 }
 .jumbotron {
-    @media screen and (max-width:@screen-sm-min) {
+    @media screen and (max-width:@screen-xs-max) {
         padding-top: 48px;
     }
 }
 .jumbotron header.container {
-     @media screen and (max-width:@screen-sm-min) {
+     @media screen and (max-width:@screen-xs-max) {
         h1 {
              font-size: 48px;
         }
@@ -162,7 +193,7 @@ div.page div.logo {
         height:100%;
     }
     @media (max-width: @screen-xs-max) {
-        display: none;      
+        display: none;
 
     }
 }
