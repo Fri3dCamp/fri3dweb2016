@@ -1,0 +1,20 @@
+{% include redirect_header.html %}
+    <div class="jumbotron">
+      <div class="container">   
+        <h1>{{page.title}}</h1>
+        <p>Omleiding ...</p>
+      </div>
+    </div>
+
+    <div class="container">
+      Deze pagina werd verplaatst. Als je browser je niet automatisch naar de
+      nieuwe locatie brengt, click dan op de volgende link en update eventueel je
+      referenties.
+
+      <br/><br/>
+      
+      <a href="/{{ page.newlocation }}">http://fri3d.be/{{ page.newlocation }}</a>
+    </div>
+
+{% include javascript.html %}  
+{% include footer.html %}
