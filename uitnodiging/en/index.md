@@ -5,65 +5,66 @@ tagline: Please Circulate Freely
 ---
 <div style="float:right">
   Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
-  lezen.
+  lezen.<br>
+  This invitation is also available as <a href="../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
 </div>
 
-# Over Fri3d Camp
+# About Fri3d Camp
 
-Op Fri3d Camp komen mensen samen rond een gemeenschappelijke interesse in de huidige hacker en maker scene. Gedurende drie dagen (en nachten) komen verschillende technologie- en wetenschap-gerelateerde activiteiten aan bod. Een link met kunst en sociaal-maatschappelijke thema’s is nooit ver zoek.
+Fri3d Camp, [http://fri3d.be](http://fri3d.be), is a gathering of people interested in the current hacker & making scene. **Three days** (and nights) they participate in many **technology and science related activities**. **Art and social & political themes** are always close at hand.
 
-Fri3d Camp onderscheidt zich van andere hacker- en maker-events door specifiek de nadruk te leggen op families. Het programma biedt een enorm brede waaier aan activiteiten, voor alle leeftijden en alle niveaus. Ouders en kinderen werken samen en ontdekken het onbekende.
+What differentiates Fri3d Camp from other hacker and maker events, is the focus on **families**. The program offers a wide variety of activities, for all ages and skill levels. **Parents and children** work together and discover the unknown.
 
-Voor haar tweede editie vindt Fri3d Camp 2016 plaats van zaterdag 13 tot en met maandag 15 augustus 2016, opnieuw in het prachtige natuurgebied de Hoge Rielen in Kasterlee. De capaciteit wordt deze editie verdubbeld tot 256 deelnemers, de formule blijft quasi dezelfde: 3 kampeervelden en 2 hangars worden versterkt met een centrale bar en eettent. De kinderen krijgen dit jaar een nog specialer plekje in hun eigen tent, centraal op het kamp.
+The **second edition** of Fri3d Camp will take place from **Saturday 13 until Monday August 15 2016**. Once again we’re heading to the beautiful surroundings of **de Hoge Rielen at Kasterlee**. We’re also doubling the available tickets, allowing for **256 participants** to join in. The recipe remains the same: 3 camping fields and 2 hangars, hosting **workshops**, **lectures** and a true **hackerspace**, will be joined by a central bar/food tent. Children will get their very own space this year, at a tent centrally positioned at the campsite.
 
-Fri3d Camp begint bij jezelf. Daarom nodigt Fri3d Camp je uit om voorstellen te doen voor activiteiten. We zoeken jullie, hackers, makers, artiesten, knutselaars, wetenschappers, ingenieurs, ouders en kinderen. We zoeken mensen die willen komen vertellen over wat hen boeit en waarom ze er door gepassioneerd zijn: elektronica, quad-copters, LEGO, 3D scannen & printen, genetwerkte apparaten, radiografie, knutselen met papier, beveiliging, grafische vormgeving, programmeren, muziek, bier brouwen, fimo kunst,...
+Fri3d Camp is organised for and by you. We therefore invite **everybody** to submit proposals for **activities**. We’re looking for you: hackers, makers, artists, crafters, scientists, engineers, parents and children. We’re looking for people that want to show and tell about their passion and what tickles their interest: electronics, quad-copters, LEGO, 3D scanning & printing, the internet of things, radiography, paper crafts, security, graphic design, programming, music, beer brewing, fimo art,… and lots, lots more.
 
-# Achtergrond
+# Background
 
-Het idee om Fri3d Camp te organiseren ontstond in 2013 op een 5-daagse internationale openlucht conferentie in Nederland. De groeiende Belgische hacker- en maker-scene gaf aan dat de tijd rijp was om de krachten te bundelen en een eerste Belgisch openlucht zomerkamp in 2014 te organiseren om al deze mensen samen te brengen in een leuke en ontspannen atmosfeer. Anthony Liekens, gekend van zijn Open Garage, pitchte het idee en het duurde niet lang voor vele gelijkgezinden mee hun schouders onder het idee staken.
+The idea to organise Fri3d Camp originated in 2013 at an international outdoor technology conference in the Netherlands. With a growing Belgian hacker and maker scene, the time was right to join forces and organise a first summer camp in 2014 to bring together all these people in a fun and relaxed atmosphere. Anthony Liekens, know from his Open Garage, pitched the idea and soon many likeminded souls from various organisations also put their shoulders to the wheel. 
 
-Tijdens de eerste editie waren de Hoge Rielen het thuis voor 128 hackers, makers, artiesten,… en hun families. Met meer dan 45 activiteiten verspreid over drie dagen, bood het programma wat voor iedereen, van groot tot klein, van techneut tot kunstenaar en iedereen die geïntrigeerd is door al deze passies. Workshops, lezingen, openlucht activiteiten, kampvuur-verhalen,… De eerste editie noodzaakte een belofte om een tweede editie te organiseren.
+During this first edition, de Hoge Rielen was the home of 128 hackers, makers, artists,… and their families. With over 45 activities, spread over three days, the program offered something for everyone, young and old, techie and artist and everybody intrigued by these passions. Workshops, lectures, outdoor activities, campfire bedtime stories,… This first edition simply begged for second edition. 
 
-# Doe mee
+# Submit your proposal
 
-Fri3d Camp wordt in eerste plaats gemaakt door alle deelnemers zelf. Het organiserend team zorgt voor een fantastische omgeving waarin gedurende drie dagen alles aanwezig is om samen met andere deelnemers nieuwe horizonten te verkennen en interessante ervaringen op te doen.
+Fri3d Camp is essentially **constructed by all participants together**. The organising team provides an inspiring environment that supports exploration and discovery of new horizons and jointly learning new things, during the three days of camp.
 
-Als je graag je steentje wil bijdragen aan Fri3d Camp en een presentatie wil geven over jouw passie, of een workshop wil inrichten om jouw kennis en kunde te delen met anderen, of op het terrein een kunstzinnige installatie wil uitwerken, of gewoon het podium wil beklimmen en het beste van jezelf geven, geef dan antwoord aan onze uitnodiging tot deelname!
+If you want to contribute to Fri3d Camp and **present** your passion, or host a **workshop** to share your expertise with others, or set up an **artistic installation** at the campsite, or **take the stage** and give the best of yourself,… Then answer our call of participation!
 
-Om je voorstel in te dienen, stuur je een email naar [content@fri3d.be](mailto:content@fri3d.be) en bezorg ons volgende info:
+A special call goes out to the **children**. For them, and especially **by them**, a **specific program** is constructed. On your own, or together with mom and/or dad, we are really looking forward to your submissions!
 
-1. Jouw naam, email adres en een korte beschrijving van jezelf
-    * Wat wil je graag doen?
-    * Een presentatie geven
-    * Een workshop hosten
-    * Kunstzinnig aan de slag gaan op het terrein
-    * Entertainen in de breedste zin van het woord
-    * Ik wil zelf niets voorstellen, maar wil heel graag iemand anders helpen bij het realiseren van zijn/haar activiteit.
+To submit your proposal, send an e-mail to [content@fri3d.be](mailto:content@fri3d.be) and provide us with the following info:
 
-2. Geef een beschrijving met inbegrip van de zaken die je nodig hebt om je activiteit te realiseren.
+1. Your **name**, **e-mail address** and short **description** of yourself.
+2. **What** do you want to do?
+    * Give a talk/presentation
+    * Host a workshop
+    * Set up an creative/artistic installation at the campsite
+    * Bring entertainment in the broadest sense
+    * I can’t really propose something, but would love to help someone else with their activity
+3. Give a short **description**, including the thing you need to realise your activity.
+    * How much time do you need?
+    * Less than 15 minutes
+    * 30 minutes
+    * 60 minutes
+    * More than 60 minutes (specify please)
+4. The family atmosphere at Fri3d Camp brings a lot of children to the table. Most of these children are natively **Dutch-speaking**. We therefore carry the Dutch language as first language of choice. But this does not exclude any other language. Are you comfortable to host your activity in Dutch? If not, we will help you to team up with someone who can support you. Language will never be a barrier.
+5. Are there any limitations to your activity? (number of participants, age, prior knowledge,…)
+6. Have you given a talk/hosted a workshop before?
+    * First time
+    * Been there, done that!
+    * I’ve done this specific talk/workshop/installation before (with a reference if possible)! 
 
-3. Hoeveel tijd wil je graag voor je activiteit?
-    * Minder dan 15 minuten
-    * 30 minuten
-    * 60 minuten
-    * Meer dan 60 minuten (specificeer hoeveel)
+**IMPORTANT**: **Deadline** for submissions is **May 15**. Selected proposals will be announced shortly after and arrangements will be made with the speakers on a personal basis during the months leading up to the event.
 
-4. De gezinsvriendelijke sfeer van Fri3d Camp breng veel kinderen rond de tafel. De meeste van deze kinderen zijn Nederlandstalig. Daarom hanteren we voor deze editie het Nederlands als voertaal. Maar dit sluit andere talen geenszins uit. Lukt het voor jou om je activiteit in het Nederlands te ondersteunen? Indien niet, zoeken we samen met jou naar een gepaste ondersteuning - indien dit nodig is.
+Selected speakers, workshops hosts,… also get a **discount** on their admission ticket for the day of their activity, and **are sure to be able to order tickets** for their accompanying family members. 
 
-5. Zijn er beperkingen? (aantal deelnemers, leeftijdslimieten, voorkennis,…)
-    * Heb je reeds eerder een activiteit georganiseerd?
-    * Neen, dit is mijn eerste keer.
-    * Ja, al meerdere malen.
-    * Ik heb deze specifieke activiteit reeds eerder georganiseerd. Indien mogelijk, bezorg ons een referentie.
+# Thank you
 
-**BELANGRIJK**: De **deadline** voor antwoorden op deze uitnodiging is **15 mei**. Kort daarna maken we het programma met geselecteerde activiteiten bekend en starten we de praktische organisatie van jullie activiteiten met elk van jullie persoonlijk.
+Fri3d Camp is for you, but mostly thanks to you. So **a big thank you** goes out to you, for once again making this event a wonderful experience.
 
-Geselecteerde sprekers, workshop hosts,… krijgen tevens een kortingscode voor hun ticket voor de dag van hun activiteit en zijn zeker van hun tickets en die voor hun gezin.
+In case you yourself can’t answer our call, then maybe you know someone who would really fit the bill. Spread this invitation to anyone you know, who might be interested, any way possible, on- and offline.
 
-# Dank U
-
-Fri3d Camp is er voor jou en vooral dankzij jou. Dus dankjewel om deze tweede editie opnieuw een succes te maken. Indien je zelf geen gehoor kan geven aan deze uitnodiging, dan ken je misschien wel iemand die hier geknipt voor is. Verspreid deze uitnodiging naar iedereen die je kent die interesse zou kunnen hebben, via elk mogelijk kanaal, on- en offline.
-
-Be Excellent!
+Be excellent to each other!
 
 <br><br><br>
