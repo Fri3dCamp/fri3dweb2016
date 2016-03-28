@@ -66,5 +66,3 @@ Fri3d Camp is for you, but mostly thanks to you. So **a big thank you** goes out
 In case you yourself can’t answer our call, then maybe you know someone who would really fit the bill. Spread this invitation to anyone you know, who might be interested, any way possible, on- and offline.
 
 Be excellent to each other!
-
-<br><br><br>

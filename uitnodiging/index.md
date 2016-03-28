@@ -65,5 +65,3 @@ Fri3d Camp is er voor jou en vooral dankzij jou. Dus **dankjewel** om van deze t
 Indien je zelf geen gehoor kan geven aan deze uitnodiging, dan ken je misschien wel iemand die hier geknipt voor is. Verspreid deze uitnodiging naar iedereen die je kent die interesse zou kunnen hebben, via elk mogelijk kanaal, on- en offline.
 
 Be excellent to each other!
-
-<br><br><br>
