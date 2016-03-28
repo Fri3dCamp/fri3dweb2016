@@ -5,25 +5,31 @@
     
     <div class="center-block" id="mainlogo" class="logo">{% include logo.html %} <div class="logo-name">F<span style="letter-spacing: -5px;">r</span>i<span style="letter-spacing: -3px;">3d</span><br>C<span style="letter-spacing: -3px;">a</span><span style="letter-spacing: -8px;">mp</span></div><div class="logo-year">2016</div></div>
     
-    <div class="well well-fri3d text-center">
-      13 tem. 15 augustus, Hoge Rielen (Kasterlee,&nbsp;België)
-    </div>
     <p>{{page.intro}}</p>  
     
     <hr/>
     
-    <p class="text-center">
-      <a href="/assets/Fri3dCamp2016Poster.pdf" target="_blank" class="btn btn-info btn-lg">
-        Download de Fri3d Camp 2016 poster
-      </a>
-    </p>    
-    <p class="text-center">
-      Wil je onze poster op glossy A3, om ergens uit te hangen?<br/>
-      <a href="mailto:info@fri3d.be">
-        Laat ons iets weten!
-      </a>
-    </p>
-  
+  <div class="row">
+    
+    <div class="col-md-6">
+      <h3><a href="/uitnodiging">Uitnodiging tot Deelname</a></h3>
+      <p>
+        De beste manier om aan Fri3d Camp 2016 deel te nemen is door zelf een activiteit aan ons programma bij te dragen.
+        Lees daarom zeker onze <a href="/uitnodiging">Uitnodiging tot Deelname</a>.
+      </p>
+    </div>  
+      
+    <div class="col-md-6">
+      <h3><a href="/faq">Veelgestelde vragen</a></h3>
+      <p>
+        Kamperen met het hele gezin en je halve werkplek in je rugzak, dat roept heel wat vragen op.
+        Je vindt al een pak antwoorden bij onze <a href="/faq">Veelgestelde vragen</a>.
+      </p>
+    </div>
+    
+  </div>
+    <hr/>
+    
   </div>
 </div>
 
@@ -42,6 +48,10 @@
   </div>
 
   <hr/>
+  
+  {% include poster.html %}
+  
+  <hr/>
 
   <div class="row">
 
@@ -57,8 +67,6 @@
       
   </div>
   
-  <hr/>
-
 </div> <!-- /container -->
 
 {% include pagefooter.html %}
