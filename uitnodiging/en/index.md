@@ -3,14 +3,16 @@ layout: page
 title: Call for Participation
 tagline: Please Circulate Freely
 ---
-<div style="float:right">
-  Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
-  lezen.<br>
-  This invitation is also available as <a href="../../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
-</div>
 
 # About Fri3d Camp
 
+<div class="panel panel-default panel-uitnodiging col-md-6">
+  <div class="panel-body">
+  Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
+  lezen.<br>
+  This invitation is also available as <a href="../../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
+  </div>
+</div>
 Fri3d Camp, [http://fri3d.be](http://fri3d.be), is a gathering of people interested in the current hacker & making scene. **Three days** (and nights) they participate in many **technology and science related activities**. **Art and social & political themes** are always close at hand.
 
 What differentiates Fri3d Camp from other hacker and maker events, is the focus on **families**. The program offers a wide variety of activities, for all ages and skill levels. **Parents and children** work together and discover the unknown.
@@ -21,9 +23,9 @@ Fri3d Camp is organised for and by you. We therefore invite **everybody** to sub
 
 # Background
 
-The idea to organise Fri3d Camp originated in 2013 at an international outdoor technology conference in the Netherlands. With a growing Belgian hacker and maker scene, the time was right to join forces and organise a first summer camp in 2014 to bring together all these people in a fun and relaxed atmosphere. Anthony Liekens, know from his Open Garage, pitched the idea and soon many likeminded souls from various organisations also put their shoulders to the wheel. 
+The idea to organise Fri3d Camp originated in 2013 at an international outdoor technology conference in the Netherlands. With a growing Belgian hacker and maker scene, the time was right to join forces and organise a first summer camp in 2014 to bring together all these people in a fun and relaxed atmosphere. Anthony Liekens, know from his Open Garage, pitched the idea and soon many likeminded souls from various organisations also put their shoulders to the wheel.
 
-During this first edition, de Hoge Rielen was the home of 128 hackers, makers, artists,… and their families. With over 45 activities, spread over three days, the program offered something for everyone, young and old, techie and artist and everybody intrigued by these passions. Workshops, lectures, outdoor activities, campfire bedtime stories,… This first edition simply begged for second edition. 
+During this first edition, de Hoge Rielen was the home of 128 hackers, makers, artists,… and their families. With over 45 activities, spread over three days, the program offered something for everyone, young and old, techie and artist and everybody intrigued by these passions. Workshops, lectures, outdoor activities, campfire bedtime stories,… This first edition simply begged for second edition.
 
 # Submit your proposal
 
@@ -53,11 +55,11 @@ To submit your proposal, send an e-mail to [content@fri3d.be](mailto:content@fri
 6. Have you given a talk/hosted a workshop before?
     * First time
     * Been there, done that!
-    * I’ve done this specific talk/workshop/installation before (with a reference if possible)! 
+    * I’ve done this specific talk/workshop/installation before (with a reference if possible)!
 
 **IMPORTANT**: **Deadline** for submissions is **May 15**. Selected proposals will be announced shortly after and arrangements will be made with the speakers on a personal basis during the months leading up to the event.
 
-Selected speakers, workshops hosts,… also get a **discount** on their admission ticket for the day of their activity, and **are sure to be able to order tickets** for their accompanying family members. 
+Selected speakers, workshops hosts,… also get a **discount** on their admission ticket for the day of their activity, and **are sure to be able to order tickets** for their accompanying family members.
 
 # Thank you
 

@@ -3,13 +3,15 @@ layout: page
 title: Uitnodiging tot Deelname
 tagline: Gelieve verder te verspreiden
 ---
-<div style="float:right">
-  You can also consult an <a href="en/">English version of this document</a>.<br>
-  Deze uitnodiging is ook beschikbaar als <a href="../assets/Fri3dCamp2016-UTD.pdf">PDF</a>.
-</div>
 
 # Over Fri3d Camp
 
+<div class="panel panel-default panel-uitnodiging col-md-6">
+  <div class="panel-body">
+  You can also consult an <a href="en/">English version of this document</a>.<br>
+  Deze uitnodiging is ook beschikbaar als <a href="../assets/Fri3dCamp2016-UTD.pdf">PDF</a>.
+  </div>
+</div>
 Op Fri3d Camp, [http://fri3d.be](http://fri3d.be), komen mensen samen rond hun gemeenschappelijke interesse in de huidige hacker- en maker-scene. Gedurende **drie dagen** (en nachten) komen verschillende **technologie- en wetenschap-gerelateerde activiteiten** aan bod. Een link met **kunst en sociaal-maatschappelijke thema’s** is nooit ver zoek.
 
 Fri3d Camp onderscheidt zich van andere hacker- en maker-events door ook nadruk te leggen op **gezinnen**. Het programma biedt een enorm brede waaier aan activiteiten, voor alle leeftijden en alle niveaus. **Ouders en kinderen** werken samen en ontdekken het onbekende.
