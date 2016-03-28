@@ -6,7 +6,7 @@ tagline: Please Circulate Freely
 <div style="float:right">
   Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
   lezen.<br>
-  This invitation is also available as <a href="../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
+  This invitation is also available as <a href="../../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
 </div>
 
 # About Fri3d Camp
