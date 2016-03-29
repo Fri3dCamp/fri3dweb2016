@@ -43,7 +43,7 @@ Om je voorstel in te dienen, stuur je een e-mail naar [content@fri3d.be](mailto:
     * Kunstzinnig aan de slag gaan op het terrein
     * Entertainen in de breedste zin van het woord
     * Ik kan zelf niets voorstellen, maar wil graag iemand anders helpen bij zijn/haar activiteit.
-3. Geef een **beschrijving** met inbegrip van de zaken die je nodig hebt om je activiteit te realiseren.
+3. Geef een **beschrijving** van je activiteit, met inbegrip van de zaken die je nodig hebt om deze te realiseren.
 4. Hoeveel tijd wil je graag voor je activiteit?
     * Minder dan 15 minuten
     * 30 minuten

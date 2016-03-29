@@ -8,8 +8,7 @@ tagline: Please Circulate Freely
 
 <div class="panel panel-default panel-uitnodiging col-md-6">
   <div class="panel-body">
-  Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
-  lezen.<br>
+  Lees ook de <a href="../">Nederlangstalige versie van deze uitnodiging</a><br>
   This invitation is also available as <a href="../../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
   </div>
 </div>
@@ -44,7 +43,7 @@ To submit your proposal, send an e-mail to [content@fri3d.be](mailto:content@fri
     * Set up an creative/artistic installation at the campsite
     * Bring entertainment in the broadest sense
     * I can’t really propose something, but would love to help someone else with their activity
-3. Give a short **description**, including the thing you need to realise your activity.
+3. Give a short **description** of your activity, including the things you need to realise it.
     * How much time do you need?
     * Less than 15 minutes
     * 30 minutes
