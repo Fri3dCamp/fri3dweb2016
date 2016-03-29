@@ -9,7 +9,7 @@ intro: >
     </div>
 
 watisfri3d: >
-  <h2>Wat je zoal mag verwachten ...</h2>
+  <h2>Wat is Fri3d Camp?</h2>
   <ul>
   <li>Met 256 samen veilig <strong>kamperen</strong> in de natuur, met tenten en kampvuren, van vrijdagavond tot maandagavond.</li>
   <li>Snel wireless <strong>internet</strong> in het bos en altijd een stopcontact en <strong>stroom</strong> in de buurt.</li>
