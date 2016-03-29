@@ -44,7 +44,7 @@ To submit your proposal, send an e-mail to [content@fri3d.be](mailto:content@fri
     * Set up an creative/artistic installation at the campsite
     * Bring entertainment in the broadest sense
     * I can’t really propose something, but would love to help someone else with their activity
-3. Give a short **description**, including the thing you need to realise your activity.
+3. Give a short **description** of your activity, including the things you need to realise it.
     * How much time do you need?
     * Less than 15 minutes
     * 30 minutes
