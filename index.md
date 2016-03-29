@@ -9,7 +9,7 @@ intro: >
     </div>
 
 watisfri3d: >
-  <h2>Wat je zoal mag verwachten ...</h2>
+  <h2>Wat je mag verwachten</h2>
   <ul>
   <li>Met 256 samen veilig <strong>kamperen</strong> in de natuur, met tenten en kampvuren, van vrijdagavond tot maandagavond.</li>
   <li>Snel wireless <strong>internet</strong> in het bos en altijd een stopcontact en <strong>stroom</strong> in de buurt.</li>
@@ -53,7 +53,7 @@ kalender: >
         <td><strong>Opruimdag</strong>. We zoeken hier vrijwillige medewerkers voor, wij zorgen voor pizza en drank!</td>
     </tr>
   </table>
-  
+
 ticketinfo: >
   <h2>Tickets?</h2>
   <p>Er zullen in totaal 256 tickets beschikbaar zijn voor Fri3d Camp 2016. Tickets zijn nog niet te koop. Onze shop gaat pas in mei of juni open.
