@@ -8,8 +8,7 @@ tagline: Please Circulate Freely
 
 <div class="panel panel-default panel-uitnodiging col-md-6">
   <div class="panel-body">
-  Je kan ook <a href="../">een Nederlangstalige versie van deze uitnodiging</a>
-  lezen.<br>
+  Lees ook de <a href="../">Nederlangstalige versie van deze uitnodiging</a><br>
   This invitation is also available as <a href="../../assets/Fri3dCamp2016-CFP.pdf">PDF</a>.
   </div>
 </div>
