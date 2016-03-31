@@ -18,7 +18,7 @@ What differentiates Fri3d Camp from other hacker and maker events, is the focus 
 
 The **second edition** of Fri3d Camp will take place from **Saturday 13 until Monday August 15 2016**. Once again we’re heading to the beautiful surroundings of **de Hoge Rielen at Kasterlee**. We’re also doubling the available tickets, allowing for **256 participants** to join in. The recipe remains the same: 3 camping fields and 2 hangars, hosting **workshops**, **lectures** and a true **hackerspace**, will be joined by a central bar/food tent. Children will get their very own space this year, at a tent centrally positioned at the campsite.
 
-Fri3d Camp is organised for and by you. We therefore invite **everybody** to submit proposals for **activities**. We’re looking for you: hackers, makers, artists, crafters, scientists, engineers, parents and children. We’re looking for people that want to show and tell about their passion and what tickles their interest: electronics, quad-copters, LEGO, 3D scanning & printing, the internet of things, radiography, paper crafts, security, graphic design, programming, music, beer brewing, fimo art,… and lots, lots more.
+The best way to participate is by organising your own **activities**. We therefore invite **everybody** to submit proposals. We’re looking for you: hackers, makers, artists, crafters, scientists, engineers, parents and children. We’re looking for people that want to show and tell about their passion and what tickles their interest: electronics, quadcopters, LEGO, 3D scanning & printing, the internet of things, radiography, paper crafts, security, graphic design, programming, music, beer brewing, fimo art,… and lots, lots more.
 
 # Background
 
