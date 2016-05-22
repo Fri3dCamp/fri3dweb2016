@@ -1,0 +1,266 @@
+---
+-
+    type: workshop
+    speakers: Liselore Lathouwers
+    title: 3D printing met pennen
+    description: 'Liselore vindt dat iedereen wel al''s een 3D pen heeft geprobeerd, maar daar nooit goed mee leren werken heeft. Dat wil ze veranderen.'
+-
+    type: workshop
+    speakers: Lieven Blancke
+    title: Aluminium smelten
+    description: We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Begin maar al blikjes van frisdrank en bier te sparen! Het gesmolten aluminium gieten we in zelfgemaakte vormpjes.
+-
+    type: workshop
+    speakers: Toon Van de Putte
+    title: Badge design
+    description: Na wat context over het Fri3d logo, belicht Toon het nut van vlaggen en emblemen en geeft richtlijnen & inspiratie. Tijdens de workshop kunnen de deelnemers zelf aan de slag gaan om een embleem, insigne, vlag, ... voor zichzelf of hun organisatie of zo te maken.
+-
+    type: activiteit
+    speakers: Toon Van de Putte
+    title: Bedtime stories voor kinderen
+    description: Enkele leuke korte verhalen bij het kampvuur voor het slapengaan.
+-
+    type: activiteit
+    speakers: Toon Van de Putte
+    title: Bedtime stories voor volwassenen
+    description: 'Enkele ''completely unexpected tales'' van Roald Dahl.'
+-
+    type: presentatie
+    speakers: Ira Laurencin
+    title: 'BeGRIJP de ''last'' van een ''lastige'' kind en ''ont-last'' jezelf. '
+    description: In een interactieve presentatie door kindertolk Ira duiken we in de relatie van ouder en kind en leren we hoe we conflicten creatief kunnen oplossen.
+-
+    type: workshop
+    speakers: Yannick Verbeelen
+    title: Bouw je eigen Arduino
+    description: 'Arduino''s kan je kopen, maar je kan ze ook zelf bouwen. Samen met Yannick ga je aan de slag met breadboards en componenten om je eigen Arduino samen te stellen.'
+-
+    type: workshop
+    speakers: Pascal Roobrouck
+    title: Bouw zelf een CNC
+    description: Pascal heeft zelf een OX CNC gebouwd. Hij brengt daarrond een een workshop over hoe dat allemaal werkt van A tot Z!
+-
+    type: workshop
+    speakers: Ralph Willekes
+    title: Bouwen van solar/wind/water kit
+    description: We gaan kleine solar of wind of water kits in elkaar zetten en uitleg geven over hoe het werk en waarom het belangrijk is schone energie te gebruiken.
+-
+    type: workshop
+    speakers: An Van Laer
+    title: CoderDojo met mBot
+    description: Een mBot is een betaalbare, eenvoudige te gebruiken robot voor kinderen om ervaring op te doen met grafisch programmeren (met Scratch/mBlock), elektronica en robotica. In deze levensechte CoderDojo brengt An en andere leden van CoderDojo Kempen enkele mBots mee om aan de slag te gaan.
+-
+    type: workshop
+    speakers: Dragan Subotic
+    title: Creatief zijn met sub-1GHz technologie. (aka Octa-Connect intro)
+    description: Bij de workshop bieden we een voorgeprogrammeerde sub-1GHz shield aan met daar bovenop een PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen.
+-
+    type: presentatie
+    speakers: Christophe Van Ginneken
+    title: De Fri3d Camp Badge - Introductie tot RF via IR
+    description: Fri3d Camp 2016 heeft zijn eigen badge. Elke deelnemer ontvangt een echt Arduino-compatibel ontwerp dat in staat is om alle lichten op Camp te beïnvloeden of TVs uit te schakelen. Maar hoe werkt de badge? Hoe is ze gebouwd en hoe kan je er zelf mee aan de slag om er nog meer mee te doen?
+-
+    type: workshop
+    speakers: Maarten Weyn
+    title: Dingen maken met beton
+    description: We gaan met snelcement en beton aan de slag om lampekappen, behuizingen, kapstokken of andere dingen te maken.
+-
+    type: workshop
+    speakers: ["Anthony Liekens","Liselore Lathouwers","Eline Van Ginneken"]
+    title: DNA uit kiwi
+    description: Hoe werken onze genen? Mad scientist Anthony vertelt je er alles over, Liselore en Eline leren je hoe je het DNA uit een kiwi kan halen.
+-
+    type: workshop
+    speakers: Dowse
+    title: Dowse
+    description: The Privacy Hub for the Internet of Things
+-
+    type: workshop
+    speakers: Maarten Weyn
+    title: Draadloze elektriciteitsoverdracht
+    description: Met enkele componenten bouwen we draadloze energieoverdracht. Veel koperdraad en een 6 tal componenten, een batterij en ledje.
+-
+    type: presentatie
+    speakers: Beber Geens
+    title: Een eigen bakfiets maken
+    description: In hun nieuwe Mechelse hackerspace, ko-lab, heeft Beber met zijn kompanen een modulaire bakfiets gebouwd. Ze gaan deze verder uitwerken met tal van technologie. In deze presentatie kom je alle te weten over hoe ze dit aangepakt hebben en wat hun verdere plannen zijn.
+-
+    type: workshop
+    speakers: Els De Ketelaere
+    title: Fimo
+    description: Leer unieke juwelen maken met Fimo-klei. Van Els mag je dat ook doen met een glaasje Whiskey erbij.
+-
+    type: presentatie
+    speakers: Steffest
+    title: Geek Dad Anonymous
+    description: 'Wil je TV kijken? Dat kan, dan moet je wel even dat toestel daar terug aansluiten en dan op de afstandsbediening functie 5b doen, dan kom je normaal gezien in de overkoepelende interface uit waar er ergens ''TV" tussen staat. Zelf gemaakt, handig hé! Ah wacht ... de connectie is weg precies, momentje. Stef vertelt over zijn leven als geek dad.'
+-
+    type: activiteit
+    speakers: Wouter Van Beirendonck
+    title: Hack your body - Yoga
+    description: '''s Morgens, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.'
+-
+    type: activiteit
+    speakers: Kurt Beheydt
+    title: High tech bosspel
+    description: We bedenken een high tech bosspel dat we samen kunnen spelen. We dacht je van een bijna echte bom die onschadelijk gemaakt kan worden, een koffertje met codeslot, infrarode tags om elkaar leventjes af te pakken, of led-bakens die veranderen van kleur als je met jou badge langs komt?
+-
+    type: presentatie
+    speakers: Rob van Kranenburg
+    title: How to negotiate IoT into a political reality
+    description: Wat betekent het nu juist om over een "Internet of Things" te spreken in onze samenleving? Wat zal de eigenlijke invloed zijn, los van het technische? Rob van Kranenburg brengt een IoT verhaal met een sociale insteek, en nodigt het publiek uit in een interactieve discussie.
+-
+    type: workshop
+    speakers: Bruce Helsen
+    title: Introductie Arduinio basics met 123d.circuits.io
+    description: Zelfs zonder een echte Arduino kan je er toch mee aan de slag. Dankzij de Circuits.io website kan je virtueel aan de slag met deze hardware. Bruce legt de werking uit en begeleidt je bij je eerste stappen.
+-
+    type: workshop
+    speakers: Mitch Altman
+    title: Introductie tot Arduino
+    description: Als hacker extra-ordinair kent de Arduino geen geheimen meer voor Mitch. In deze workshop introduceert hij de beginselen en geeft tal van ideeën om verder te gaan.
+-
+    type: presentatie
+    speakers: Yannick Verbeelen
+    title: Introductie tot Bitcoin/digital currency
+    description: Bitcoin en digitale zijn stilaan niet meer weg te denken uit de nieuwsberichtgeving op het internet. Yannick introduceert in deze presentatie alle aspecten en zorgt er voor dat je zelf aan de slag kan.
+-
+    type: activiteit
+    speakers: Jeroen Toelen
+    title: Kijken naar de hemel - Perseïden
+    description: 'Na zonsondergang gaan er (afhankelijk van het weer en de bijna volle maan) vallende sterren te zien zijn. We praten over bepaalde fenomenen (supernovae, pulsars, kometen...) en laten de verwondering de vrije loop. Misschien is Saturnus (met z''n prachtige ringen) en Jupiter goed te zien.'
+-
+    type: workshop
+    speakers: Mitch Altman
+    title: Leer solderen
+    description: Mitch Altman reist de wereld rond om mensen te leren solderen. Op Fri3d Camp staat hij weer klaar om iedereen deze nobele kunst aan te leren.
+-
+    type: workshop
+    speakers: Marian Verhelst
+    title: LEGO + electronica = introductie electronische schakelingen
+    description: Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!
+-
+    type: workshop
+    speakers: Bart van den Berg, Helma van Rijn
+    title: Linkx
+    description: Tijdens deze workshop gaan kinderen en ouders met de LINKX speelkit aan de slag en maken ze samen een speurtocht op het terrein, met persoonlijke boodschappen.
+-
+    type: workshop
+    speakers: Walter Belgers
+    title: Lockpicking Workshop
+    description: Wie in 2014 de kans gemist heeft om aan de slag te gaan met sloten, krijgt dit jaar een herkansing. Walter brengt zijn lock picking tools mee en leert iedereen hoe onopenbare sloten toch open kunnen gemaakt worden.
+-
+    type: workshop
+    speakers: Jo Decock
+    title: Missing Maps Mapathon or local Mapping Party or both
+    description: In een Missing Maps workshop ga je zelf aan de slag om online kaarten te voorzien van meer details. Dit is van groot belang voor humanitaire hulp. Zo kan je op een leuke manier je steentje bijdragen aan belangrijke informatie.
+-
+    type: workshop
+    speakers: Maria-Cristina
+    title: Ontwerp je eigen T-shirt
+    description: De Fri3d Camp T-shirts zijn prachtig, maar misschien kan je eigen fantasie nog verder gaan. Maria-Cristina brengt al haar spullen mee om samen met jou een uiterst persoonlijk ontwerp om te zetten in een unieke T-shirt.
+-
+    type: workshop
+    speakers: Tagni Geudens
+    title: Origami
+    description: Met zijn broer en zus gaat Tangi samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken.
+-
+    type: workshop
+    speakers: Steffest
+    title: Paper Games
+    description: Zijn de kinderen game-verslaafd? Met zelf uitgevonden papieren games kan de schermtijd naar beneden en de creativiteit omhoog.
+-
+    type: presentatie
+    speakers: Walter Belgers
+    title: Physical penetration testing
+    description: Na een gesmaakte talk op Fri3d Camp 2014, komt Walter terug om te vertellen over physical penetration testing. Of, in menselijke woorden, hoe een slot werkt en hoe het geopend kan worden.
+-
+    type: activiteit
+    speakers: Gwen Vanhee
+    title: Projectie mapping + creative coding
+    description: Projectie mapping en creative coding in de bossen van het kamp.
+-
+    type: workshop
+    speakers: Geert Fannes
+    title: RC Child
+    description: In deze workshop leren we de de basis van RC en servo motoren. We gaan aan de slag om een helm te maken waarmee je niets kan zien. Door gebruik te maken van servo motoren geven we aan of je vooruit, links of rechts moet gaan. Zo kan je iemand besturen.
+-
+    type: workshop
+    speakers: Hans Van Ingelgom
+    title: RDS decoderen met Gnuradio
+    description: In deze workshop decoderen we een RDS signaal van een FM zender. RDS is het protocol dat je kan zeggen op welke zender je bent afgestemd, welk liedje gespeeld wordt en dergelijke. We zullen kijken welke informatie het FM-signaal bevat, het RDS signaal isoleren en het tot slot (gedeeltelijk) decoderen.
+-
+    type: presentatie
+    speakers: Eddy Mathy
+    title: Robotica voor beginners met het EZ-robot platform
+    description: Eddy geeft een overzicht van robotica voor beginners met het platform van EZ-robot (www.ez-robot.com/EZ-Builder). Hij legt ook uit hoe je zelf je robot kan printen.
+-
+    type: workshop
+    speakers: Seth Van Akeleyen
+    title: 'Robots van piepschuim en servo''s'
+    description: Bouw een animatronic Frieyebot! Echt iedereen kan een Frieyebot maken, én laten bewegen. Twee linker handen? No problem!
+-
+    type: workshop
+    speakers: Johan Potums
+    title: Rube Goldberg Machine
+    description: Gedurende een volledige dag krijg je de kans om aan een Rube Goldberg machine te maken! Op het einde van de dag steken we de machine in gang, spektakel verzekerd!
+-
+    type: workshop
+    speakers: Igor Nikolic
+    title: Sieraden van afval
+    description: In deze workshop maken we sieraden van afval zoals elektronica en plastic. Wij gaan o.a. bloem broches met lichtjes maken van Petflessen. Neem zeker een klein PET flesje (of twee) mee.
+-
+    type: workshop
+    speakers: Dago Sondervan
+    title: Sonic Pi
+    description: 'Met Sonic Pi maak je aan de hand van code je eigen muziek. Tijdens deze workshop gaat jong en oud hier mee aan de slag, en krijg je een introductie tot het ''live coden''. Hoofdtelefoon meenemen!'
+-
+    type: workshop
+    speakers: Kevin Celis
+    title: T-shirtworkshop
+    description: In een workshop voor jong en oud maakt iedereen iets naar zijn eigen kunnen. We hebben een 2-laagse folie waarop eerst een tekening gemaakt wordt. Deze tekening wordt dan uitgeknipt en met een hittepers op een T-shirt geperst.
+-
+    type: workshop
+    speakers: Daan Uttien
+    title: The One Ring
+    description: 'SawuGo brengt een mobiele goudsmederij naar Fri3d. Er zullen verschillende workshops gehouden worden, waaronder ''The One Ring workshop'' waarin je de basisbeginselen van goudsmeden leert en een zilveren ring maakt.'
+-
+    type: presentatie
+    speakers: Mark Pecqueur
+    title: 'Too less Too little Too late - zero emission mobility without depleting the world''s rare earth materials.'
+    description: Mark geeft een overzicht van waar we staan, wat we doen en waar we naar toe kunnen. Erna heel treedt hij graag in discussie, hoe kritischer hoe liever.
+-
+    type: workshop
+    speakers: Geert Fannes
+    title: Trebuchet in action
+    description: Na zijn presentatie over de middeleeuwse "gooi"-machines, laat Geert deze machines voor zichzelf spreken in een workshop op de velden van Fri3d Camp.
+-
+    type: presentatie
+    speakers: Geert Fannes
+    title: Trebuchets
+    description: Geert geeft een overzicht van de geschiedenis van deze middeleeuwse "gooi"-machines, de verschillende types en de elementaire fysica nodig om hun werking te begrijpen.
+-
+    type: workshop
+    speakers: Luc Bastiaens
+    title: Waterraketten
+    description: Samen met Luc maken we watergestuurde raketten en lanceren ze!
+-
+    type: workshop
+    speakers: Dewi Van De Vyver
+    title: Wearables
+    description: Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt,... mee om het te personaliseren met lichtjespatronen.
+-
+    type: presentatie
+    speakers: Ward De Ridder
+    title: Wireless Belgie
+    description: Het draadloze netwerk van Fri3d Camp wordt verzorgd door Wireless België. Ward komt vertellen over hoe het netwerk is gegroeid, en hoe het er nu uit ziet.
+-
+    type: workshop
+    speakers: Ira Laurencin
+    title: Zinvol tekenen met ouder en kind.
+    description: Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen, gewapend met een potloden.
+-
+    type: activiteit
+    speakers: Tom Van de Zande
+    title: Zoektocht
+    description: De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters  met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden.
