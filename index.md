@@ -25,16 +25,12 @@ kalender: >
   <h2>Kalender</h2>
   <table class="calendar">
     <tr>
-        <th>1 april</th>
-        <td>Lancering van onze <strong>uitnodiging tot deelname</strong> (call for participation).</td>
-    </tr>
-    <tr>
         <th>mei</th>
-        <td>We beginnen met de bekendmaking van het <strong>programma</strong>.</td>
+        <td>Bekendmaking van het <a href="/programma"><strong>programma</strong></a>.</td>
     </tr>
     <tr>
         <th>23 mei</th>
-        <td>Voorinschrijving</strong> voor Fri3d Camp 2014 bezoekers. Ook gezinnen wiens workshops of lezingen zijn geaccepteerd kunnen tickets kopen.</td>
+        <td><strong>Voorinschrijving</strong> voor Fri3d Camp 2014 bezoekers. Ook gezinnen wiens workshops of lezingen zijn geaccepteerd kunnen tickets kopen.</td>
     </tr>
     <tr>
         <th>1 juni</th>
@@ -42,7 +38,7 @@ kalender: >
     </tr>
     <tr>
         <th>12 augustus</th>
-        <td>Iedereen 's avonds welkom om de tenten op te slaan.</td>
+        <td>Iedereen 's avonds <strong>welkom</strong> om de tenten op te slaan.</td>
     </tr>
     <tr>
         <th>13-15 augustus</th>
