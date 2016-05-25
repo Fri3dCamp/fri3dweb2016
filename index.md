@@ -13,7 +13,7 @@ watisfri3d: >
   <ul>
   <li>Met 256 samen veilig <strong>kamperen</strong> in de natuur, met tenten en kampvuren, van vrijdagavond tot maandagavond.</li>
   <li>Snel wireless <strong>internet</strong> in het bos en altijd een stopcontact en <strong>stroom</strong> in de buurt.</li>
-  <li>Drie dagen bezigheidstherapie met <strong>workshops</strong> en <strong>lezingen</strong> over maken, hacken en doe-het-zelven.</li>
+  <li>Drie dagen <a href="/programma">bezigheidstherapie</a> met <strong>workshops</strong> en <strong>lezingen</strong> over maken, hacken en doe-het-zelven.</li>
   <li>We zijn <strong>gezinsvriendelijk</strong>; we zorgen voor entertainment voor de jongste padawan tot de oudste knight.</li>
   <li>Allemaal samen <strong>warm eten</strong> (BBQ, kip-friet en plenty veggie) op zaterdag- en zondagavond.</li>
   <li>Propere <strong>toiletten</strong> en (koude) <strong>douches</strong>.</li>
