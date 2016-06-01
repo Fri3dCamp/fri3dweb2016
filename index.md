@@ -7,6 +7,14 @@ intro: >
       <strong>Fri3d Camp</strong> is een gezinsvriendelijk zomerkamp voor hackers, makers en DIY'ers.<br/>
       <strong>Zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee.
     </div>
+    <p class="text-center">
+      Onze ticketshop is open! Vanaf 21:00 kan je je bestelling doorsturen!</br>
+    </p>
+    <p class="text-center">
+      <a href="https://tickets.fri3d.be" target="_blank" class="btn btn-warning btn-lg">
+        <span style="color:#000">Bestel je <strong>Fri3d Camp tickets</strong> nu!</span>
+      </a>
+    </p>
 
 watisfri3d: >
   <h2>Wat je mag verwachten</h2>
