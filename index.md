@@ -33,14 +33,6 @@ kalender: >
   <h2>Kalender</h2>
   <table class="calendar">
     <tr>
-        <th>mei</th>
-        <td>Bekendmaking van het <a href="/programma"><strong>programma</strong></a>.</td>
-    </tr>
-    <tr>
-        <th>23 mei</th>
-        <td><strong>Voorinschrijving</strong> voor Fri3d Camp 2014 bezoekers. Ook gezinnen wiens workshops of lezingen zijn geaccepteerd kunnen tickets kopen.</td>
-    </tr>
-    <tr>
         <th>1 juni</th>
         <td>De <strong>ticketshop</strong> wordt voor iedereen geopend! Let op, na 256 tickets zijn we volledig volzet!</td>
     </tr>
