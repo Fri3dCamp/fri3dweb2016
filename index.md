@@ -8,7 +8,7 @@ intro: >
       <strong>Zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee.
     </div>
     <p class="text-center">
-      Onze ticketshop is open! Vanaf 21:00 kan je je bestelling doorsturen!</br>
+      Onze ticketshop is open!</br>
     </p>
     <p class="text-center">
       <a href="https://tickets.fri3d.be" target="_blank" class="btn btn-warning btn-lg">
@@ -32,10 +32,6 @@ watisfri3d: >
 kalender: >
   <h2>Kalender</h2>
   <table class="calendar">
-    <tr>
-        <th>1 juni</th>
-        <td>De <strong>ticketshop</strong> wordt voor iedereen geopend! Let op, na 256 tickets zijn we volledig volzet!</td>
-    </tr>
     <tr>
         <th>12 augustus</th>
         <td>Iedereen 's avonds <strong>welkom</strong> om de tenten op te slaan.</td>
