@@ -8,12 +8,13 @@ intro: >
       <strong>Zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee.
     </div>
     <p class="text-center">
-      Onze ticketshop is open!</br>
+      <img src="/images/sold_out.gif">
     </p>
     <p class="text-center">
-      <a href="https://tickets.fri3d.be" target="_blank" class="btn btn-warning btn-lg">
-        <span style="color:#000">Bestel je <strong>Fri3d Camp tickets</strong> nu!</span>
-      </a>
+      Fri3d Camp 2016 is volledig uitverkocht. Je kan je nog <a
+      href="https:tickets.fri3d.be">in de wachtrij inschrijven</a>.<br>
+      Indien anderen niet op tijd betalen, kan je misschien toch nog een ticket
+      bemachtigen.
     </p>
 
 watisfri3d: >
