@@ -12,7 +12,7 @@ intro: >
     </p>
     <p class="text-center">
       Fri3d Camp 2016 is volledig uitverkocht. Je kan je nog <a
-      href="https:tickets.fri3d.be">in de wachtrij inschrijven</a>.<br>
+      href="https:tickets.fri3d.be" target="_blank">in de wachtrij inschrijven</a>.<br>
       Indien anderen niet op tijd betalen, kan je misschien toch nog een ticket
       bemachtigen.
     </p>
