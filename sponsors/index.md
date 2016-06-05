@@ -13,7 +13,7 @@ Zij verdienen meer dan een schouderklopje hiervoor en we stellen ze dan ook
 graag aan jullie voor. Als je ze tegenkomt om kamp, bedank ze dan hartelijk.
 Want ze maken Fri3d Camp weer dat iets specialer voor jou!
 
-<hr/>
+# Ondersteunende bedrijven
 
 <h3 class="anchor"><a name="rombit"></a>Rombit</h3>
 
@@ -67,7 +67,7 @@ Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 
 
 [http://www.dewerkkamer.be](http://www.dewerkkamer.be)
 
-# Ondersteunende Deelnemers
+# Ondersteunende deelnemers
 
 Sommige deelnemers willen naast hun activiteit Fri3d Camp nog verder ondersteunen. Met een business ticket tastten ze iets dieper in hun buidel en helpen zo om Fri3d Camp weer wat leuker te maken. Bedankt!
 
@@ -78,3 +78,7 @@ Sommige deelnemers willen naast hun activiteit Fri3d Camp nog verder ondersteune
   <br><br>
   [![Mirakel](images/mirakel.png)](http://mirakel.be)
 </p>
+
+# Wil jij ook Fri3d Camp steunen?
+
+Sta je met je bedrijf achter het gedachtengoed dat Fri3d Camp verspreid? We kunnen je hulp via sponsoring goed gebruiken, contacteer ons via <a href="mailto:info@fri3d.be">info@fri3d.be</a>.
