@@ -54,4 +54,14 @@ ticketinfo: >
 
 fotocredits: >
   Foto's door <a href="https://www.flickr.com/photos/christophevg/sets/72157646541776286">christophevg</a>, <a href="https://www.flickr.com/photos/lieven_blancke/">lievenblancke</a> & <a href="https://www.flickr.com/photos/automaton_be/albums/72157646154967970">automaton_be</a>.
+
+sponsors: >
+  <h2>Onze sponsors</h2>
+  <p class="text-center">
+    <a href="/sponsors#rombit"><img src="/sponsors/images/rombit.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#inventive"><img src="/sponsors/images/inventive-designers.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#novid"><img src="/sponsors/images/novid.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#wireless"><img src="/sponsors/images/wireless-belgie.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#werkkamer"><img src="/sponsors/images/werkkamer.png" class="sponsorthumb"/></a>
+  </p>
 ---
