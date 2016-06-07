@@ -84,9 +84,19 @@ Sommige deelnemers willen naast hun activiteit Fri3d Camp nog verder ondersteune
 <p align="center" markdown="1">
   [![Ingegno](images/ingegno.png)](http://ingegno.be)
   <br><br>
-  [De Creatieve STEM](http://decreatievestem.be)
+  [![De Creatieve STEM](images/creatievestem.png)](http://decreatievestem.be)
   <br><br>
   [![Mirakel](images/mirakel.png)](http://mirakel.be)
+</p>
+
+# Ondersteunende organisaties
+
+De inspiratie van dit kamp komt uit vele Belgische en Europese non-profit organisaties, kampen, hackerspaces en fablabs die onze gemeenschap ondersteunen en vertegenwoordigen. Fri3d Camp is zeer blij dat deze organisaties als partner voor Fri3d Camp willen optreden.
+
+<p align="center" markdown="1">
+  [![Open Garage](images/opengarage.png)](http://opengarage.org)
+  <br><br>
+  [![Fablab Brussels](images/fablabxl.png)](http://fablab-brussels.be)
 </p>
 
 # Wil jij ook Fri3d Camp steunen?
