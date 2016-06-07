@@ -29,6 +29,16 @@ Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 
 
 <hr/>
 
+<h3 class="anchor"><a name="playpass"></a>Playpass</h3>
+
+<h1 align="center" markdown="1">[![Rombit](images/playpass.png)](http://playpass.be)</h1>
+
+**Dankzij de financiële steun van Playpass kunnen we dit kamp voor de full option gaan, zonder ons budget of de ticketprijzen in gevaar te brengen. Passend bij hun festivalachtergrond, zorgen ze ook voor unieke Fri3d Camp polsbandjes!**
+
+[http://playpass.be](http://playpass.be)
+
+<hr/>
+
 <h3 class="anchor"><a name="inventive"></a>Inventive designers</h3>
 
 <p align="center" markdown="1">[![Inventive Designers](images/inventive-designers.png)](https://www.inventivedesigners.com)</p>

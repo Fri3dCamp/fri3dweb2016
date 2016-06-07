@@ -50,7 +50,8 @@ sponsors: >
   <h2>Onze sponsors</h2>
   <p class="text-center">
     <a href="/sponsors#rombit"><img src="/sponsors/images/rombit.png" class="sponsorthumb"/></a>
-    <a href="/sponsors#inventive"><img src="/sponsors/images/inventive-designers.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#playpass"><img src="/sponsors/images/playpass.png" class="sponsorthumb"/></a>
+    <a href="/sponsors#inventive"><img src="/sponsors/images/inventive-designers.png" class="sponsorthumb"/></a><br/>
     <a href="/sponsors#novid"><img src="/sponsors/images/novid.png" class="sponsorthumb"/></a>
     <a href="/sponsors#wireless"><img src="/sponsors/images/wireless-belgie.png" class="sponsorthumb"/></a>
     <a href="/sponsors#werkkamer"><img src="/sponsors/images/werkkamer.png" class="sponsorthumb"/></a>
