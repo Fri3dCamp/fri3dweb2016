@@ -43,7 +43,7 @@ Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 
 
 <p align="center" markdown="1">[![Inventive Designers](images/inventive-designers.png)](https://www.inventivedesigners.com)</p>
 
-**Voor de tweede editie op rij, steunt Inventive Designers Fri3d Camp financieel. Dankzij hun bijdrage kunnen we verschillende zaken realiseren en houden we de ticket prijze opnieuw onder controle!**
+**Voor de tweede editie op rij, steunt Inventive Designers Fri3d Camp financieel. Dankzij hun bijdrage kunnen we verschillende zaken realiseren en houden we de ticket prijzen opnieuw onder controle!**
 
 [https://www.inventivedesigners.com](https://www.inventivedesigners.com)
 
@@ -73,7 +73,7 @@ Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 
 
 <p align="center" markdown="1">[![De Werkkamer](images/werkkamer.png)](http://www.dewerkkamer.be)</p>
 
-**Als je weldra aan de bar plaats neemt aan een van onze unieke tafeltjes en je het vakmanschap ervan bewondert, richt dan gerust een dikke proficiat en dank u aan De Werkkamer.**
+**Als je weldra aan de bar plaats neemt aan &eacute;&eacute;n van onze unieke tafeltjes en je het vakmanschap ervan bewondert, richt dan gerust een dikke proficiat en dank u aan De Werkkamer.**
 
 [http://www.dewerkkamer.be](http://www.dewerkkamer.be)
 
