@@ -17,7 +17,7 @@ Je vindt hier de bevestigde sprekers, workshops en andere activiteiten van Fri3d
 <div class="row">
 <div class="col-md-12">
 {% for activity in site.data.activities %}
-  <article class="contentitem activity" id="activity-{{ activity.ID }}">
+  <article class="contentitem activity" id="{{ activity.title | slugify }}">
       <header>
         <h3>{{ activity.title }}</h3>
         <p>door: {% for speaker in activity.speakers %} <span class="speaker">{{speaker}}</span> {% endfor %}</p>
