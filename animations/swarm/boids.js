@@ -466,6 +466,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
 }
 
 var title = getUrlParameter('title');
-document.getElementById("titletext").innerHTML = title; 
+if( title ) document.getElementById("titletext").innerHTML = title; 
 var subtitle = getUrlParameter('subtitle');
-document.getElementById("subtitletext").innerHTML = subtitle; 
+if( subtitle ) document.getElementById("subtitletext").innerHTML = subtitle; 
