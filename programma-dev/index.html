@@ -2,6 +2,11 @@
 title: Programma
 ---
 {% include header.html %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/alertify.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/default.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/semantic.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/bootstrap.min.css"/>
+
     <div class="jumbotron">
       <div class="container">   
         <h1>Programma</h1>
@@ -31,15 +36,6 @@ title: Programma
           <div class="col-md-3 schedule-col">   
             <h2>Tutorials</h2>   
             <div class="schedule-items" id="track1">
-              <article class="schedule-item" data-event-start="1000" data-event-end="1045" style="top:0px;height:90px;">
-              <a class="schedule-clickarea bg1" href="#">Opening</a>
-              </article>
-              <article class="schedule-item" data-event-start="1100" data-event-end="1215" style="top:120px;height:150px;">
-                <a class="schedule-clickarea" href="#">Testgegevens</a>
-              </article>
-              <article class="schedule-item" data-event-start="1215" data-event-end="1315" style="top:270px;height:120px;">
-                <a class="schedule-clickarea" href="#">Testgegevens</a>
-              </article>
             </div>            
           </div> 
           <!-- end track 1 -->    
@@ -69,13 +65,59 @@ title: Programma
       {% include pagefooter.html %}
     </div> <!-- /container -->
 {% include javascript.html %}
-    <script>
-      $(document).ready(function() {
-        //console.log( "ready!" );
-        $("#track1").append(drawday());
-        $("#track2").append(drawday());
-        $("#track3").append(drawday());
-        $("#track4").append(drawday());
-      });      
-    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+<script src="https://cdn.jsdelivr.net/alertifyjs/1.6.1/alertify.min.js"></script>
+<script>
+  // TODO load from programma.json
+  var activities = [
+    {
+      "titel"  : "Opening",
+      "start"  : "10:00",
+      "einde"  : "10:45",
+      "top"    :   0,
+      "height" :  90
+    },
+    {
+      "titel"  : "Testgegevens",
+      "start"  : "11:00",
+      "einde"  : "12:15",
+      "top"    : 120,
+      "height" : 150
+    },
+    {
+      "titel"  : "Testgegevens",
+      "start"  : "12:15",
+      "einde"  : "13:15",
+      "top"    : 270,
+      "height" : 120
+    }
+  ];
+
+  var activities_template = '\
+  {{"{{#."}}}}\
+    <article class="schedule-item"\
+             data-event-start="{{ "{{ start " }}}}"\
+             data-event-end="{{ "{{ einde " }}}}"\
+             style="top:{{ "{{ top " }}}}px;height:{{ "{{ height " }}}}px;">\
+      <a class="schedule-clickarea bg1" href="#">{{ "{{ titel " }}}}</a>\
+    </article>\
+  {{"{{/."}}}}';
+
+  Mustache.parse(activities_template);
+
+  // add activities
+  // TODO filter tracks, convert time to top/height,...
+  // TODO on update track changes and generate alerts
+  $(document).ready(function() {
+    $("#track1").append(Mustache.render(activities_template, activities));
+  });
+
+  // add schedule gridlines and hours
+  $(document).ready(function() {
+    $("#track1").append(drawday());
+    $("#track2").append(drawday());
+    $("#track3").append(drawday());
+    $("#track4").append(drawday());
+  });      
+</script>
 {% include footer.html %}
