@@ -27,7 +27,7 @@
 -
     type: presentatie
     speakers: Ira Laurencin
-    title: 'BeGRIJP de ''last'' van een ''lastige'' kind en ''ont-last'' jezelf. '
+    title: 'BeGRIJP de ''last'' van een ''lastig'' kind en ''ont-last'' jezelf. '
     description: In een interactieve presentatie door kindertolk Ira duiken we in de relatie van ouder en kind en leren we hoe we conflicten creatief kunnen oplossen.
 -
     type: workshop
@@ -55,6 +55,11 @@
     title: Creatief zijn met sub-1GHz technologie. (aka Octa-Connect intro)
     description: Bij de workshop experimenteren we met een voorgeprogrammeerde sub-1GHz shield met PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen. 
 -
+    type: presentatie
+    speakers: Christophe Van Ginneken
+    title: De Fri3d Camp Badge
+    description: Fri3d Camp 2016 heeft zijn eigen badge. Elke deelnemer ontvangt een echt Arduino-compatibel ontwerp dat in staat is om alle lichten op Camp te beïnvloeden of TVs uit te schakelen. Maar hoe werkt de badge? Hoe is ze gebouwd en hoe kan je er zelf mee aan de slag om er nog meer mee te doen?
+-
     type: workshop
     speakers: Maarten Weyn
     title: Dingen maken met beton
@@ -75,6 +80,11 @@
     title: Draadloze elektriciteitsoverdracht
     description: Met veel koperdraad en een 6-tal componenten, een batterij en ledje bouwen we een voorbeeld van draadloze energieoverdracht.
 -
+    type: workshop
+    speakers: Maria-Cristina Ciocci
+    title: Dr Bibber
+    description: Breng een schoendoos mee en maak samen met Cristina je eigen Dr Bibber-spel. Leuk en leerrijk!
+-
     type: presentatie
     speakers: Beber Geens
     title: Een eigen bakfiets maken
@@ -82,7 +92,7 @@
 -
     type: workshop
     speakers: Els De Ketelaere
-    title: Fimo
+    title: Fimo Night
     description: Leer unieke juwelen maken met Fimo-klei. Van Els mag je dat ook doen met een glaasje Whiskey erbij.
 -
     type: presentatie
@@ -120,11 +130,6 @@
     title: Introductie tot Bitcoin/digital currency
     description: Bitcoin en digitale currencies zijn stilaan niet meer weg te denken uit de nieuwsberichtgeving op het internet. Yannick introduceert in deze presentatie alle aspecten en zorgt er voor dat je zelf aan de slag kan.
 -
-    type: presentatie
-    speakers: Christophe Van Ginneken
-    title: Introductie tot RF via IR met de Fri3d Camp Badge
-    description: Fri3d Camp 2016 heeft zijn eigen badge. Elke deelnemer ontvangt een echt Arduino-compatibel ontwerp dat in staat is om alle lichten op Camp te beïnvloeden of TVs uit te schakelen. Maar hoe werkt de badge? Hoe is ze gebouwd en hoe kan je er zelf mee aan de slag om er nog meer mee te doen?
--
     type: activiteit
     speakers: Jeroen Toelen
     title: Kijken naar de hemel - Perseïden
@@ -146,11 +151,6 @@
     description: Wie in 2014 de kans gemist heeft om aan de slag te gaan met sloten, krijgt dit jaar een herkansing. Walter brengt zijn lock picking tools mee en leert iedereen hoe onopenbare sloten toch geopend kunnen worden.
 -
     type: workshop
-    speakers: Maria-Cristina Ciocci
-    title: Ontwerp je eigen T-shirt
-    description: De Fri3d Camp T-shirts zijn prachtig, maar misschien kan je eigen fantasie nog verder gaan. Maria-Cristina brengt al haar spullen mee om samen met jou een uiterst persoonlijk ontwerp om te zetten in een unieke T-shirt.
--
-    type: workshop
     speakers: Tagni Geudens
     title: Origami
     description: Met zijn broer en zus gaat Tangi samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken. 
@@ -164,11 +164,6 @@
     speakers: Walter Belgers
     title: Physical penetration testing
     description: Na een gesmaakte talk op Fri3d Camp 2014, komt Walter terug om te vertellen over physical penetration testing. Of, in menselijke woorden, hoe een slot werkt en hoe het geopend kan worden.
--
-    type: activiteit
-    speakers: Gwen Vanhee
-    title: Projectie mapping + creative coding
-    description: Projectie mapping en creative coding in de bossen van het kamp.
 -
     type: workshop
     speakers: Geert Fannes
@@ -199,11 +194,6 @@
     speakers: Igor Nikolic
     title: Sieraden van afval
     description: In deze workshop maken we sieraden van afval zoals elektronica en plastic. Wij gaan o.a. bloem-broches met lichtjes maken van Petflessen. Neem zeker een klein PET flesje (of twee) mee.
--
-    type: workshop
-    speakers: Dago Sondervan
-    title: Sonic Pi
-    description: 'Met Sonic Pi maak je aan de hand van code je eigen muziek. Tijdens deze workshop gaat jong en oud hier mee aan de slag, en krijg je een introductie tot het ''live coden''. Hoofdtelefoon meenemen!'
 -
     type: workshop
     speakers: Kevin Celis
