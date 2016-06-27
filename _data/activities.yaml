@@ -66,7 +66,10 @@
     description: We gaan met snelcement en beton aan de slag om lampekappen, behuizingen, kapstokken of andere dingen te maken.
 -
     type: workshop
-    speakers: Anthony Liekens, Liselore Lathouwers, Eline Van Ginneken
+    speakers: 
+      - Anthony Liekens
+      - Liselore Lathouwers
+      - Eline Van Ginneken
     title: DNA uit kiwi
     description: Hoe werken onze genen? Mad scientist Anthony vertelt je er alles over, Liselore en Eline leren je hoe je het DNA uit een kiwi kan halen.
 -
