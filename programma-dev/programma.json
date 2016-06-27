@@ -1,0 +1,13 @@
+---
+layout: stp
+---
+[
+  {% for activity in site.data.activities %}
+    "title"        : "{{ activity.title | escape }}",
+    "speakers"     : [{% for speaker in activity.speakers %}
+        {{speaker}},
+    {% endfor %}],
+    "beschrijving" : "{{ activity.description | escape }}",
+    "type"         : "{{ activity.type }}"
+  {% endfor %}
+]
