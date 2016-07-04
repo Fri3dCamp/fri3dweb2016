@@ -82,11 +82,11 @@ Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 
 Sommige deelnemers willen naast hun activiteit Fri3d Camp nog verder ondersteunen. Met een business ticket tastten ze iets dieper in hun buidel en helpen zo om Fri3d Camp weer wat leuker te maken. Bedankt!
 
 <p align="center" markdown="1">
-  [![Ingegno](images/ingegno.png)](http://ingegno.be)
-  <br><br>
-  [![De Creatieve STEM](images/creatievestem.png)](http://decreatievestem.be)
-  <br><br>
-  [![Mirakel](images/mirakel.png)](http://mirakel.be)
+  [![Ingegno](images/ingegno.png)](http://ingegno.be)&nbsp;
+  [![De Creatieve STEM](images/creatievestem.png)](http://decreatievestem.be)&nbsp;
+  [![Mirakel](images/mirakel.png)](http://mirakel.be)<br/>
+  ![Decode-IT](images/decode.png)&nbsp;
+  [![Dagit](images/dagit.png)](http://dagit.be)
 </p>
 
 # Ondersteunende organisaties
