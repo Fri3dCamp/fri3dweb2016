@@ -25,6 +25,14 @@ kalender: >
   <h2>Kalender</h2>
   <table class="calendar">
     <tr>
+        <th>15 juli</th>
+        <td>Bekendmaking van het <strong>tijdsindeling</strong> van het <a href="/programma">programma</a>.</td>
+    </tr>
+    <tr>
+        <th>22 juli</th>
+        <td>De <strong>vrijwilligers-site</strong> gaat open. Tijd om je shiften te kiezen!</td>
+    </tr>
+    <tr>
         <th>12 augustus</th>
         <td>Iedereen 's avonds <strong>welkom</strong> om de tenten op te slaan.</td>
     </tr>
