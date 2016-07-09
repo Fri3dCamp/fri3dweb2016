@@ -1,6 +1,7 @@
 .schedule-row-hour {
 	border-top:1px solid @gray-light;
 	height:120px;
+	width:100%;
 	box-sizing: border-box;
 }
 .schedule-row {
@@ -8,6 +9,7 @@
 }
 .schedule-col {
 	position: relative;
+	height:1560px;
 	h2 {
 		margin-bottom: 30px;
 	}
@@ -16,6 +18,7 @@
 	border-top:1px dotted @gray-light;
 	height:60px;
 	box-sizing: border-box;
+	width:100%;
 	&:first-of-type {
 		border-top:none;
 	}
@@ -34,11 +37,15 @@
 	height:100%;
 	position: relative;
 }
+.schedule-hours {
+	position: absolute;
+	width: 100%;
+}
 .schedule-item {
 	//border:1px solid @brand-secondary-light;
-	padding-left:50px;
+	left:50px;
 	box-sizing: border-box;
-	width: 100%;
+	//width: 100%;
 	position: absolute;
 	.schedule-clickarea {
 		//background-color: fade(@brand-secondary-lighter, 80%);

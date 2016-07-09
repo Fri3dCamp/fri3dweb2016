@@ -8,7 +8,7 @@
     type: workshop
     speakers: Lieven Blancke
     title: Aluminium smelten
-    description: We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen! 
+    description: We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!
 -
     type: workshop
     speakers: Toon Van de Putte
@@ -53,7 +53,7 @@
     type: workshop
     speakers: Dragan Subotic
     title: Creatief zijn met sub-1GHz technologie. (aka Octa-Connect intro)
-    description: Bij de workshop experimenteren we met een voorgeprogrammeerde sub-1GHz shield met PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen. 
+    description: Bij de workshop experimenteren we met een voorgeprogrammeerde sub-1GHz shield met PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen.
 -
     type: presentatie
     speakers: Christophe Van Ginneken
@@ -66,7 +66,7 @@
     description: We gaan met snelcement en beton aan de slag om lampekappen, behuizingen, kapstokken of andere dingen te maken.
 -
     type: workshop
-    speakers: 
+    speakers:
       - Anthony Liekens
       - Liselore Lathouwers
       - Eline Van Ginneken
@@ -116,7 +116,7 @@
     type: presentatie
     speakers: Rob van Kranenburg
     title: How to negotiate IoT into a political reality
-    description: Wat betekent het nu juist om over een "Internet of Things" te spreken in onze samenleving? Wat zal de eigenlijke invloed zijn, los van het technische? Rob van Kranenburg brengt een IoT verhaal met een sociale insteek, en nodigt het publiek uit tot een interactieve discussie. 
+    description: Wat betekent het nu juist om over een "Internet of Things" te spreken in onze samenleving? Wat zal de eigenlijke invloed zijn, los van het technische? Rob van Kranenburg brengt een IoT verhaal met een sociale insteek, en nodigt het publiek uit tot een interactieve discussie.
 -
     type: workshop
     speakers: Bruce Helsen
@@ -141,12 +141,12 @@
     type: workshop
     speakers: Mitch Altman
     title: Leer solderen
-    description: Mitch Altman reist de wereld rond om mensen te leren solderen. Op Fri3d Camp staat hij weer klaar om iedereen deze nobele kunst aan te leren. 
+    description: Mitch Altman reist de wereld rond om mensen te leren solderen. Op Fri3d Camp staat hij weer klaar om iedereen deze nobele kunst aan te leren.
 -
     type: workshop
     speakers: Marian Verhelst
     title: LEGO + electronica = introductie electronische schakelingen
-    description: Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen! 
+    description: Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!
 -
     type: workshop
     speakers: Walter Belgers
@@ -156,7 +156,7 @@
     type: workshop
     speakers: Tagni Geudens
     title: Origami
-    description: Met zijn broer en zus gaat Tangi samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken. 
+    description: Met zijn broer en zus gaat Tangi samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken.
 -
     type: workshop
     speakers: Steffest
@@ -241,9 +241,9 @@
     type: workshop
     speakers: Ira Laurencin
     title: Zinvol tekenen met ouder en kind.
-    description: Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen. 
+    description: Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen.
 -
     type: activiteit
     speakers: Tom Van de Zande
     title: Zoektocht
-    description: De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden. 
+    description: De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden.

@@ -1,123 +1,62 @@
 ---
 title: Programma
+tagline: Wat valt er te beleven?
+layout: page
 ---
-{% include header.html %}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/alertify.min.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/default.min.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/semantic.min.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.6.1/css/themes/bootstrap.min.css"/>
-
-    <div class="jumbotron">
-      <div class="container">   
-        <h1>Programma</h1>
-        <p>Dit schema wordt live up to date gehouden.</p>
-      </div>
-    </div>
-    <div class="container"> 
-      <script>
-      function drawday() {
-        var startat=10;
-        var endat = 22;
-        var returnedcontent = "";
-        for (var i=startat;i<=endat;i++) {
-          if (i<endat) {
-            returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p><p class=\"schedule-timelabel\">"+i+":15</p></div><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":30</p><p class=\"schedule-timelabel\">"+i+":45</p></div></div>";
-          } else {
-            returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p></div></div>";
-          }
-        }
-        //console.log(returnedcontent);
-        return returnedcontent
-      }
-      </script>    
-      <div class="schedule clearfix">
-        <div class="row">
-          <!-- begin track 1 -->
-          <div class="col-md-3 schedule-col">   
-            <h2>Tutorials</h2>   
+<div class="schedule clearfix">
+    <h2>Zaterdag</h2>
+    <div class="row">
+        <!-- begin track 1 -->
+        <div class="col-md-3 schedule-col">
+            <h3>Track 1</h3>
             <div class="schedule-items" id="track1">
-            </div>            
-          </div> 
-          <!-- end track 1 -->    
-          <!-- begin track 2 -->
-          <div class="col-md-3 schedule-col">  
-            <h2>Sprekers</h2>
-            <div class="schedule-items" id="track2">
+                {% include programma-hours.html %}
+                {% for activity in site.data.activitiesjson %}
+                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
+                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
+                </article>
+                {% endfor %}
             </div>
-          </div> 
-          <!-- end track 2 -->         
-          <!-- begin track 3 -->
-          <div class="col-md-3 schedule-col">    
-            <h2>Workshops</h2>
-            <div class="schedule-items" id="track3">
-            </div>
-          </div> 
-          <!-- end track 3 -->        
-          <!-- begin track 4 -->
-          <div class="col-md-3 schedule-col">    
-            <h2>Events</h2>
-            <div class="schedule-items" id="track4">
-            </div>
-          </div> 
-          <!-- end track 4 -->        
         </div>
-      </div>
-      {% include pagefooter.html %}
-    </div> <!-- /container -->
-{% include javascript.html %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-<script src="https://cdn.jsdelivr.net/alertifyjs/1.6.1/alertify.min.js"></script>
-<script>
-  // TODO load from programma.json
-  var activities = [
-    {
-      "titel"  : "Opening",
-      "start"  : "10:00",
-      "einde"  : "10:45",
-      "top"    :   0,
-      "height" :  90
-    },
-    {
-      "titel"  : "Testgegevens",
-      "start"  : "11:00",
-      "einde"  : "12:15",
-      "top"    : 120,
-      "height" : 150
-    },
-    {
-      "titel"  : "Testgegevens",
-      "start"  : "12:15",
-      "einde"  : "13:15",
-      "top"    : 270,
-      "height" : 120
-    }
-  ];
-
-  var activities_template = '\
-  {{"{{#."}}}}\
-    <article class="schedule-item"\
-             data-event-start="{{ "{{ start " }}}}"\
-             data-event-end="{{ "{{ einde " }}}}"\
-             style="top:{{ "{{ top " }}}}px;height:{{ "{{ height " }}}}px;">\
-      <a class="schedule-clickarea bg1" href="#">{{ "{{ titel " }}}}</a>\
-    </article>\
-  {{"{{/."}}}}';
-
-  Mustache.parse(activities_template);
-
-  // add activities
-  // TODO filter tracks, convert time to top/height,...
-  // TODO on update track changes and generate alerts
-  $(document).ready(function() {
-    $("#track1").append(Mustache.render(activities_template, activities));
-  });
-
-  // add schedule gridlines and hours
-  $(document).ready(function() {
-    $("#track1").append(drawday());
-    $("#track2").append(drawday());
-    $("#track3").append(drawday());
-    $("#track4").append(drawday());
-  });      
-</script>
-{% include footer.html %}
+        <!-- end track 1 -->
+        <!-- begin track 2 -->
+        <div class="col-md-3 schedule-col">
+            <h3>Track 2</h3>
+            <div class="schedule-items" id="track2">
+                {% include programma-hours.html %}
+                {% for activity in site.data.activitiesjson %}
+                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
+                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- end track 2 -->
+        <!-- begin track 3 -->
+        <div class="col-md-3 schedule-col">
+            <h3>Track 3</h3>
+            <div class="schedule-items" id="track3">
+                {% include programma-hours.html %}
+                {% for activity in site.data.activitiesjson %}
+                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
+                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- end track 3 -->
+        <!-- begin track 4 -->
+        <div class="col-md-3 schedule-col">
+            <h3>Track 4</h3>
+            <div class="schedule-items" id="track4">
+                {% include programma-hours.html %}
+                {% for activity in site.data.activitiesjson %}
+                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
+                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- end track 4 -->
+    </div>
+</div>
