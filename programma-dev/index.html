@@ -6,57 +6,22 @@ layout: page
 <div class="schedule clearfix">
     <h2>Zaterdag</h2>
     <div class="row">
-        <!-- begin track 1 -->
+        {% for track in site.data.tracks %}
+        <!-- begin track "{{ track }}" -->
         <div class="col-md-3 schedule-col">
-            <h3>Track 1</h3>
+            <h3>{{ track }}</h3>
             <div class="schedule-items" id="track1">
                 {% include programma-hours.html %}
                 {% for activity in site.data.activitiesjson %}
+                {% if activity.type == track %}
                 <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
                     <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
                 </article>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>
         <!-- end track 1 -->
-        <!-- begin track 2 -->
-        <div class="col-md-3 schedule-col">
-            <h3>Track 2</h3>
-            <div class="schedule-items" id="track2">
-                {% include programma-hours.html %}
-                {% for activity in site.data.activitiesjson %}
-                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
-                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
-                </article>
-                {% endfor %}
-            </div>
-        </div>
-        <!-- end track 2 -->
-        <!-- begin track 3 -->
-        <div class="col-md-3 schedule-col">
-            <h3>Track 3</h3>
-            <div class="schedule-items" id="track3">
-                {% include programma-hours.html %}
-                {% for activity in site.data.activitiesjson %}
-                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
-                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
-                </article>
-                {% endfor %}
-            </div>
-        </div>
-        <!-- end track 3 -->
-        <!-- begin track 4 -->
-        <div class="col-md-3 schedule-col">
-            <h3>Track 4</h3>
-            <div class="schedule-items" id="track4">
-                {% include programma-hours.html %}
-                {% for activity in site.data.activitiesjson %}
-                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
-                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
-                </article>
-                {% endfor %}
-            </div>
-        </div>
-        <!-- end track 4 -->
+        {% endfor %}
     </div>
 </div>
