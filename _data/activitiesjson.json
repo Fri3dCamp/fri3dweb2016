@@ -1,27 +1,21 @@
 [
   {
     "type"  : "orga",
-    "track" : "soldeerhoek",
-    "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
-  },
-  {
-    "type"  : "orga",
-    "track" : "knutselba(a)r",
-    "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
-  },
-  {
-    "type"  : "orga",
-    "track" : "fablab",
-    "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "track" : "main stage",
+    "title": "Opening ceremonie",
+    "timing": {  "day"  : "zaterdag",  "start": "11:00", "end"  : "11:30" }
   },
   {
     "type"  : "orga",
     "track" : "main stage",
-    "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "title": "Sluiting ceremonie",
+    "timing": {  "day"  : "maandag",  "start": "15:00", "end"  : "16:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "main stage",
+    "title": "Rombit Sponsor Talk",
+    "timing": {  "day"  : "zaterdag",  "start": "11:30", "end"  : "12:00" }
   },
   {
     "type"  : "orga",
@@ -34,6 +28,71 @@
     "track" : "main stage",
     "title": "Goeiemorgen",
     "timing": {  "day"  : "maandag",  "start": "10:00", "end"  : "10:30" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "main stage",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "fablab",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "knutselba(a)r",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "soldeerhoek",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "op het terrein",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "talk",
+    "track" : "main stage",
+    "title": "Keynote: TBD",
+    "speakers" : [ "Mitch Altman" ],
+    "timing": {  "day"  : "zaterdag",  "start": "12:00", "end"  : "12:45" }
+  },
+  {
+    "type": "kids",
+    "track": "knutselba(a)r",
+    "speakers": [
+      "Tagni Geudens"
+    ],
+    "title": "Origami",
+    "description": "Met zijn broer en zus gaat Tagni samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken.",
+    "timing" : {
+      "day"   : "zaterdag",
+      "start" : "12:45",
+      "end"   : "13:45"
+    }
+  },
+  {
+    "type": "workshop",
+    "track": "fablab",
+    "speakers": [
+        "Dewi Van De Vyver"
+	  ],
+    "title": "Wearables",
+    "description": "Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt,... mee om het te personaliseren met lichtjespatronen.",
+    "timing" : {
+      "day"   : "zaterdag",
+      "start" : "12:45",
+      "start" : "13:45"      
+    }
   },
   {
     "type": "kids",
@@ -402,14 +461,6 @@
 	],
     "title": "Waterraketten",
     "description": "Samen met Luc maken we watergestuurde raketten en lanceren ze! En als het weer het toelaat, lanceren we ook een echte raket."
-  },
-  {
-    "type": "workshop",
-    "speakers": [
-        "Dewi Van De Vyver"
-	],
-    "title": "Wearables",
-    "description": "Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt,... mee om het te personaliseren met lichtjespatronen."
   },
   {
     "type": "presentatie",
