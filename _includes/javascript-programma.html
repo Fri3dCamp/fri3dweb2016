@@ -14,15 +14,15 @@ $(document).ready(function() {
 //$("#track2").append(drawday());
 //$("#track3").append(drawday());
 //$("#track4").append(drawday());
-    var activecol = $("#tracksnav li.active a").attr('href');
+    //var activecol = $("#tracksnav li.active a").attr('href');
     //$(".schedule-cols").children().not(activecol).hide();
-    $(".schedule-cols").children(activecol).insertBefore($(".schedule-cols").children().first());
-    $("#tracksnav a").click(function(e) {
+    //$(".schedule-cols").children(activecol).insertBefore($(".schedule-cols").children().first());
+    $(".tracksnav a").click(function(e) {
         e.preventDefault();
         var mytarget = $(this).attr('href');
         $(this).parent().addClass("active");
         $(this).parent().siblings().removeClass("active");
-        $(".schedule-cols").children(mytarget).insertBefore($(".schedule-cols").children().first());
+        $(mytarget).insertBefore($(mytarget).siblings().first());
         //$(".schedule-cols").children().not(mytarget).hide();
         //$(".schedule-cols").children(mytarget).show();
     });

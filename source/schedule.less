@@ -1,3 +1,7 @@
+@color-schedule1: #eae6a4;
+@color-schedule2: #c5f4c1;
+@color-schedule3: #ffeed7;
+
 .schedule-row-hour {
 	border-top:1px solid @gray-light;
 	height:120px;
@@ -7,12 +11,34 @@
 .schedule-row {
 	box-sizing: border-box;
 }
+.schedule-cols {
+	padding-left: 60px;
+}
+.schedule-day h2 {
+	padding-top: 40px;
+}
 .schedule-col {
 	position: relative;
 	height:1560px;
 	h2 {
 		margin-bottom: 30px;
 	}
+	&:first-child {
+		.schedule-timelabel {
+			display: block;
+		}
+	}
+	h3 {
+		font-size: @font-size-h4;
+	}
+}
+.daysnav {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid @gray-light;
+}
+.tracksnav li {
+	font-size: @font-size-small;
 }
 .schedule-halfhour {
 	border-top:1px dotted @gray-light;
@@ -29,8 +55,12 @@
 	background-color: white;
 	box-sizing: border-box;
 	width: 50px;
+	margin-left:-50px;
 	float:left;
 	clear: left;
+	@media (min-width: @screen-md-min) {
+		display: none;
+	}
 }
 .schedule-items {
 	width:100%;
@@ -43,12 +73,17 @@
 	width: 100%;
 }
 .schedule-item {
-	border:1px solid @brand-secondary-light;
+	//border:1px solid @brand-secondary-light;
 	background-color: fade(@brand-secondary-lighter, 80%);
-	left:50px;
 	box-sizing: border-box;
-	width: 80%;
+	width:100%;
 	position: absolute;
+	font-size:@font-size-small;
+	h4 {
+		font-size: @font-size-base;
+		margin:0;
+		padding:0;
+	}
 	.schedule-clickarea {
 		background-color: fade(@brand-secondary-lighter, 80%);
 		padding:5px;
@@ -58,33 +93,28 @@
 		width:100%;
 		border-top: 1px solid @brand-secondary;
 		border-bottom: 1px solid @brand-secondary-light;
+		color:@gray-darker;
 		&.bg1 {
       // background-image:url('../img/basketball.png');
 			background-repeat: repeat;
 		}
 	}
-}
-
-.schedule-item.orga {
-	border:1px solid #aa0000;
-	background-color: fade(#aa0000, 80%);
-	.schedule-clickarea {
-		background-color: fade(#aa0000, 80%);
-  }
-}
-
-.schedule-item.talk {
-	border:1px solid #00aa00;
-	background-color: fade(#00aa00, 80%);
-	.schedule-clickarea {
-		background-color: fade(#00aa00, 80%);
-  }
-}
-
-.schedule-item.workshop {
-	border:1px solid #0000aa;
-	background-color: fade(#0000aa, 80%);
-	.schedule-clickarea {
-		background-color: fade(#0000aa, 80%);
-  }
+	&.orga {
+		.schedule-clickarea {
+			border-color:darken(@color-schedule1,20%);
+			background-color: @color-schedule1;
+		}
+	}
+ 	&.talk {
+		.schedule-clickarea {
+			border-color:darken(@color-schedule2,20%);
+			background-color: @color-schedule2;
+		}
+	}
+	&.workshop {
+		.schedule-clickarea {
+			border-color:darken(@color-schedule3,20%);
+			background-color: @color-schedule3;
+		}
+	}
 }
