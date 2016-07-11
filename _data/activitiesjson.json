@@ -91,7 +91,7 @@
     "timing" : {
       "day"   : "zaterdag",
       "start" : "12:45",
-      "start" : "13:45"      
+      "end"   : "13:45"      
     }
   },
   {
