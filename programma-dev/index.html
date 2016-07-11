@@ -6,22 +6,32 @@ layout: page
 <div class="schedule clearfix">
     <h2>Zaterdag</h2>
     <div class="row">
-        {% for track in site.data.tracks %}
-        <!-- begin track "{{ track }}" -->
-        <div class="col-md-3 schedule-col">
-            <h3>{{ track }}</h3>
-            <div class="schedule-items" id="track1">
-                {% include programma-hours.html %}
-                {% for activity in site.data.activitiesjson %}
-                {% if activity.type == track %}
-                <article class="schedule-item" data-event-start="10:00" data-event-end="10:45">{{ activity.title }}
-                    <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
-                </article>
-                {% endif %}
-                {% endfor %}
-            </div>
+        <div class="container visible-sm visible-xs">
+            <ul class="nav nav-pills" id="tracksnav">
+              {% assign active = true %}
+              {% for track in site.data.tracks %}
+              <li role="presentation" class="{% if active == true %}active{% assign active = false %}{% endif %}"><a href="#track-{{ track | remove: " " | downcase }}">{{ track }}</a></li>
+              {% endfor %}
+            </ul>
         </div>
-        <!-- end track 1 -->
-        {% endfor %}
+        <div class="schedule-cols">
+            {% for track in site.data.tracks %}
+            <!-- begin track "{{ track }}" -->
+            <div class="col-md-3 schedule-col" id="track-{{ track | remove: " " | downcase }}">
+                <h3>{{ track }}</h3>
+                <div class="schedule-items">
+                    {% include programma-hours.html %}
+                    {% for activity in site.data.activitiesjson %}
+                    {% if activity.type == track %}
+                    <article class="schedule-item" data-event-start="{{ activity.timing.start }}" data-event-end="{{ activity.timing.end }}">{{ activity.title }}
+                        <a class="schedule-clickarea bg1" href="#"><span>{{ activity.speakers }}</span></a>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- end track "{{ track }}" -->
+            {% endfor %}
+        </div>
     </div>
 </div>
