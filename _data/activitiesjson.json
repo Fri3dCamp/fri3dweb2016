@@ -2,14 +2,38 @@
   {
     "type"  : "orga",
     "track" : "soldeerhoek",
-    "speakers": [],
-    "title": "Dinner",
-    "description": "",
-    "timing": {
-      "day"  : "sat",
-      "start": "18:00",
-      "end"  : "20:00"
-    }
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "knutselba(a)r",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "fablab",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "main stage",
+    "title": "Diner",
+    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "main stage",
+    "title": "Goeiemorgen",
+    "timing": {  "day"  : "zondag",  "start": "10:00", "end"  : "10:30" }
+  },
+  {
+    "type"  : "orga",
+    "track" : "main stage",
+    "title": "Goeiemorgen",
+    "timing": {  "day"  : "maandag",  "start": "10:00", "end"  : "10:30" }
   },
   {
     "type": "kids",
@@ -20,7 +44,7 @@
     "title": "3D printing met pennen",
     "description": "Liselore vindt dat iedereen wel al's een 3D pen heeft geprobeerd, maar daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
     "timing" : {
-        "day"   : "sat",
+        "day"   : "zaterdag",
         "start" : "13:30",
         "end"   : "15:00" 
     }
