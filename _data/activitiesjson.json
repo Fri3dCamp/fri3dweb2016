@@ -1,6 +1,19 @@
 [
   {
-    "type": "soldeerhoek",
+    "type"  : "orga",
+    "track" : "soldeerhoek",
+    "speakers": [],
+    "title": "Dinner",
+    "description": "",
+    "timing": {
+      "day"  : "sat",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
+  },
+  {
+    "type": "kids",
+    "track": "soldeerhoek",
     "speakers": [
         "Liselore Lathouwers"
 	  ],

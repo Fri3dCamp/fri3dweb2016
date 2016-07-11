@@ -22,7 +22,7 @@ layout: page
                 <div class="schedule-items">
                     {% include programma-hours.html %}
                     {% for activity in site.data.activitiesjson %}
-                    {% if activity.type == track %}
+                    {% if activity.track == track %}
                     {% assign start           = activity.timing.start | split: ':'%}
                     {% assign start_min_top   = start[1] | times: 2 %}
                     {% assign start_top       = start[0] | minus: 10 | times: 120 | plus: start_min_top %}
@@ -30,7 +30,7 @@ layout: page
                     {% assign duration_hour   = end[0] | minus: start[0] %}
                     {% assign duration_min    = end[1] | minus: start[1] | divided_by: 15 %}
                     {% assign duration_height = duration_hour | times: 4 | plus: duration_min | times: 30 %}
-                    <article class="schedule-item"
+                    <article class="schedule-item {{ activity.type }}"
                              data-event-start="{{ activity.timing.start }}"
                              data-event-end="{{ activity.timing.end }}"
                              style="top:{{ start_top }}px;height:{{ duration_height }}px;">{{ activity.title }}
