@@ -4,7 +4,10 @@ tagline: Wat valt er te beleven?
 layout: page
 ---
 
-Je vindt hier de bevestigde sprekers, workshops en andere activiteiten van Fri3d Camp 2016. De volgende maanden zullen we dit in dagschema's gieten en verder aanvullen. Het loont dus de moeite om je in te schrijven op de mailinglist en onze updates op sociale media te volgen.
+Dit zijn alle activiteiten waar je op Fri3d Camp aan kan deelnemen.
+
+De <a href="tijdsindeling.html">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties.html">5 locaties</a>.
+
 <div class="row">
     <div class="col-md-6">
         {% include mc_form.html %}
