@@ -16,7 +16,7 @@ In Loods 318 bevinden zich naast het Main Stage, waar de presentaties doorgaan, 
 
 Het main stage is voorzien van veel stoelen, een groot podium met geluidsinstallatie en groooot schem.
 
-# Knutselba(a)r & bar
+# Knutselba(a)r
 
 <img src="images/knutselbaar-bar.png" width="80%">
 
@@ -24,7 +24,7 @@ Op het centrale veld (K8-1) bevinden zich de Knutselba(a)r en de bar. De Knutsel
 
 In de Knutselba(a)r zijn voldoende tafels en stoelen voorzien om aan de slag te gaan. Een groot scherm laat toe om inspiratie te tonen.
 
-# Het FabLab
+# FabLab
 
 <img src="images/fablab.png" width="80%">
 
