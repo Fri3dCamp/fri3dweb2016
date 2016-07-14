@@ -5,7 +5,7 @@ layout: page
 ---
 
 Het <a href=".">programma</a> van Fri3d Camp biedt voor ieder wat wils. Op <a
-href="locaties.html">vijf locaties</a> worden verschillende track georganiseerd.
+href="locaties.html">vijf locaties</a> worden verschillende tracks georganiseerd.
 
 <div class="schedule clearfix">
     {% for day in site.data.days %}
@@ -62,7 +62,7 @@ href="locaties.html">vijf locaties</a> worden verschillende track georganiseerd.
                              data-event-start="{{ activity.timing.start }}"
                              data-event-end="{{ activity.timing.end }}"
                              style="top:{{ start_top }}px;height:{{ duration_height }}px;">
-                        <a class="schedule-clickarea bg1" href="#">
+                        <a class="schedule-clickarea bg1" href="index.html#{{ activity.title | slugify }}">
                             <h4>{{ activity.title }}</h4>
                             <span>{{ activity.speakers | join: ", " }}</span></a>
                     </article>
