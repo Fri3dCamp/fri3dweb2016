@@ -6,7 +6,7 @@ layout: page
 
 Dit zijn alle activiteiten waar je op Fri3d Camp aan kan deelnemen.
 
-De <a href="tijdsindeling.html">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties.html">5 locaties</a>.
+De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties.html">5 locaties</a>.
 
 <div class="row">
 <div class="col-md-12">
