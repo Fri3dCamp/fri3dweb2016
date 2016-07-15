@@ -2,7 +2,7 @@
   {
     "type"  : "orga",
     "track" : "main stage",
-    "title": "Opening Ceremonie",
+    "title": "Openingsceremonie",
     "speakers" : [ "Fri3d Camp Organisatie", "Special Guest" ],
     "description": "Iedereen welkom op Fri3d Camp 2016!",
     "timing": {
@@ -15,7 +15,7 @@
   {
     "type"  : "orga",
     "track" : "main stage",
-    "title": "IoT door Rombit",
+    "title": "IoT bij Rombit",
     "speakers": [ "Jorik Rombouts, CEO Rombit" ],
     "description": "Rombit is onze platinum sponsor. Jorik stelt zijn bedrijf graag even aan jullie voor. Zijn passie voor IoT kent geen grenzen. Een talk om mee te maken.",
     "timing": {
@@ -69,7 +69,7 @@
     "track": "fablab",
     "speakers": [ "Dewi Van De Vyver" ],
     "title": "Wearables",
-    "description": "Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt,... mee om het te personaliseren met lichtjespatronen.",
+    "description": "Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt, ... mee om het te personaliseren met lichtjespatronen.",
     "timing" : {
       "day"   : "zaterdag",
       "date"  : "13 augustus 2016",
@@ -82,7 +82,7 @@
     "track": "soldeerhoek",
     "speakers": [ "Liselore Lathouwers" ],
     "title": "3D printing met pennen",
-    "description": "Liselore vindt dat iedereen wel al's een 3D pen heeft geprobeerd, maar daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
+    "description": "Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
     "timing" : {
         "day"   : "zaterdag",
         "date"  : "13 augustus 2016",
@@ -121,7 +121,7 @@
     "track": "op het terrein",
     "speakers": [ "Lieven Blancke" ],
     "title": "Aluminium smelten - oven maken",
-    "description": "We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
+    "description": "We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Voor we aluminium smelten maken we eerst zelf onze oven.",
     "timing" : {
         "day"   : "zaterdag",
         "date"  : "13 augustus 2016",
@@ -146,7 +146,7 @@
     "type": "kids",
     "track": "knutselba(a)r",
     "speakers": [  "Steffest" ],
-    "title": "Paper Games",
+    "title": "Paper games",
     "description": "Zijn de kinderen game-verslaafd? Met zelf uitgevonden papieren games kan de schermtijd naar beneden en de creativiteit omhoog. Breng een smart phone of tablet mee en ga naar huis met je eigen game app.",
     "timing" : {
         "day"   : "zaterdag",
@@ -264,7 +264,7 @@
     "track": "op het terrein",
     "speakers": [ "Lieven Blancke" ],
     "title": "Aluminium smelten - gieten stap 1",
-    "description": "We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
+    "description": "We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Met onze zelfgemakte oven smelten we aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
     "timing" : {
         "day"   : "zaterdag",
         "date"  : "13 augustus 2016",
@@ -343,7 +343,7 @@
     "track" : "main stage",
     "speakers": [ "Team Content" ],
     "title": "Goeiemorgen",
-    "description": "Team Content blikt vooruit naar de activiteiten van de dag en overlopen de laatste nieuwtjes.",
+    "description": "Team Content blikt vooruit naar de activiteiten van de dag en overloopt de laatste nieuwtjes.",
     "timing": {
       "day"  : "zondag",
       "date"  : "14 augustus 2016",
@@ -384,7 +384,7 @@
       "Marian Verhelst",
       "Wim Dehaene"
     ],
-    "title": "LEGO + electronica = introductie electronische schakelingen",
+    "title": "LEGO + elektronica = introductie elektronische schakelingen",
     "description": "Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
     "timing": {
       "day"  : "zondag",
@@ -410,7 +410,7 @@
     "type": "talk",
     "track" : "main stage",
     "speakers": [ "Johan Potums" ],
-    "title": "Rube Goldberg Machine Intro",
+    "title": "Rube Goldberg machine intro",
     "description": "Johan introduceert de Rube Goldberg Machine.",
     "timing": {
       "day"  : "zondag",
@@ -436,7 +436,7 @@
     "type": "workshop",
     "track" : "main stage",
     "speakers": [ "Johan Potums" ],
-    "title": "Rube Goldberg Machine Bouwen",
+    "title": "Rube Goldberg machine bouwen",
     "description": "Gedurende een volledige dag krijg je de kans om aan een Rube Goldberg machine te werken! Op het einde van de dag steken we de machine in gang, spektakel verzekerd!",
     "timing": {
       "day"  : "zondag",
@@ -476,7 +476,7 @@
     "track": "fablab",
     "speakers": [ "Kurt Beheydt" ],
     "title": "High tech bosspel",
-    "description": "We bedenken een high tech bosspel dat we samen kunnen spelen. Wat dacht je van een bijna echte bom die onschadelijk gemaakt kan worden, een koffertje met codeslot, infrarode tags om elkaar leventjes af te pakken, of LED-bakens die veranderen van kleur als je met jouw badge langs komt? Breng zo veel mogelijk (half-)afgewerkte electronica projecten mee. Kurt gaat samen met jou aan de slag om ze te integreren tot een heus spel.",
+    "description": "We bedenken een high tech bosspel dat we samen kunnen spelen. Wat dacht je van een bijna echte bom die onschadelijk gemaakt kan worden, een koffertje met codeslot, infrarode tags om elkaar leventjes af te pakken, of LED-bakens die veranderen van kleur als je met jouw badge langs komt? Breng zo veel mogelijk (half-)afgewerkte elektronica projecten mee. Kurt gaat samen met jou aan de slag om ze te integreren tot een heus spel.",
     "timing": {
       "day"  : "zondag",
       "date" : "14 augustus 2016",
@@ -514,7 +514,7 @@
     "type": "workshop",
     "track": "fablab",
     "speakers": [ "Walter Belgers" ],
-    "title": "Lockpicking Workshop",
+    "title": "Lockpicking workshop",
     "description": "Wie in 2014 de kans gemist heeft om aan de slag te gaan met sloten, krijgt dit jaar een herkansing. Walter brengt zijn lock picking tools mee en leert iedereen hoe onopenbare sloten toch geopend kunnen worden.",
     "timing": {
       "day"  : "zondag",
@@ -527,7 +527,7 @@
     "type": "workshop",
     "track": "op het terrein",
     "speakers": [ "Jan Baeyens" ],
-    "title": "Marvin, de grasrobot",
+    "title": "Marvin de grasrobot",
     "description": "Jan demonstreert zijn zelf-ontwikkelde grasrobot, Marvin. Hij heeft hiervoor ook een Eclipse plugin gemaakt, genaamd Sloeber.",
     "timing": {
       "day"  : "zondag",
@@ -543,7 +543,7 @@
       "Marian Verhelst",
       "Wim Dehaene"
     ],
-    "title": "LEGO + electronica = introductie electronische schakelingen",
+    "title": "LEGO + elektronica = introductie elektronische schakelingen",
     "description": "Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
     "timing": {
       "day"  : "zondag",
@@ -695,7 +695,7 @@
     "type": "workshop",
     "track": "main stage",
     "speakers": [ "Els De Ketelaere" ],
-    "title": "Fimo Night",
+    "title": "Fimo night",
     "description": "Leer unieke juwelen maken met Fimo-klei. Van Els mag je dat ook doen met een glaasje Whiskey erbij.",
     "timing" : {
         "day"   : "zondag",
@@ -761,7 +761,7 @@
     "track": "soldeerhoek",
     "speakers": [ "Ralph Willekes" ],
     "title": "Bouw een solar kit",
-    "description": "We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werk en waarom het belangrijk is schone energie te gebruiken.",
+    "description": "We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
     "timing": {
       "day"  : "maandag",
       "date" : "15 augustus 2016",
@@ -773,7 +773,7 @@
     "type": "talk",
     "track": "main stage",
     "speakers": [ "Ward De Ridder" ],
-    "title": "Wireless Belgie",
+    "title": "Wireless België",
     "description": "Het draadloze netwerk van Fri3d Camp wordt verzorgd door Wireless België. Ward komt vertellen over hoe het netwerk is gegroeid, en hoe het er nu uit ziet.",
     "timing": {
       "day"  : "maandag",
@@ -813,7 +813,7 @@
     "track": "main stage",
     "speakers": [ "Ira Laurencin"	],
     "title": "Er bestaan géén lastige kinderen?",
-    "description": "In een presentatie door Kindertolk Ira Laurencin duiken we in de relatie van ouder en kind. Je leert de last van je kind begrijpen en hoe je hiermee aan de slag kan.",
+    "description": "In een presentatie door kindertolk Ira Laurencin duiken we in de relatie van ouder en kind. Je leert de last van je kind begrijpen en hoe je hiermee aan de slag kan.",
     "timing": {
       "day"  : "maandag",
       "date" : "15 augustus 2016",
@@ -839,7 +839,7 @@
     "track": "op het terrein",
     "speakers": [ "Kurt Beheydt" ],
     "title": "High tech bosspel spelen",
-    "description": "Het spel is bedacht, nu gaan we spelen!",
+    "description": "Het bosspel is bedacht, nu gaan we het allemaal samen spelen!",
     "timing": {
       "day"  : "maandag",
       "date" : "15 augustus 2016",
@@ -878,7 +878,7 @@
     "track": "soldeerhoek",
     "speakers": [ "Ralph Willekes" ],
     "title": "Bouw een solar kit",
-    "description": "We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werk en waarom het belangrijk is schone energie te gebruiken.",
+    "description": "We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
     "timing": {
       "day"  : "maandag",
       "date" : "15 augustus 2016",
@@ -924,7 +924,7 @@
   {
     "type"  : "orga",
     "track" : "main stage",
-    "title": "Sluiting Ceremonie",
+    "title": "Sluitingsceremonie",
     "speakers" : [ "Fri3d Camp Organisatie" ],
     "description": "Dit was Fri3d Camp 2016. Bedankt iedereen!",
     "timing": {
