@@ -738,6 +738,19 @@
   },
   {
     "type": "workshop",
+    "track": "knutselba(a)r",
+    "speakers": [ "Iedereen" ],
+    "title": "SHA2017, Fri3d Camp 2018,... brainstorm",
+    "description": "We blikken samen even vooruit naar de komende events.",
+    "timing" : {
+        "day"   : "zondag",
+        "date"  : "14 augustus 2016",
+        "start" : "20:30",
+        "end"   : "21:00" 
+    }
+  },
+  {
+    "type": "workshop",
     "track": "op het terrein",
     "speakers": [ "Lieven Blancke" ],
     "title": "Aluminium smelten - gieten stap 2",
