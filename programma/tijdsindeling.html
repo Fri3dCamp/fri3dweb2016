@@ -62,9 +62,17 @@ href="locaties">vijf locaties</a> worden verschillende tracks georganiseerd.
                              data-event-start="{{ activity.timing.start }}"
                              data-event-end="{{ activity.timing.end }}"
                              style="top:{{ start_top }}px;height:{{ duration_height }}px;">
+                      {% if activity.hide %}
+                        <span class="schedule-clickarea bg1">
+                          <h4>{{ activity.title }}</h4>
+                          <span>{{ activity.speakers | join: ", " }}</span>
+                        </span>
+                      {% else %}
                         <a class="schedule-clickarea bg1" href="index#{{ activity.title | slugify }}">
-                            <h4>{{ activity.title }}</h4>
-                            <span>{{ activity.speakers | join: ", " }}</span></a>
+                          <h4>{{ activity.title }}</h4>
+                          <span>{{ activity.speakers | join: ", " }}</span>
+                        </a>
+                      {% endif %}
                     </article>
                           {% endif %}
                         {% endif %}
