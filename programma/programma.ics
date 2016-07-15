@@ -17,8 +17,8 @@ UID:{{ date }}T{{ start }}Z-{{ uid }}@fri3d.be
 DTSTAMP:{{ date }}T{{ start }}Z
 DTSTART:{{ date }}T{{ start }}Z
 DTEND:{{ date }}T{{ end }}Z
-SUMMARY:{{ activity.title }} {% if activity.speakers %}door {{ activity.speakers | join: ", " }}{% endif %}
-DESCRIPTION:{{ activity.description }}
+SUMMARY:{{ activity.title }}
+DESCRIPTION:{% if activity.speakers %}door {{ activity.speakers | join: ", " }}\n\n{% endif %}{{ activity.description }}
 LOCATION:{{ activity.track }}{%
   unless activity.hide %}
 URL:http://fri3d.be/programma/index.html#{{ uid }}{%
