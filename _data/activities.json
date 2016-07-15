@@ -929,9 +929,7 @@
   {
     "hide": true,
     "type": "workshop",
-    "speakers": [
-        "Daan Uttien"
-	],
+    "speakers": [ "Daan Uttien"	],
     "title": "The One Ring",
     "description": "SawuGo brengt een mobiele goudsmederij naar Fri3d. Er zullen verschillende workshops gehouden worden, waaronder 'The One Ring workshop' waarin je de basisbeginselen van goudsmeden leert en een zilveren ring maakt."
   },
