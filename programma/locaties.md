@@ -12,7 +12,7 @@ Het Fri3d Camp <a href=".">programma</a> wordt ingedeeld in 5 tracks en bijhoren
 
 <img src="images/main-stage.png" width="80%">
 
-In Loods 318 bevinden zich naast het Main Stage, waar de presentaties doorgaan, ook de Info Desk en de Speaker Desk. 's Avonds verzamelen we ook aan deze loods om samen het avondeten te nuttigen. Op zaterdagavond, voor de BBQ, worden hier ook de lightening talks georganiseerd en wordt de Rube Goldberg Machine in actie gezet.
+In Loods LK8 bevinden zich naast het Main Stage, waar de presentaties doorgaan, ook de Info Desk en de Speaker Desk. 's Avonds verzamelen we ook aan deze loods om samen het avondeten te nuttigen. Op zaterdagavond, voor de BBQ, worden hier ook de lightening talks georganiseerd en wordt de Rube Goldberg Machine in actie gezet.
 
 Het main stage is voorzien van veel stoelen, een groot podium met geluidsinstallatie en groooot schem.
 
@@ -28,7 +28,7 @@ In de Knutselba(a)r zijn voldoende tafels en stoelen voorzien om aan de slag te 
 
 <img src="images/fablab.png" width="80%">
 
-Het FabLab is dé plek waar alle hackers en makers hun plek kunnen innemen en aan hun projecten werken, samen nieuwe plannen smeden en ad-hoc workshops organiseren.
+Het FabLab, in loods 318, is dé plek waar alle hackers en makers hun plek kunnen innemen en aan hun projecten werken, samen nieuwe plannen smeden en ad-hoc workshops organiseren.
 
 Naast deze vrije ruimte zijn ook twee tracks hier gehuisvest:
 
