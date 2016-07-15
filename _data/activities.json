@@ -13,7 +13,7 @@
     }
   },
   {
-    "type"  : "orga",
+    "type"  : "talk",
     "track" : "main stage",
     "title": "IoT bij Rombit",
     "speakers": [ "Jorik Rombouts, CEO Rombit" ],
