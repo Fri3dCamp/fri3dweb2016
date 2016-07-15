@@ -229,35 +229,64 @@
     "type"  : "orga",
     "track" : "main stage",
     "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zaterdag",
+      "date" : "13 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "fablab",
     "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zaterdag",
+      "date" : "13 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "knutselba(a)r",
     "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zaterdag",
+      "date" : "13 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "soldeerhoek",
     "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zaterdag",
+      "date" : "13 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "op het terrein",
     "title": "Diner",
-    "timing": {  "day"  : "zaterdag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zaterdag",
+      "date" : "13 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "type": "workshop",
@@ -635,35 +664,64 @@
     "type"  : "orga",
     "track" : "main stage",
     "title": "Diner",
-    "timing": {  "day"  : "zondag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zondag",
+      "date" : "14 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "fablab",
     "title": "Diner",
-    "timing": {  "day"  : "zondag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zondag",
+      "date" : "14 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "knutselba(a)r",
     "title": "Diner",
-    "timing": {  "day"  : "zondag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zondag",
+      "date" : "14 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "soldeerhoek",
     "title": "Diner",
-    "timing": {  "day"  : "zondag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zondag",
+      "date" : "14 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "hide"  : true,
+    "noics" : true,
     "type"  : "orga",
     "track" : "op het terrein",
     "title": "Diner",
-    "timing": {  "day"  : "zondag",  "start": "18:00", "end"  : "20:00" }
+    "timing": {
+      "day"  : "zondag",
+      "date" : "14 augustus 2016",
+      "start": "18:00",
+      "end"  : "20:00"
+    }
   },
   {
     "type": "kids",
