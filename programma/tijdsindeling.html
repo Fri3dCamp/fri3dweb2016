@@ -42,7 +42,7 @@ href="locaties">vijf locaties</a> worden verschillende tracks georganiseerd.
             {% for track in site.data.tracks %}
             <!-- begin track "{{ track }}" -->
             <div class="col-md-2 schedule-col" id="track-{{ track | remove: " " | downcase }}-{{ day }}">
-                <h3><a href="locaties#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</h3>
+                <h3><a href="locaties#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</a></h3>
                 <div class="schedule-items">
                     {% include programma-hours.html %}
                     {% for activity in site.data.activities %}
