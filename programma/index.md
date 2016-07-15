@@ -6,7 +6,7 @@ layout: page
 
 Dit zijn alle activiteiten waar je op Fri3d Camp aan kan deelnemen.
 
-De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties.html">5 locaties</a>.
+De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties">5 locaties</a>.
 
 <div class="row">
 <div class="col-md-12">
@@ -19,7 +19,7 @@ De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Dez
     </header>
     <p>{{ activity.description }}</p>
     <footer>
-      <p>Op {{ activity.timing.day }} {{ activity.timing.date }} van {{ activity.timing.start }} tot {{ activity.timing.end }} - locatie: <a href="locaties.html#{{ activity.track | remove: "(" | remove: ")" | slugify }}">{{ activity.track }}</a></p>
+      <p>Op {{ activity.timing.day }} {{ activity.timing.date }} van {{ activity.timing.start }} tot {{ activity.timing.end }} - locatie: <a href="locaties#{{ activity.track | remove: "(" | remove: ")" | slugify }}">{{ activity.track }}</a></p>
     </footer>
   </article>
   {% endunless %}

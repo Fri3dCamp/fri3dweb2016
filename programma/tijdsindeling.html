@@ -42,7 +42,7 @@ href="locaties">vijf locaties</a> worden verschillende tracks georganiseerd.
             {% for track in site.data.tracks %}
             <!-- begin track "{{ track }}" -->
             <div class="col-md-2 schedule-col" id="track-{{ track | remove: " " | downcase }}-{{ day }}">
-                <h3><a href="locaties.html#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</h3>
+                <h3><a href="locaties#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</h3>
                 <div class="schedule-items">
                     {% include programma-hours.html %}
                     {% for activity in site.data.activities %}
@@ -62,7 +62,7 @@ href="locaties">vijf locaties</a> worden verschillende tracks georganiseerd.
                              data-event-start="{{ activity.timing.start }}"
                              data-event-end="{{ activity.timing.end }}"
                              style="top:{{ start_top }}px;height:{{ duration_height }}px;">
-                        <a class="schedule-clickarea bg1" href="index.html#{{ activity.title | slugify }}">
+                        <a class="schedule-clickarea bg1" href="index#{{ activity.title | slugify }}">
                             <h4>{{ activity.title }}</h4>
                             <span>{{ activity.speakers | join: ", " }}</span></a>
                     </article>
