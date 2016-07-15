@@ -718,6 +718,20 @@
     }
   },
   {
+    "hidetiming": true,
+    "type": "workshop",
+    "track": "op het terrein",
+    "speakers": [ "Wouter Van Beirendonck" ],
+    "title": "Hack your body - Yoga",
+    "description": "Elke ochtend, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.",
+    "timing": {
+      "day"  : "maandag",
+      "date"  : "15 augustus 2016",
+      "start": "8:00",
+      "end"  : "8:30"
+    }
+  },
+  {
     "type"  : "orga",
     "track" : "main stage",
     "speakers": [ "Team Content" ],
