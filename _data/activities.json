@@ -94,7 +94,7 @@
       "type": "workshop",
       "track": "op het terrein",
       "speakers": [ "Hans Van Ingelgom" ],
-      "title": "Zenderzoektoecht",
+      "title": "Zenderzoektocht",
       "description": "Hans heeft een aantal zenders verstopt op het terrein. Tijd om de SDRs boven te halen en ze te zoeken.",
       "timing" : {
           "day"   : "zaterdag",
