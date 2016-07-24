@@ -4,7 +4,7 @@ tagline: Wat valt er te beleven?
 layout: page
 ---
 
-Dit zijn alle activiteiten waar je op Fri3d Camp aan kan deelnemen.
+Dit zijn alle {{ site.data.activities | size  | minus: 14 }} activiteiten waar je op Fri3d Camp aan kan deelnemen.
 
 De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties">5 locaties</a>.
 
