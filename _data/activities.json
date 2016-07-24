@@ -91,6 +91,19 @@
     }
   },
   {
+      "type": "workshop",
+      "track": "op het terrein",
+      "speakers": [ "Hans Van Ingelgom" ],
+      "title": "Zenderzoektoecht",
+      "description": "Hans heeft een aantal zenders verstopt op het terrein. Tijd om de SDRs boven te halen en ze te zoeken.",
+      "timing" : {
+          "day"   : "zaterdag",
+          "date"  : "13 augustus 2016",
+          "start" : "15:00",
+          "end"   : "18:00" 
+      }
+  },
+  {
     "type": "kids",
     "track": "knutselba(a)r",
     "speakers": [ "Maria-Cristina Ciocci" ],
@@ -828,6 +841,19 @@
       "end"  : "12:30"
     }
   },
+  {
+    "type": "kids",
+    "track": "knutselba(a)r",
+    "speakers": [ "Anthony Liekens" ],
+    "title": "Blubber-slijm maken",
+    "description": "Met de allerkleinsten, en waarschijnlijk ook wat groteren, gaat Anthony met huis, tuin en keukenspullen (en met veel verf en glitter) aan de slag om zelf écht blubberig slijm te maken. Een glibberige droom voor heel jong en oud.",
+    "timing": {
+      "day"  : "maandag",
+      "date" : "15 augustus 2016",
+      "start": "10:30",
+      "end"  : "11:30"
+    }
+  },  
   {
     "type": "workshop",
     "track": "op het terrein",
