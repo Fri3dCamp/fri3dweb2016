@@ -750,8 +750,21 @@
     }
   },
   {
-    "type": "workshop",
+    "type": "kids",
     "track": "knutselba(a)r",
+    "speakers": [ "Christophe Van Ginneken & familie" ],
+    "title": "Zwevende lichtgevende monsters",
+    "description": "<a href='./images/glow-stick-monsters.jpg' target='_blank'><img src='./images/glow-stick-monsters-thumb.jpg' style='float:right;position:relative;top:-75px;margin-left:20px;'></a>Met (minstens) 200 glow sticks en 5 ballonnen van 90cm vol helium gaan we feërieke zwevende monsters het luchtruim in sturen. We kunnen veel vingers gebruiken om alle glow sticks aan elkaar te bevestigen en veel papa's en mama's met fototoestellen (met een lange sluitertijd).",
+    "timing" : {
+        "day"   : "zondag",
+        "date"  : "14 augustus 2016",
+        "start" : "20:30",
+        "end"   : "22:00" 
+    }
+  },
+  {
+    "type": "orga",
+    "track": "main stage",
     "speakers": [ "Iedereen" ],
     "title": "SHA2017, Fri3d Camp 2018,... brainstorm",
     "description": "We blikken samen even vooruit naar de komende events.",
