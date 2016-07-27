@@ -66,7 +66,7 @@
   },
   {
     "type": "workshop",
-    "track": "fablab",
+    "track": "soldeerhoek",
     "speakers": [ "Dewi Van De Vyver" ],
     "title": "Wearables",
     "description": "Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt, ... mee om het te personaliseren met lichtjespatronen.",
@@ -86,8 +86,8 @@
     "timing" : {
         "day"   : "zaterdag",
         "date"  : "13 augustus 2016",
-        "start" : "13:30",
-        "end"   : "15:00" 
+        "start" : "13:45",
+        "end"   : "15:15" 
     }
   },
   {
