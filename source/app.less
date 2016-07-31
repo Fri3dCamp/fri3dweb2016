@@ -84,6 +84,9 @@ h4 {
     border-bottom: 0;
 }
 .navbar-default.headerbg .navbar-nav>li {
+    div {
+        display:inline;
+    }
     &.active {
         a {
             background-color: @gray-lighter;
@@ -93,17 +96,43 @@ h4 {
             }
         }
     }
+
     a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
         color:white;
+        line-height: 20px;
         @media screen and (min-width:@screen-sm-min) {
             color:@brand-secondary-light;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
         &:hover {
             color:@brand-secondary-lighter;
         }
     }
 }
-
+.navbar-default.headerbg .navbar-nav>li .dropdown.open {
+    a {
+        color:@brand-primary;
+        background-color: white;
+        text-decoration: none;
+    }
+    .dropdown-menu {
+        border-radius: 0;
+        border:none;
+        margin-top: 0;
+        background-color: white;
+        li a {
+            color:@brand-secondary;
+            &:hover {
+                color:white;
+                background-color: @brand-secondary-light;
+            }
+        }
+    }
+}
 .navbar-collapse {
     @media screen and (max-width:@screen-xs-max) {
         background-color: @brand-secondary;
@@ -119,6 +148,8 @@ h4 {
         padding-bottom: 10px;
     }
 }
+
+
 
 .navbar-default.headerbg .navbar-nav>li.herolink {
     @media screen and (min-width:@screen-sm-min) {
@@ -358,14 +389,6 @@ line.logoline-B {
         padding-right: 5px;
     }
 }
-
-// sponsor styling
-
-.sponsorthumb {
-  max-width: 200px;
-  max-height: 75px;
-  margin: 25px;
-}
 #tracksnav.nav-tabs a, #tracksnav.nav-pills a {
     font-size: @font-size-small;
 }
@@ -374,4 +397,13 @@ line.logoline-B {
     &:hover {
         background-color: @brand-primary-light;
     }
+}
+// end activities
+
+// sponsor styling
+
+.sponsorthumb {
+  max-width: 200px;
+  max-height: 75px;
+  margin: 25px;
 }

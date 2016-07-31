@@ -1,22 +1,19 @@
 ---
-title: Programma
+title: Lijst A-Z
 tagline: Wat valt er te beleven?
 layout: page
 ---
 
-Je vindt hier de bevestigde sprekers, workshops en andere activiteiten van Fri3d Camp 2016. De volgende maanden zullen we dit in dagschema's gieten en verder aanvullen. Het loont dus de moeite om je in te schrijven op de mailinglist en onze updates op sociale media te volgen.
-<div class="row">
-    <div class="col-md-6">
-        {% include mc_form.html %}
-    </div>
-    <div class="col-md-6">
-        {% include socialbuttons.html %}
-    </div>
-</div>
-<h2>Volledige lijst van geplande activiteiten</h2>
+Dit zijn alle {{ site.data.activities | size  | minus: 14 }} activiteiten waar je op Fri3d Camp aan kan deelnemen.
+
+De <a href="tijdsindeling">tijdsindeling</a> kan je ook visueel consulteren. Deze activiteiten gaan door op <a href="locaties">5 locaties</a>.
+
+Het programma is ook beschikbaar als een online kalender (<a href="programma.ics">ics, </a> <a href="webcal://fri3d.be/programma/programma.ics">webcal</a>). Voeg deze toe als een abonnement en je hebt altijd de laatste versie van het programma in je eigen agenda.
+
 <div class="row">
 <div class="col-md-12">
 {% for activity in site.data.activities %}
+  {% unless activity.hide %}
   <article class="contentitem activity" id="{{ activity.title | slugify }}">
     <header>
       <h3>{{ activity.title }}</h3>
@@ -24,9 +21,10 @@ Je vindt hier de bevestigde sprekers, workshops en andere activiteiten van Fri3d
     </header>
     <p>{{ activity.description }}</p>
     <footer>
-      <p>type: {{ activity.type }}</p>
+      <p>Op {{ activity.timing.day }} {{ activity.timing.date }} van {{ activity.timing.start }} tot {{ activity.timing.end }} - locatie: <a href="locaties#{{ activity.track | remove: "(" | remove: ")" | slugify }}">{{ activity.track }}</a></p>
     </footer>
   </article>
+  {% endunless %}
 {% endfor %}
 </div>
 </div>

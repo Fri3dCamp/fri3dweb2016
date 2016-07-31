@@ -116,5 +116,30 @@
 			border-color:darken(@color-schedule3,20%);
 			background-color: @color-schedule3;
 		}
+		&.overlap {
+			width:80%;
+			margin-left: 20%;
+			border-left: 1px solid darken(@color-schedule3,20%);
+		}
 	}
+}
+
+.legend {
+  margin-top: 20px;
+  span {
+  	font-size: @font-size-small;
+    padding: 5px;
+  }
+  .orga {
+    background-color: @color-schedule1;
+  }
+  .talk {
+    background-color: @color-schedule2;
+  }
+  .workshop {
+    background-color: @color-schedule3;
+  }
+  .kids {
+    background-color: @brand-secondary-lighter;
+  }
 }

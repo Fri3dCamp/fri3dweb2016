@@ -1,0 +1,102 @@
+---
+title: Dagschema
+tagline: Wanneer valt wat te beleven?
+layout: page
+---
+
+Het <a href=".">programma</a> van Fri3d Camp biedt voor ieder wat wils. Op <a
+href="locaties">vijf locaties</a> worden {{ site.data.activities | size | minus: 14 }} activiteiten georganiseerd op verschillende tracks.
+
+Het programma is ook beschikbaar als een online kalender (<a
+href="programma.ics">ics</a>, <a href="webcal://fri3d.be/programma/programma.ics">webcal</a>). Voeg
+deze toe als een abonnement en je hebt altijd de laatste versie van het
+programma in je eigen agenda.
+
+
+<div class="legend">
+  Legende:
+  <span class="workshop">Workshop</span>
+  <span class="talk">Talk</span>
+  <span class="kids">Kids</span>
+  <span class="orga">Organisatie</span>
+</div>
+
+<div class="schedule clearfix">
+    {% for day in site.data.days %}
+    <div class="container schedule-day" id="schedule-{{ day | downcase }}">
+        <h2>{{ day | capitalize }}</h2>
+        <ul class="nav nav-pills daysnav visible-sm visible-xs">
+            {% if day != "zaterdag" %}
+            <li>
+                <a href="#schedule-zaterdag">Zaterdag</a>
+            </li>
+            {% endif %}
+            {% if day != "zondag" %}
+            <li>
+                <a href="#schedule-zondag">Zondag</a>
+            </li>
+            {% endif %}
+            {% if day != "maandag" %}
+            <li>
+                <a href="#schedule-maandag">Maandag</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="container visible-sm visible-xs">
+        <ul class="nav nav-tabs tracksnav" id="tracksnav-{{ day | downcase }}">
+          {% assign active = true %}
+          {% for track in site.data.tracks %}
+          <li role="presentation" class="{% if active == true %}active{% assign active = false %}{% endif %}"><a href="#track-{{ track | remove: " " | downcase }}-{{ day }}">{{ track }}</a></li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="row">
+        <div class="schedule-cols" id="schedule-{{ day | downcase }}">
+            {% for track in site.data.tracks %}
+            <!-- begin track "{{ track }}" -->
+            <div class="col-md-2 schedule-col" id="track-{{ track | remove: " " | downcase }}-{{ day }}">
+                <h3><a href="locaties#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</a></h3>
+                <div class="schedule-items">
+                    {% include programma-hours.html %}
+                    {% for activity in site.data.activities %}
+                      {% unless activity.hidetiming %}
+                        {% if activity.timing.day == day %}
+                          {% if activity.track == track %}
+                            {% assign min_height      = 2 %}
+                            {% assign hour_height     = min_height | times: 60 %}
+                            {% assign start           = activity.timing.start | split: ':'%}
+                            {% assign start_min_top   = start[1] | times: min_height %}
+                            {% assign start_top       = start[0] | minus: 10 | times: hour_height | plus: start_min_top %}
+                            {% assign end             = activity.timing.end | split: ':' %}
+                            {% assign duration_hour   = end[0] | minus: start[0] %}
+                            {% assign duration_min    = end[1] | minus: start[1] %}
+                            {% assign duration_height = duration_hour | times: 60 | plus: duration_min | times: min_height %}
+                    <article class="schedule-item {{ activity.type }}"
+                             data-event-start="{{ activity.timing.start }}"
+                             data-event-end="{{ activity.timing.end }}"
+                             style="top:{{ start_top }}px;height:{{ duration_height }}px;">
+                      {% if activity.hide %}
+                        <span class="schedule-clickarea bg1">
+                          <h4>{{ activity.title }}</h4>
+                          <span>{{ activity.speakers | join: ", " }}</span>
+                        </span>
+                      {% else %}
+                        <a class="schedule-clickarea bg1" href="index#{{ activity.title | slugify }}">
+                          <h4>{{ activity.title }}</h4>
+                          <span>{{ activity.speakers | join: ", " }}</span>
+                        </a>
+                      {% endif %}
+                    </article>
+                          {% endif %}
+                        {% endif %}
+                      {% endunless %}
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- end track "{{ track }}" -->
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
