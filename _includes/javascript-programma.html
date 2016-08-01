@@ -1,22 +1,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-<script src="https://cdn.jsdelivr.net/alertifyjs/1.6.1/alertify.min.js"></script>
 <script>
 
-// add activities
-// TODO filter tracks, convert time to top/height,...
-// TODO on update track changes and generate alerts
-$(document).ready(function() {
-});
 
-// add schedule gridlines and hours
 $(document).ready(function() {
-//$("#track1").append(drawday());
-//$("#track2").append(drawday());
-//$("#track3").append(drawday());
-//$("#track4").append(drawday());
-    //var activecol = $("#tracksnav li.active a").attr('href');
-    //$(".schedule-cols").children().not(activecol).hide();
-    //$(".schedule-cols").children(activecol).insertBefore($(".schedule-cols").children().first());
+    // enable modal popups
+    $("a[rel*=leanModal]").leanModal({closeButton: ".modal_close" });
+    // tracksnav switcher
     $(".tracksnav a").click(function(e) {
         e.preventDefault();
         var mytarget = $(this).attr('href');
@@ -27,18 +16,5 @@ $(document).ready(function() {
         //$(".schedule-cols").children(mytarget).show();
     });
 });
-function drawday() {
-  var startat=10;
-  var endat = 22;
-  var returnedcontent = "";
-  for (var i=startat;i<=endat;i++) {
-    if (i<endat) {
-      returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p><p class=\"schedule-timelabel\">"+i+":15</p></div><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":30</p><p class=\"schedule-timelabel\">"+i+":45</p></div></div>";
-    } else {
-      returnedcontent+="<div class=\"schedule-row schedule-row-hour\"><div class=\"schedule-halfhour\"><p class=\"schedule-timelabel\">"+i+":00</p></div></div>";
-    }
-  }
-  //console.log(returnedcontent);
-  return returnedcontent
-}
+
 </script>

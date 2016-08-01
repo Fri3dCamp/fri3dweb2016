@@ -43,15 +43,21 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
         <ul class="nav nav-tabs tracksnav" id="tracksnav-{{ day | downcase }}">
           {% assign active = true %}
           {% for track in site.data.tracks %}
-          <li role="presentation" class="{% if active == true %}active{% assign active = false %}{% endif %}"><a href="#track-{{ track | remove: " " | downcase }}-{{ day }}">{{ track }}</a></li>
+          <li role="presentation" class="{% if active == true %}active{% assign active = false %}{% endif %}"><a href="#track-{{ track | remove: "(" | remove: ")" | slugify }}-{{ day }}">{{ track }}</a></li>
           {% endfor %}
         </ul>
+    </div>
+    <div class="row">
+        <div class"col-sm-12">
+            <div class="container">
+                Yoga</div>
+            </div>
     </div>
     <div class="row">
         <div class="schedule-cols" id="schedule-{{ day | downcase }}">
             {% for track in site.data.tracks %}
             <!-- begin track "{{ track }}" -->
-            <div class="col-sm-2 schedule-col" id="track-{{ track | remove: " " | downcase }}-{{ day }}">
+            <div class="col-sm-2 schedule-col" id="track-{{ track | remove: "(" | remove: ")" | slugify }}-{{ day }}">
                 <h3><a href="locaties#{{ track | remove: "(" | remove: ")" | slugify }}">{{ track }}</a></h3>
                 <div class="schedule-items">
                     {% include programma-hours.html %}
@@ -82,7 +88,7 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
                           <span class="speakers">{{ activity.speakers | join: ", " }}</span>
                         </span>
                       {% else %}
-                        <a class="schedule-clickarea bg1" href="index#{{ activity.title | slugify }}">
+                        <a class="schedule-clickarea bg1" rel="leanModal" href="#{{ activity.title | slugify }}">
                           <h4>{{ activity.title }}</h4>
                           <span class="speakers">{{ activity.speakers | join: ", " }}</span>
                         </a>
@@ -99,4 +105,7 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
         </div>
     </div>
     {% endfor %}
+    <div class="popups">
+    {% include activities.html %}
+    </div>
 </div>

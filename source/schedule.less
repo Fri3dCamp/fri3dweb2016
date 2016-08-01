@@ -48,10 +48,13 @@
 	}
 	h3 {
 		font-size: @font-size-h4;
+		min-height: 30px;
 		@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 			font-size: @font-size-h6;
 			font-family: @font-family-base;
 			font-weight: bold;
+			min-height: 20px;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -185,4 +188,37 @@
   .kids {
 	.bg-schedule4();
   }
+}
+
+//popups
+
+.modal_close {
+	display: none;
+}
+
+.popups > article {
+    display: none;
+    background-color: white;
+    padding:15px;
+    width:100%;
+    max-width: @screen-sm-max;
+	position: relative;
+	h3 {
+		margin-top: 0;
+		padding-right: 20px;
+	}
+	.modal_close {
+		display: block;
+		position: absolute;
+		right:10px;
+		top:10px;
+		/*width:24px;
+		height:24px;*/
+		cursor:pointer;
+		.fa {
+			position:absolute;
+			left:0px;
+			top:0px;
+		}
+	}
 }
