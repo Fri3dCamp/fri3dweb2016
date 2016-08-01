@@ -812,6 +812,8 @@
    {
       "type":"workshop",
       "track":"op het terrein",
+      "z-index": 50,
+      "extraclass":"overlap",
       "speakers":[
          "Jan Baeyens"
       ],
