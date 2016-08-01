@@ -10,6 +10,18 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 @import "bootstrap/less/bootstrap.less";
 @import "schedule.less";
 
@@ -381,12 +393,39 @@ line.logoline-B {
     header p, footer p {
         font-size: @font-size-small;
     }
-    .speaker {
+    .speaker, .fact {
         border-radius: 4px;
-        background-color: @gray-lighter;
         display: inline-block;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .fact {
+        background-color: @gray-light;
+        color:white;
+        &.type-orga {
+      	     .bg-schedule1();
+             color:@gray-base;
+        }
+        &.type-talk {
+      	     .bg-schedule2();
+             color:@gray-base;
+        }
+        &.type-workshop {
+      	     .bg-schedule3();
+             color:@gray-base;
+        }
+        &.type-kids {
+      	     .bg-schedule4();
+             color:@gray-base;
+        }
+    }
+    .speaker {
+        background-color: @gray-lighter;
+    }
+    a.fact,a.speaker {
+        background-color: @brand-secondary-light;
+        color:@brand-secondary-dark;
+        text-decoration: none;
     }
 }
 #tracksnav.nav-tabs a, #tracksnav.nav-pills a {

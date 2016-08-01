@@ -659,6 +659,7 @@
    {
       "type":"kids",
       "track":"op het terrein",
+      "z-index": 60,
       "speakers":[
          "Kurt Beheydt"
       ],
@@ -1035,8 +1036,10 @@
       }
    },
    {
-      "type":"workshop overlap",
+      "type":"workshop",
       "track":"op het terrein",
+      "z-index": 50,
+      "extraclass":"overlap",
       "speakers":[
          "Daan Uttien"
       ],

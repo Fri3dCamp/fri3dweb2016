@@ -17,11 +17,11 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
   <article class="contentitem activity" id="{{ activity.title | slugify }}">
     <header>
       <h3>{{ activity.title }}</h3>
-      <p>door: {% for speaker in activity.speakers %} <span class="speaker">{{speaker}}</span> {% endfor %}</p>
+      <p>type: <span class="fact type-{{ activity.type }}">{{ activity.type }}</span> - op <span class="fact">{{ activity.timing.day }}</span> {{ activity.timing.date }} van {{ activity.timing.start }} tot {{ activity.timing.end }} - locatie: <a class="fact" href="locaties#{{ activity.track | remove: "(" | remove: ")" | slugify }}">{{ activity.track }}</a></p>
     </header>
     <p>{{ activity.description }}</p>
     <footer>
-      <p>Op {{ activity.timing.day }} {{ activity.timing.date }} van {{ activity.timing.start }} tot {{ activity.timing.end }} - locatie: <a href="locaties#{{ activity.track | remove: "(" | remove: ")" | slugify }}">{{ activity.track }}</a></p>
+    <p>door: {% for speaker in activity.speakers %} <span class="speaker">{{speaker}}</span> {% endfor %}</p>      
     </footer>
   </article>
   {% endunless %}

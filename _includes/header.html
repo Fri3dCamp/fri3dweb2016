@@ -54,5 +54,5 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body{% if page.bodyclass %} class="{{page.bodyclass}}"{% endif %}>
   {% include navbar.html %}

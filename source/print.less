@@ -1,9 +1,72 @@
 @page {
-  size: A4;
+  size: A4 portrait;
 }
 article.contentitem {
     page-break-inside: avoid;
 }
 @media print {
-
+    body {
+        font-size: @font-size-small;
+    }
+    a[href]:after {
+        display: none;
+    }
+    .schedule-item {
+        border-left:1px dotted;
+        border-right: 1px dotted;
+        background-color: @gray-lighter !important;
+        font-size: 8px;
+        &.orga, &.workshop, &.talk, &.kids {
+            border-color: @gray-darker;
+            .schedule-clickarea {
+    	        border-color: @gray-darker;
+            }
+        }
+        h4 {
+    		font-family: @font-family-base;
+    		font-weight: bold;
+    		font-size: 8px;
+        }
+    }
+    .schedule-cols {
+        page-break-after: always;
+    }
+    .schedule-col {
+        height: 780px;
+        h3 {
+            font-size: @font-size-h6;
+			font-family: @font-family-base;
+			font-weight: bold;
+        }
+    }
+    .col-sm-2.schedule-col {
+        width:16.66%;
+        float:left;
+        padding-left: 15px;
+        padding-right: 15px;
+        .schedule-timelabel {
+            display: none;
+        }
+    }
+    .schedule-col:first-child .schedule-timelabel {
+        display: block;
+    }
+    .dagschema .jumbotron, .dagschema .legend, .tracksnav,.daysnav {
+        display:none !important;
+    }
+    .activity {
+        h3 {
+            font-family: "montserratregular";
+        }
+        .fact {
+            background:none;
+            color:@gray-base;
+            border-radius: 0;
+            border-bottom: 1px solid @gray-base;
+            font-weight: bold;
+        }
+        .speaker {
+            font-style: italic;
+        }
+    }
 }
