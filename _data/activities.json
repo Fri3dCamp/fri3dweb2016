@@ -933,21 +933,6 @@
       }
    },
    {
-      "type":"kids",
-      "track":"knutselba(a)r",
-      "speakers":[
-         "Seth Van Akeleyen"
-      ],
-      "title":"Robots van piepschuim en servo's",
-      "description":"Bouw een animatronic Frieyebot! Echt iedereen kan een Frieyebot maken, én laten bewegen. Twee linker handen? No problem!",
-      "timing":{
-         "day":"zondag",
-         "date":"14 augustus 2016",
-         "start":"12:30",
-         "end":"14:30"
-      }
-   },
-   {
       "type":"talk",
       "track":"main stage",
       "speakers":[
