@@ -1,0 +1,35 @@
+---
+layout: stp
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<iCalendar>
+  <vcalendar>
+    <version>2.0</version>
+    <prodid>-//Fri3d Camp//Programma 2016//NL</prodid>{%
+for activity in site.data.activities %}{%
+  unless activity.noics %}{%
+  if activity.timing %}{%
+  capture uid   %}{{ activity.title | slugify}}{% endcapture %}{%
+  capture date  %}201608{{ activity.timing.date | lstrip | slice: 0, 2 }}{% endcapture %}{%
+  capture start %}{{ activity.timing.start | remove: ":" | minus: 200 | prepend: "0" | slice: -4, 4 }}00{% endcapture %}{%
+  capture end   %}{{ activity.timing.end   | remove: ":" | minus: 200 | prepend: "0" | slice: -4, 4 }}00{% endcapture %}
+    <vevent>
+      <uid>{{ date }}T{{ start }}Z-{{ uid }}@fri3d.be</uid>
+      <dtstamp>{{ date }}T{{ start }}Z</dtstamp>
+      <dtstart>{{ date }}T{{ start }}Z</dtstart>
+      <dtend>{{ date }}T{{ end }}Z</dtend>
+      <summary>{{ activity.title }}</summary>{%
+  for speaker in activity.speakers %}
+      <attendee>{{ speaker }}</attendee>{%
+  endfor %}
+      <description>{{ activity.description }}</description>
+      <location>{{ activity.track }}</location>{%
+  unless activity.hide %}
+      <url>http://fri3d.be/programma/index.html#{{ uid }}</url>{%
+  endunless %}
+    </vevent>{%
+  endif %}{%
+  endunless %}{%
+  endfor %}
+  </vcalendar>
+</iCalendar>
