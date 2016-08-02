@@ -108,6 +108,16 @@
 	font-size:@font-size-small;
 	overflow: hidden;
 	line-height: 1.2;
+	&.well {
+		background-color:@gray-lighter;
+		width:auto;
+		position: relative;
+		.schedule-clickarea {
+			background: transparent;
+			padding:0;
+			border:none;
+		}
+	}
 	@media (max-width: @screen-sm-max) {
 		line-height: 1;
 	}

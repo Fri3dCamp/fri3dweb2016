@@ -47,12 +47,29 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
           {% endfor %}
         </ul>
     </div>
-    <!-- <div class="row">
+    <div class="row">
         <div class"col-sm-12">
             <div class="container">
-                Yoga</div>
+            {% for activity in site.data.activities %}
+                {% if activity.hidetiming and day == activity.timing.day %}
+                <article class="well well-sm schedule-item">
+                    {% if activity.hide %}
+                      <span class="schedule-clickarea bg1">
+                        <p>{{ activity.timing.start }} - {{ activity.timing.end }}, <span class="fact" >{{ activity.track }}</span></p>
+                        <h4>{{ activity.title }}</h4>
+                      </span>
+                    {% else %}
+                      <a class="schedule-clickarea bg1" rel="leanModal" href="#{{ activity.title | slugify }}-{{ activity.timing.day | slugify }}-{{ activity.timing.start | slugify }}">
+                        <p>{{ activity.timing.start }} - {{ activity.timing.end }}, <span class="fact" >{{ activity.track }}</span></p>
+                        <h4>{{ activity.title }}</h4>
+                      </a>
+                    {% endif %}
+                </article>
+                {% endif %}
+            {% endfor %}
             </div>
-    </div> -->
+        </div>
+    </div>
     <div class="row">
         <div class="schedule-cols" id="schedule-{{ day | downcase }}">
             {% for track in site.data.tracks %}
@@ -88,7 +105,7 @@ Het programma is ook beschikbaar als een online kalender (<a href="programma.ics
                           <span class="speakers">{{ activity.speakers | join: ", " }}</span>
                         </span>
                       {% else %}
-                        <a class="schedule-clickarea bg1" rel="leanModal" href="#{{ activity.title | slugify }}">
+                        <a class="schedule-clickarea bg1" rel="leanModal" href="#{{ activity.title | slugify }}-{{ activity.timing.day | slugify }}-{{ activity.timing.start | slugify }}">
                           <h4>{{ activity.title }}</h4>
                           <span class="speakers">{{ activity.speakers | join: ", " }}</span>
                         </a>

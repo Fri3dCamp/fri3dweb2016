@@ -1,6 +1,6 @@
 {% for activity in site.data.activities %}
   {% unless activity.hide %}
-  <article class="contentitem activity" id="{{ activity.title | slugify }}">
+  <article class="contentitem activity" id="{{ activity.title | slugify }}-{{ activity.timing.day | slugify }}-{{ activity.timing.start | slugify }}">
     <a class="modal_close">
         <span class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
