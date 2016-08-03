@@ -1,0 +1,18 @@
+{% include header.html %}
+    <div class="jumbotron">
+      <header class="container">
+          <a href="/" class="pull-right promo">
+              <img src="/images/site_promobutton.png" alt="13-15 augustus 2016, Hoge Rielen, Kasterlee, België" />
+          </a>
+        <h1>{{page.title}}</h1>
+        <p>type: <span class="fact type-{{ page.type }}">{{ page.type }}</span> - op <a href="/programma/tijdsindeling#schedule-{{ page.timing.day }}" class="fact">{{ page.timing.day }}</a> {{ page.timing.date }} van {{ page.timing.start }} tot {{ page.timing.end }} - locatie: <a class="fact" href="locaties#{{ page.track | remove: "(" | remove: ")" | slugify }}">{{ page.track }}</a></p>
+      </header>
+    </div>
+
+    <div class="container">
+      {{content}}
+      <p>door: {% for speaker in page.speakers %} <span class="speaker">{{speaker}}</span> {% endfor %}</p>
+    </div>
+{% include pagefooter.html %}
+{% include javascript.html %}
+{% include footer.html %}

@@ -2,23 +2,30 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    
+
     <div class="center-block" id="mainlogo" class="logo">{% include logo.html %} <div class="logo-name">F<span style="letter-spacing: -5px;">r</span>i<span style="letter-spacing: -3px;">3d</span><br>C<span style="letter-spacing: -3px;">a</span><span style="letter-spacing: -8px;">mp</span></div><div class="logo-year">2016</div></div>
-    
-    <p>{{page.intro}}</p>  
-    
+
+    <p>{{page.intro}}</p>
+
     <hr/>
-    
+
+    <div>
+        <h2>Posts</h2>
+        {% for post in site.posts %}
+        <p><a href="{{post.url}}">{{post.title}}</a></p>
+        {% endfor %}
+    </div>
+
     <div class="row">
-    
+
       <div class="col-md-6">
         <h3><a href="/programma/tijdsindeling">Programma</a></h3>
         <p>
           In 3D tekenen, een raket lanceren, alle TV's uitzetten, slimme kleren maken, aluminium gieten, DNA uit een kiwi halen, ...
           Met ons <a href="/programma/tijdsindeling">programma</a> zal niemand zich vervelen.
         </p>
-      </div>  
-      
+      </div>
+
       <div class="col-md-6">
         <h3><a href="/faq">Veelgestelde vragen</a></h3>
         <p>
@@ -26,34 +33,34 @@
           Je vindt al een pak antwoorden bij onze <a href="/faq">veelgestelde vragen</a>.
         </p>
       </div>
-    
+
     </div>
 
     <hr/>
-    
+
     <p class="text-center">
       <img src="/images/sold_out.gif" width="250px">
     </p>
     <p class="text-center">
       Fri3d Camp 2016 is volledig, en zelf een beetje meer, uitverkocht.
     </p>
-    
-    
+
+
   </div>
 </div>
 
 <div class="container">
   <!-- Example row of columns -->
   <div class="row">
-    
+
     <div class="col-md-6">
       {{page.watisfri3d}}
-    </div>  
-      
+    </div>
+
     <div class="col-md-6">
       {% include carousel2014.html %}
     </div>
-    
+
   </div>
 
   <hr/>
@@ -65,17 +72,17 @@
       {% include mc_form.html %}
       {% include socialbuttons.html %}
     </div>
-    
+
     <div class="col-md-6">
       {{page.kalender}}
-    </div>  
-      
+    </div>
+
   </div>
-  
+
   <hr/>
-  
+
   {{page.sponsors}}
-  
+
 </div> <!-- /container -->
 
 {% include pagefooter.html %}

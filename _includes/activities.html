@@ -1,4 +1,4 @@
-{% for activity in site.data.activities %}
+{% for activity in site.posts %}
   {% unless activity.hide %}
   <article class="contentitem activity" id="{{ activity.title | slugify }}-{{ activity.timing.day | slugify }}-{{ activity.timing.start | slugify }}">
     <a class="modal_close">
