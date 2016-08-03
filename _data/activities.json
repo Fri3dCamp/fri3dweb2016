@@ -1,1210 +1,1291 @@
 [
    {
       "type":"kids",
-      "track":"soldeerhoek",
+      "title":"3D printing met pennen",
       "speakers":[
          "Liselore Lathouwers"
       ],
-      "title":"3D printing met pennen",
-      "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
+      "id":1,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"13:45",
          "end":"15:15"
-      }
+      },
+      "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
-      "speakers":[
-         "Lieven Blancke"
-      ],
       "title":"Aluminium smelten - gieten stap 1",
+      "speakers":[
+         "Lieven Blancke"
+      ],
+      "id":2,
+      "timing":{
+         "date":"13 augustus 2016",
+         "day":"zaterdag",
+         "start":"20:00",
+         "end":"21:00"
+      },
       "description":"We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Met onze zelfgemakte oven smelten we aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
-      "timing":{
-         "day":"zaterdag",
-         "date":"13 augustus 2016",
-         "start":"20:00",
-         "end":"21:00"
-      }
+      "track":"op het terrein"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
-      "speakers":[
-         "Lieven Blancke"
-      ],
       "title":"Aluminium smelten - gieten stap 2",
-      "description":"We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
-      "timing":{
-         "day":"zondag",
-         "date":"14 augustus 2016",
-         "start":"20:00",
-         "end":"21:00"
-      }
-   },
-   {
-      "type":"workshop",
-      "track":"op het terrein",
       "speakers":[
          "Lieven Blancke"
       ],
-      "title":"Aluminium smelten - oven maken",
-      "description":"We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Voor we aluminium smelten maken we eerst zelf onze oven.",
+      "id":3,
       "timing":{
-         "day":"zaterdag",
+         "date":"14 augustus 2016",
+         "day":"zondag",
+         "start":"20:00",
+         "end":"21:00"
+      },
+      "description":"We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Het gesmolten aluminium gieten we in zelfgemaakte vormpjes. Begin maar al blikjes van frisdrank en bier te sparen!",
+      "track":"op het terrein"
+   },
+   {
+      "type":"workshop",
+      "title":"Aluminium smelten - oven maken",
+      "speakers":[
+         "Lieven Blancke"
+      ],
+      "id":4,
+      "timing":{
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"14:00",
          "end":"15:00"
-      }
+      },
+      "description":"We stoken een zelfgemaakte oven zo heet dat we er aluminium in kunnen smelten. Voor we aluminium smelten maken we eerst zelf onze oven.",
+      "track":"op het terrein"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Bedtime stories voor kinderen",
       "speakers":[
          "Toon Van de Putte"
       ],
-      "title":"Bedtime stories voor kinderen",
-      "description":"Enkele leuke korte verhalen bij het kampvuur voor het slapengaan.",
+      "id":5,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"20:00",
          "end":"20:30"
-      }
+      },
+      "description":"Enkele leuke korte verhalen bij het kampvuur voor het slapengaan.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Bedtime stories voor kinderen",
       "speakers":[
          "Toon Van de Putte"
       ],
-      "title":"Bedtime stories voor kinderen",
-      "description":"Enkele leuke korte verhalen bij het kampvuur voor het slapengaan.",
+      "id":6,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"20:00",
          "end":"20:30"
-      }
+      },
+      "description":"Enkele leuke korte verhalen bij het kampvuur voor het slapengaan.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Bedtime stories voor volwassenen",
       "speakers":[
          "Toon Van de Putte"
       ],
-      "title":"Bedtime stories voor volwassenen",
-      "description":"Enkele 'completely unexpected tales' van Roald Dahl.",
+      "id":7,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"22:00",
          "end":"22:30"
-      }
+      },
+      "description":"Enkele 'completely unexpected tales' van Roald Dahl.",
+      "track":"op het terrein"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Bedtime stories voor volwassenen",
       "speakers":[
          "Toon Van de Putte"
       ],
-      "title":"Bedtime stories voor volwassenen",
-      "description":"Enkele 'completely unexpected tales' van Roald Dahl.",
+      "id":8,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"22:00",
          "end":"22:30"
-      }
+      },
+      "description":"Enkele 'completely unexpected tales' van Roald Dahl.",
+      "track":"op het terrein"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Bitcoin intro",
       "speakers":[
          "Yannick Verbeelen"
       ],
-      "title":"Bitcoin intro",
-      "description":"Bitcoin en digitale currencies zijn stilaan niet meer weg te denken uit de nieuwsberichtgeving op het internet. Yannick introduceert in deze presentatie alle aspecten en zorgt er voor dat je zelf aan de slag kan.",
+      "id":9,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"16:40",
          "end":"17:00"
-      }
+      },
+      "description":"Bitcoin en digitale currencies zijn stilaan niet meer weg te denken uit de nieuwsberichtgeving op het internet. Yannick introduceert in deze presentatie alle aspecten en zorgt er voor dat je zelf aan de slag kan.",
+      "track":"main stage"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Blubber-slijm maken",
       "speakers":[
          "Anthony Liekens"
       ],
-      "title":"Blubber-slijm maken",
-      "description":"Met de allerkleinsten, en waarschijnlijk ook wat groteren, gaat Anthony met huis, tuin en keukenspullen (en met veel verf en glitter) aan de slag om zelf écht blubberig slijm te maken. Een glibberige droom voor heel jong en oud.",
+      "id":10,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"10:30",
          "end":"11:30"
-      }
+      },
+      "description":"Met de allerkleinsten, en waarschijnlijk ook wat groteren, gaat Anthony met huis, tuin en keukenspullen (en met veel verf en glitter) aan de slag om zelf \u00e9cht blubberig slijm te maken. Een glibberige droom voor heel jong en oud.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Bommetjes maken (kind-vriendelijk!)",
       "speakers":[
          "Machtelt Garrels"
       ],
-      "title":"Bommetjes maken (kind-vriendelijk!)",
-      "description":"Machtelt gaat met 10 kinderen aan de slag om echte bommetjes te maken. Met eenvoudige ingredienten die je overal thuis kan vinden, kan de pret niet op!",
+      "id":11,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"13:00",
          "end":"14:00"
-      }
+      },
+      "description":"Machtelt gaat met 10 kinderen aan de slag om echte bommetjes te maken. Met eenvoudige ingredienten die je overal thuis kan vinden, kan de pret niet op!",
+      "track":"knutselba(a)r"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Bouw een solar kit",
       "speakers":[
          "Ralph Willekes"
       ],
-      "title":"Bouw een solar kit",
-      "description":"We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
+      "id":12,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"10:30",
          "end":"11:30"
-      }
+      },
+      "description":"We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Bouw een solar kit",
       "speakers":[
          "Ralph Willekes"
       ],
-      "title":"Bouw een solar kit",
-      "description":"We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
+      "id":13,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"13:30",
          "end":"15:00"
-      }
+      },
+      "description":"We gaan kleine solar kit in elkaar zetten en uitleg geven over hoe het werkt en waarom het belangrijk is schone energie te gebruiken.",
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Bouw je eigen Arduino",
       "speakers":[
          "Yannick Verbeelen"
       ],
-      "title":"Bouw je eigen Arduino",
-      "description":"Arduino's kan je kopen, maar je kan ze ook zelf bouwen. Samen met Yannick ga je aan de slag met breadboards en componenten om je eigen Arduino samen te stellen.",
+      "id":14,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"12:00",
          "end":"13:00"
-      }
+      },
+      "description":"Arduino's kan je kopen, maar je kan ze ook zelf bouwen. Samen met Yannick ga je aan de slag met breadboards en componenten om je eigen Arduino samen te stellen.",
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Bouw zelf een CNC",
       "speakers":[
          "Pascal Roobrouck"
       ],
-      "title":"Bouw zelf een CNC",
-      "description":"Pascal heeft zelf een OX CNC gebouwd. Hij brengt een workshop over hoe dat allemaal werkt van A tot Z!",
+      "id":15,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"15:00",
          "end":"16:00"
-      }
+      },
+      "description":"Pascal heeft zelf een OX CNC gebouwd. Hij brengt een workshop over hoe dat allemaal werkt van A tot Z!",
+      "track":"fablab"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Check Dees!",
       "speakers":[
          "Toon Van de Putte"
       ],
-      "title":"Check Dees!",
-      "description":"Toon brengt zijn nieuwe podcast naar Fri3d Camp!",
+      "id":16,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"13:45",
          "end":"14:45"
-      }
+      },
+      "description":"Toon brengt zijn nieuwe podcast naar Fri3d Camp!",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"CoderDojo met mBot",
       "speakers":[
          "An Van Laer",
-		 "Stijn Adams",
-		 "Filip Smets",
-		 "Bart Huylebroeck"
-	  ],
-      "title":"CoderDojo met mBot",
-      "description":"Een mBot is een betaalbare, eenvoudig te gebruiken robot voor kinderen om ervaring op te doen met grafisch programmeren (met Scratch/mBlock), elektronica en robotica. In deze levensechte CoderDojo brengt An en andere leden van CoderDojo Kempen 15 mBots mee om aan de slag te gaan. Per mBot is een Windows laptop nodig, die de deelnemers zelf meebrengen. Twee deelnemers, vanaf 7 jaar, kunnen telkens met zo'n setup aan de slag.",
-	  "timing":{
-         "day":"zondag",
+         "Stijn Adams",
+         "Filip Smets",
+         "Bart Huylebroeck"
+      ],
+      "id":17,
+      "timing":{
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"11:30",
          "end":"13:00"
-      }
+      },
+      "description":"Een mBot is een betaalbare, eenvoudig te gebruiken robot voor kinderen om ervaring op te doen met grafisch programmeren (met Scratch/mBlock), elektronica en robotica. In deze levensechte CoderDojo brengt An en andere leden van CoderDojo Kempen 15 mBots mee om aan de slag te gaan. Per mBot is een Windows laptop nodig, die de deelnemers zelf meebrengen. Twee deelnemers, vanaf 7 jaar, kunnen telkens met zo'n setup aan de slag.",
+      "track":"fablab"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Creatief zijn met sub-1GHz technologie. (aka Octa-Connect intro)",
       "speakers":[
          "Dragan Subotic"
       ],
-      "title":"Creatief zijn met sub-1GHz technologie. (aka Octa-Connect intro)",
-      "description":"Bij de workshop experimenteren we met een voorgeprogrammeerde sub-1GHz shield met PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen.",
+      "id":18,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"14:00",
          "end":"16:00"
-      }
+      },
+      "description":"Bij de workshop experimenteren we met een voorgeprogrammeerde sub-1GHz shield met PCB breadboard. Om de workshop wat vlot te laten verlopen gaan wij een voorbeeld aanleveren, maar de creatieve geesten mogen helemaal hun eigen creatie ontwikkelen.",
+      "track":"soldeerhoek"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"De wonderen van het heelal",
       "speakers":[
          "Jeroen Toelen"
       ],
-      "title":"De wonderen van het heelal",
-      "description":"We praten over bepaalde fenomenen (supernovae, pulsars, kometen...) en laten de verwondering de vrije loop.",
+      "id":19,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"20:30",
          "end":"21:00"
-      }
+      },
+      "description":"We praten over bepaalde fenomenen (supernovae, pulsars, kometen...) en laten de verwondering de vrije loop.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Dingen maken met beton",
       "speakers":[
          "Maarten Weyn"
       ],
-      "title":"Dingen maken met beton",
-      "description":"We gaan met snelcement en beton aan de slag om lampekappen, behuizingen, kapstokken of andere dingen te maken. Ga je mee aan de slag? Breng dan eventueel plastieken fles(sen), emmer, tape, scharen, etc mee.",
+      "id":20,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"15:45",
          "end":"17:45"
-      }
+      },
+      "description":"We gaan met snelcement en beton aan de slag om lampekappen, behuizingen, kapstokken of andere dingen te maken. Ga je mee aan de slag? Breng dan eventueel plastieken fles(sen), emmer, tape, scharen, etc mee.",
+      "track":"fablab"
    },
    {
-      "hide":true,
       "type":"orga",
-      "track":"main stage",
+      "hide":true,
       "title":"Diner",
+      "id":21,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
-         "start":"18:00",
-         "end":"20:00"
-      }
-   },
-   {
-      "hide":true,
-      "noics":true,
-      "type":"orga",
-      "track":"fablab",
-      "title":"Diner",
-      "timing":{
          "day":"zaterdag",
-         "date":"13 augustus 2016",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"main stage"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"soldeerhoek",
+      "hide":true,
       "title":"Diner",
+      "id":22,
+      "noics":true,
       "timing":{
+         "date":"13 augustus 2016",
          "day":"zaterdag",
-         "date":"13 augustus 2016",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"fablab"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"op het terrein",
+      "hide":true,
       "title":"Diner",
+      "id":23,
+      "noics":true,
       "timing":{
+         "date":"13 augustus 2016",
          "day":"zaterdag",
-         "date":"13 augustus 2016",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"soldeerhoek"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"knutselba(a)r",
+      "hide":true,
       "title":"Diner",
+      "id":24,
+      "noics":true,
       "timing":{
+         "date":"13 augustus 2016",
          "day":"zaterdag",
+         "start":"18:00",
+         "end":"20:00"
+      },
+      "track":"op het terrein"
+   },
+   {
+      "type":"orga",
+      "hide":true,
+      "title":"Diner",
+      "id":25,
+      "noics":true,
+      "timing":{
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"knutselba(a)r"
    },
    {
-      "hide":true,
       "type":"orga",
-      "track":"main stage",
+      "hide":true,
       "title":"Diner",
+      "id":26,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"main stage"
    },
    {
+      "type":"orga",
       "hide":true,
+      "title":"Diner",
+      "id":27,
       "noics":true,
-      "type":"orga",
-      "track":"fablab",
-      "title":"Diner",
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"fablab"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"knutselba(a)r",
+      "hide":true,
       "title":"Diner",
+      "id":28,
+      "noics":true,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"knutselba(a)r"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"soldeerhoek",
+      "hide":true,
       "title":"Diner",
+      "id":29,
+      "noics":true,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"soldeerhoek"
    },
    {
-      "hide":true,
-      "noics":true,
       "type":"orga",
-      "track":"op het terrein",
+      "hide":true,
       "title":"Diner",
+      "id":30,
+      "noics":true,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"18:00",
          "end":"20:00"
-      }
+      },
+      "track":"op het terrein"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"DNA uit kiwi's halen",
       "speakers":[
          "Anthony Liekens",
          "Liselore Lathouwers",
          "Eline Van Ginneken"
       ],
-      "title":"DNA uit kiwi's halen",
-      "description":"Hoe werken onze genen? Mad scientist Anthony vertelt je er alles over, Liselore en Eline leren je hoe je het DNA uit een kiwi kan halen.",
+      "id":31,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"16:45",
          "end":"18:00"
-      }
+      },
+      "description":"Hoe werken onze genen? Mad scientist Anthony vertelt je er alles over, Liselore en Eline leren je hoe je het DNA uit een kiwi kan halen.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Dowse",
       "speakers":[
          "Federico Bonelli"
       ],
-      "title":"Dowse",
-      "description":"Dowse wil een Privacy Hub voor het Internet of Things bouwen. Deze workshop gaat dieper in op de security aspecten van IoT in de thuisomgeving.",
+      "id":32,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"13:45",
          "end":"14:45"
-      }
+      },
+      "description":"Dowse wil een Privacy Hub voor het Internet of Things bouwen. Deze workshop gaat dieper in op de security aspecten van IoT in de thuisomgeving.",
+      "track":"fablab"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Draadloze elektriciteitsoverdracht",
       "speakers":[
          "Maarten Weyn"
       ],
-      "title":"Draadloze elektriciteitsoverdracht",
-      "description":"Met veel koperdraad en een 6-tal componenten, een batterij en ledje bouwen we een voorbeeld van draadloze energieoverdracht.",
+      "id":33,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"12:30",
          "end":"13:30"
-      }
+      },
+      "description":"Met veel koperdraad en een 6-tal componenten, een batterij en ledje bouwen we een voorbeeld van draadloze energieoverdracht.",
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Draagzakken bedrukken",
       "speakers":[
          "Kevin Celis"
       ],
-      "title":"Draagzakken bedrukken",
-      "description":"In een workshop voor jong en oud maakt iedereen iets naar zijn eigen kunnen. We hebben een 2-laagse folie waarop eerst een tekening gemaakt wordt. Deze tekening wordt dan uitgeknipt en met een hittepers op een zogenaamde 'tote bag' geperst. Er worden 20 'tote bags' en folies voorzien.",
+      "id":34,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"10:30",
          "end":"12:30"
-      }
+      },
+      "description":"In een workshop voor jong en oud maakt iedereen iets naar zijn eigen kunnen. We hebben een 2-laagse folie waarop eerst een tekening gemaakt wordt. Deze tekening wordt dan uitgeknipt en met een hittepers op een zogenaamde 'tote bag' geperst. Er worden 20 'tote bags' en folies voorzien.",
+      "track":"fablab"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Dr Bibber",
       "speakers":[
          "Maria-Cristina Ciocci"
       ],
-      "title":"Dr Bibber",
-      "description":"Breng een schoendoos mee en maak samen met Cristina je eigen Dr Bibber-spel. Leuk en leerrijk!",
+      "id":35,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"13:45",
          "end":"15:15"
-      }
+      },
+      "description":"Breng een schoendoos mee en maak samen met Cristina je eigen Dr Bibber-spel. Leuk en leerrijk!",
+      "track":"knutselba(a)r"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Een bakfiets maken",
       "speakers":[
          "Thomas Roosen"
       ],
-      "title":"Een bakfiets maken",
-      "description":"In hun nieuwe Mechelse hackerspace, ko-lab, heeft Thomas met zijn kompanen een modulaire, high tech bakfiets gebouwd. In deze presentatie kom je alles te weten over hoe ze dit aangepakt hebben en wat hun verdere plannen zijn.",
+      "id":36,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"17:00",
          "end":"17:20"
-      }
+      },
+      "description":"In hun nieuwe Mechelse hackerspace, ko-lab, heeft Thomas met zijn kompanen een modulaire, high tech bakfiets gebouwd. In deze presentatie kom je alles te weten over hoe ze dit aangepakt hebben en wat hun verdere plannen zijn.",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Er bestaan g\u00e9\u00e9n lastige kinderen?",
       "speakers":[
          "Ira Laurencin"
       ],
-      "title":"Er bestaan géén lastige kinderen?",
-      "description":"In een presentatie door kindertolk Ira Laurencin duiken we in de relatie van ouder en kind. Je leert de last van je kind begrijpen en hoe je hiermee aan de slag kan.",
+      "id":37,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"12:00",
          "end":"12:30"
-      }
+      },
+      "description":"In een presentatie door kindertolk Ira Laurencin duiken we in de relatie van ouder en kind. Je leert de last van je kind begrijpen en hoe je hiermee aan de slag kan.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"main stage",
+      "title":"Fimo night",
       "speakers":[
          "Els De Ketelaere"
       ],
-      "title":"Fimo night",
-      "description":"Leer unieke juwelen maken met Fimo-klei. Van Els mag je dat ook doen met een glaasje Whiskey erbij.",
+      "id":38,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"21:00",
          "end":"22:30"
-      }
+      },
+      "description":"Leer unieke juwelen maken met Fimo-klei. Van Els mag je dat ook doen met een glaasje Whiskey erbij.",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
       "title":"Fri3d Camp 2016 Keynote",
       "speakers":[
          "Mitch Altman"
       ],
-      "description":"Mitch Altman reist de wereld rond om mensen te introduceren in de kunst van het solderen. Zo bezoekt hij alle hackerspaces ter wereld. Zijn verhalen zijn een inspiratie voor jong en oud. Mitch is Engelstalig, maar zijn passie trekt iedereen mee in zijn verhaal.",
+      "id":39,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"12:00",
          "end":"12:45"
-      }
+      },
+      "description":"Mitch Altman reist de wereld rond om mensen te introduceren in de kunst van het solderen. Zo bezoekt hij alle hackerspaces ter wereld. Zijn verhalen zijn een inspiratie voor jong en oud. Mitch is Engelstalig, maar zijn passie trekt iedereen mee in zijn verhaal.",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Fri3d Camp Badge",
       "speakers":[
          "Christophe Van Ginneken"
       ],
-      "title":"Fri3d Camp Badge",
-      "description":"Fri3d Camp 2016 heeft zijn eigen badge. Elke deelnemer ontvangt een echt Arduino-compatibel ontwerp dat in staat is om alle lichten op Camp te beïnvloeden of TVs uit te schakelen. Maar hoe werkt de badge? Hoe is ze gebouwd en hoe kan je er zelf mee aan de slag om er nog meer mee te doen?",
+      "id":40,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"16:20",
          "end":"16:40"
-      }
+      },
+      "description":"Fri3d Camp 2016 heeft zijn eigen badge. Elke deelnemer ontvangt een echt Arduino-compatibel ontwerp dat in staat is om alle lichten op Camp te be\u00efnvloeden of TVs uit te schakelen. Maar hoe werkt de badge? Hoe is ze gebouwd en hoe kan je er zelf mee aan de slag om er nog meer mee te doen?",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Geek Dad Anon.",
       "speakers":[
          "Steffest"
       ],
-      "title":"Geek Dad Anon.",
-      "description":"Wil je TV kijken? Dat kan, dan moet je wel even dat toestel daar terug aansluiten en dan op de afstandsbediening functie 5b doen, dan kom je normaal gezien in de overkoepelende interface uit waar er ergens 'TV' tussen staat. Zelf gemaakt, handig hé! Ah wacht ... de connectie is weg precies, momentje. Stef vertelt over zijn leven als geek dad.",
+      "id":41,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"17:20",
          "end":"17:40"
-      }
+      },
+      "description":"Wil je TV kijken? Dat kan, dan moet je wel even dat toestel daar terug aansluiten en dan op de afstandsbediening functie 5b doen, dan kom je normaal gezien in de overkoepelende interface uit waar er ergens 'TV' tussen staat. Zelf gemaakt, handig h\u00e9! Ah wacht ... de connectie is weg precies, momentje. Stef vertelt over zijn leven als geek dad.",
+      "track":"main stage"
    },
    {
       "type":"orga",
-      "track":"main stage",
+      "title":"Goeiemorgen",
       "speakers":[
          "Team Content"
       ],
-      "title":"Goeiemorgen",
+      "id":42,
+      "timing":{
+         "date":"14 augustus 2016",
+         "day":"zondag",
+         "start":"10:00",
+         "end":"10:30"
+      },
       "description":"Team Content blikt vooruit naar de activiteiten van de dag en overloopt de laatste nieuwtjes.",
-      "timing":{
-         "day":"zondag",
-         "date":"14 augustus 2016",
-         "start":"10:00",
-         "end":"10:30"
-      }
+      "track":"main stage"
    },
    {
       "type":"orga",
-      "track":"main stage",
+      "title":"Goeiemorgen",
       "speakers":[
          "Team Content"
       ],
-      "title":"Goeiemorgen",
-      "description":"Team Content blikt vooruit naar de activiteiten van de dag en overlopen de laatste nieuwtjes.",
+      "id":43,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"10:00",
          "end":"10:30"
-      }
+      },
+      "description":"Team Content blikt vooruit naar de activiteiten van de dag en overlopen de laatste nieuwtjes.",
+      "track":"main stage"
    },
    {
-      "hidetiming":true,
       "type":"workshop",
-      "track":"op het terrein",
+      "hidetiming":true,
+      "title":"Hack your body - Yoga",
       "speakers":[
          "Wouter Van Beirendonck"
       ],
-      "title":"Hack your body - Yoga",
-      "description":"Elke ochtend, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.",
+      "id":44,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"8:00",
          "end":"8:30"
-      }
+      },
+      "description":"Elke ochtend, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.",
+      "track":"op het terrein"
    },
    {
-      "hidetiming":true,
       "type":"workshop",
-      "track":"op het terrein",
+      "hidetiming":true,
+      "title":"Hack your body - Yoga",
       "speakers":[
          "Wouter Van Beirendonck"
       ],
-      "title":"Hack your body - Yoga",
-      "description":"Elke ochtend, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.",
+      "id":45,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"8:00",
          "end":"8:30"
-      }
+      },
+      "description":"Elke ochtend, nog voor het ontbijt, beginnen we dag gezond, we leren iets over ons lichaam met een dauwtrip, een yoga oefening en een tip over gezond eten.",
+      "track":"op het terrein"
    },
    {
       "type":"kids",
-      "track":"fablab",
-      "speakers":[
-         "Kurt Beheydt"
-      ],
       "title":"High tech bosspel",
-      "description":"We bedenken een high tech bosspel dat we samen kunnen spelen. Wat dacht je van een bijna echte bom die onschadelijk gemaakt kan worden, een koffertje met codeslot, infrarode tags om elkaar leventjes af te pakken, of LED-bakens die veranderen van kleur als je met jouw badge langs komt? Breng zo veel mogelijk (half-)afgewerkte elektronica projecten mee. Kurt gaat samen met jou aan de slag om ze te integreren tot een heus spel.",
-      "timing":{
-         "day":"zondag",
-         "date":"14 augustus 2016",
-         "start":"13:00",
-         "end":"14:00"
-      }
-   },
-   {
-      "type":"kids",
-      "track":"op het terrein",
-      "z-index": 60,
       "speakers":[
          "Kurt Beheydt"
       ],
-      "title":"High tech bosspel spelen",
-      "description":"Het bosspel is bedacht, nu gaan we het allemaal samen spelen!",
+      "id":46,
       "timing":{
-         "day":"maandag",
-         "date":"15 augustus 2016",
+         "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"13:00",
          "end":"14:00"
-      }
+      },
+      "description":"We bedenken een high tech bosspel dat we samen kunnen spelen. Wat dacht je van een bijna echte bom die onschadelijk gemaakt kan worden, een koffertje met codeslot, infrarode tags om elkaar leventjes af te pakken, of LED-bakens die veranderen van kleur als je met jouw badge langs komt? Breng zo\u00a0veel\u00a0mogelijk\u00a0(half-)afgewerkte\u00a0elektronica projecten mee. Kurt gaat samen met jou aan de slag om ze te integreren tot een heus spel.",
+      "track":"fablab"
+   },
+   {
+      "z-index":60,
+      "type":"kids",
+      "title":"High tech bosspel spelen",
+      "speakers":[
+         "Kurt Beheydt"
+      ],
+      "id":47,
+      "timing":{
+         "date":"15 augustus 2016",
+         "day":"maandag",
+         "start":"13:00",
+         "end":"14:00"
+      },
+      "description":"Het bosspel is bedacht, nu gaan we het allemaal samen spelen!",
+      "track":"op het terrein"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"How to negotiate IoT into a political reality",
       "speakers":[
          "Rob van Kranenburg"
       ],
-      "title":"How to negotiate IoT into a political reality",
-      "description":"Wat betekent het nu juist om over een \"Internet of Things\" te spreken in onze samenleving? Wat zal de eigenlijke invloed zijn, los van het technische? Rob van Kranenburg brengt een IoT verhaal met een sociale insteek, en nodigt het publiek uit tot een interactieve discussie.",
+      "id":48,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"12:45",
          "end":"13:30"
-      }
+      },
+      "description":"Wat betekent het nu juist om over een \"Internet of Things\" te spreken in onze samenleving? Wat zal de eigenlijke invloed zijn, los van het technische? Rob van Kranenburg brengt een IoT verhaal met een sociale insteek, en nodigt het publiek uit tot een interactieve discussie.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Introductie Arduinio basics met 123d.circuits.io",
       "speakers":[
          "Bruce Helsen"
       ],
-      "title":"Introductie Arduinio basics met 123d.circuits.io",
-      "description":"Zelfs zonder een echte Arduino kan je er toch mee aan de slag. Dankzij de Circuits.io website kan je virtueel aan de slag met deze hardware. Bruce legt de werking uit en begeleidt je bij je eerste stappen.",
+      "id":49,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"14:45",
          "end":"15:45"
-      }
+      },
+      "description":"Zelfs zonder een echte Arduino kan je er toch mee aan de slag. Dankzij de Circuits.io website kan je virtueel aan de slag met deze hardware. Bruce legt de werking uit en begeleidt je bij je eerste stappen.",
+      "track":"fablab"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Introductie tot Arduino",
       "speakers":[
          "Mitch Altman"
       ],
-      "title":"Introductie tot Arduino",
-      "description":"Als hacker extra-ordinair kent de Arduino geen geheimen meer voor Mitch. In deze workshop introduceert hij de beginselen en geeft tal van ideeën om verder te gaan.",
+      "id":50,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"10:30",
          "end":"11:30"
-      }
+      },
+      "description":"Als hacker extra-ordinair kent de Arduino geen geheimen meer voor Mitch. In deze workshop introduceert hij de beginselen en geeft tal van idee\u00ebn om verder te gaan.",
+      "track":"fablab"
    },
    {
       "type":"talk",
-      "track":"main stage",
       "title":"IoT bij Rombit",
       "speakers":[
          "Jorik Rombouts, CEO Rombit"
       ],
-      "description":"Rombit is onze platinum sponsor. Jorik stelt zijn bedrijf graag even aan jullie voor. Zijn passie voor IoT kent geen grenzen. Een talk om mee te maken.",
+      "id":51,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"11:30",
          "end":"12:00"
-      }
+      },
+      "description":"Rombit is onze platinum sponsor. Jorik stelt zijn bedrijf graag even aan jullie voor. Zijn passie voor IoT kent geen grenzen. Een talk om mee te maken.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Kijken naar de hemel - Perse\u00efden",
       "speakers":[
          "Jeroen Toelen"
       ],
-      "title":"Kijken naar de hemel - Perseïden",
-      "description":"Na zonsondergang gaan er (afhankelijk van het weer en de bijna volle maan) vallende sterren te zien zijn. Misschien is Saturnus (met z'n prachtige ringen) en Jupiter goed te zien.",
+      "id":52,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"21:00",
          "end":"21:30"
-      }
+      },
+      "description":"Na zonsondergang gaan er (afhankelijk van het weer en de bijna volle maan) vallende sterren te zien zijn. Misschien is Saturnus (met z'n prachtige ringen) en Jupiter goed te zien.",
+      "track":"op het terrein"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Leer solderen",
       "speakers":[
          "Mitch Altman"
       ],
-      "title":"Leer solderen",
-      "description":"Mitch Altman reist de wereld rond om mensen te leren solderen. Op Fri3d Camp staat hij weer klaar om iedereen deze nobele kunst aan te leren.",
+      "id":53,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"15:30",
          "end":"17:00"
-      }
+      },
+      "description":"Mitch Altman reist de wereld rond om mensen te leren solderen. Op Fri3d Camp staat hij weer klaar om iedereen deze nobele kunst aan te leren.",
+      "track":"soldeerhoek"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"LEGO + elektronica = introductie elektronische schakelingen",
       "speakers":[
          "Marian Verhelst",
          "Wim Dehaene"
       ],
-      "title":"LEGO + elektronica = introductie elektronische schakelingen",
-      "description":"Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
+      "id":54,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"10:30",
          "end":"12:30"
-      }
+      },
+      "description":"Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
+      "track":"knutselba(a)r"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"LEGO + elektronica = introductie elektronische schakelingen",
       "speakers":[
          "Marian Verhelst",
          "Wim Dehaene"
       ],
-      "title":"LEGO + elektronica = introductie elektronische schakelingen",
-      "description":"Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
+      "id":55,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"14:30",
          "end":"16:30"
-      }
+      },
+      "description":"Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
+      "track":"knutselba(a)r"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"Lockpicking workshop",
       "speakers":[
          "Walter Belgers"
       ],
-      "title":"Lockpicking workshop",
-      "description":"Wie in 2014 de kans gemist heeft om aan de slag te gaan met sloten, krijgt dit jaar een herkansing. Walter brengt zijn lock picking tools mee en leert iedereen hoe onopenbare sloten toch geopend kunnen worden.",
+      "id":56,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"14:00",
          "end":"15:00"
-      }
+      },
+      "description":"Wie in 2014 de kans gemist heeft om aan de slag te gaan met sloten, krijgt dit jaar een herkansing. Walter brengt zijn lock picking tools mee en leert iedereen hoe onopenbare sloten toch geopend kunnen worden.",
+      "track":"fablab"
    },
    {
+      "z-index":50,
       "type":"workshop",
-      "track":"op het terrein",
-      "z-index": 50,
-      "extraclass":"overlap",
+      "title":"Marvin de grasrobot",
       "speakers":[
          "Jan Baeyens"
       ],
-      "title":"Marvin de grasrobot",
-      "description":"Jan demonstreert zijn zelf-ontwikkelde grasrobot, Marvin. Hij heeft hiervoor ook een Eclipse plugin gemaakt, genaamd Sloeber.",
+      "id":57,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"14:30",
          "end":"15:30"
-      }
+      },
+      "description":"Jan demonstreert zijn zelf-ontwikkelde grasrobot, Marvin. Hij heeft hiervoor ook een Eclipse plugin gemaakt, genaamd Sloeber.",
+      "extraclass":"overlap",
+      "track":"op het terrein"
    },
    {
       "type":"orga",
-      "track":"main stage",
       "title":"Openingsceremonie",
       "speakers":[
          "Fri3d Camp Organisatie",
          "Special Guest"
       ],
-      "description":"Iedereen welkom op Fri3d Camp 2016!",
+      "id":58,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"11:00",
          "end":"11:30"
-      }
+      },
+      "description":"Iedereen welkom op Fri3d Camp 2016!",
+      "track":"main stage"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Origami",
       "speakers":[
          "Tagni Geudens"
       ],
-      "title":"Origami",
-      "description":"Met zijn broer en zus gaat Tagni samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken.",
+      "id":59,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"12:45",
          "end":"13:45"
-      }
+      },
+      "description":"Met zijn broer en zus gaat Tagni samen met jou en papier aan de slag om wondermooie vouwwerkjes te maken.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Paper games",
       "speakers":[
          "Steffest"
       ],
-      "title":"Paper games",
-      "description":"Zijn de kinderen game-verslaafd? Met zelf uitgevonden papieren games kan de schermtijd naar beneden en de creativiteit omhoog. Breng een smart phone of tablet mee en ga naar huis met je eigen game app.",
+      "id":60,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"15:15",
          "end":"16:45"
-      }
+      },
+      "description":"Zijn de kinderen game-verslaafd? Met zelf uitgevonden papieren games kan de schermtijd naar beneden en de creativiteit omhoog. Breng een smart phone of tablet mee en ga naar huis met je eigen game app.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Physical penetration testing",
       "speakers":[
          "Walter Belgers"
       ],
-      "title":"Physical penetration testing",
-      "description":"Na een gesmaakte talk op Fri3d Camp 2014, komt Walter terug om te vertellen over physical penetration testing. Of, in menselijke woorden, hoe een slot werkt en hoe het geopend kan worden.",
+      "id":61,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"10:30",
          "end":"11:15"
-      }
+      },
+      "description":"Na een gesmaakte talk op Fri3d Camp 2014, komt Walter terug om te vertellen over physical penetration testing. Of, in menselijke woorden, hoe een slot werkt en hoe het geopend kan worden.",
+      "track":"main stage"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"RC Child",
       "speakers":[
          "Geert Fannes"
       ],
-      "title":"RC Child",
-      "description":"In deze workshop leren we de de basis van RC en servo motoren. We gaan aan de slag om een helm te maken waarmee je niets kan zien. Door gebruik te maken van servo motoren geven we aan of je vooruit, links of rechts moet gaan. Zo kan je iemand besturen.",
+      "id":62,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"11:30",
          "end":"13:00"
-      }
+      },
+      "description":"In deze workshop leren we de de basis van RC en servo motoren. We gaan aan de slag om een helm te maken waarmee je niets kan zien. Door gebruik te maken van servo motoren geven we aan of je vooruit, links of rechts moet gaan. Zo kan je iemand besturen.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"workshop",
-      "track":"fablab",
+      "title":"RDS decoderen met Gnuradio",
       "speakers":[
          "Hans Van Ingelgom"
       ],
-      "title":"RDS decoderen met Gnuradio",
-      "description":"In deze workshop decoderen we een RDS signaal van een FM zender. RDS is het protocol dat je vertelt op welke zender je bent afgestemd, welk liedje gespeeld wordt en dergelijke. We zullen kijken welke informatie het FM-signaal bevat, het RDS signaal isoleren en het tot slot (gedeeltelijk) decoderen.",
+      "id":63,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"13:30",
          "end":"15:00"
-      }
+      },
+      "description":"In deze workshop decoderen we een RDS signaal van een FM zender. RDS is het protocol dat je vertelt op welke zender je bent afgestemd, welk liedje gespeeld wordt en dergelijke. We zullen kijken welke informatie het FM-signaal bevat, het RDS signaal isoleren en het tot slot (gedeeltelijk) decoderen.",
+      "track":"fablab"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Robotica voor beginners (EZ-robot)",
       "speakers":[
          "Eddy Mathy"
       ],
-      "title":"Robotica voor beginners (EZ-robot)",
-      "description":"Eddy geeft een overzicht van robotica voor beginners met het platform van EZ-robot (www.ez-robot.com/EZ-Builder). Hij legt ook uit hoe je zelf je robot kan printen.",
+      "id":64,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"17:00",
          "end":"17:30"
-      }
+      },
+      "description":"Eddy geeft een overzicht van robotica voor beginners met het platform van EZ-robot (www.ez-robot.com/EZ-Builder). Hij legt ook uit hoe je zelf je robot kan printen.",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Rube Goldberg Machine in actie",
       "speakers":[
          "Johan Potums"
       ],
-      "title":"Rube Goldberg Machine in actie",
-      "description":"Na een dag bouwen gaat de Rube Goldberg Machine nu in actie!",
+      "id":65,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"17:40",
          "end":"18:00"
-      }
+      },
+      "description":"Na een dag bouwen gaat de Rube Goldberg Machine nu in actie!",
+      "track":"main stage"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Rube Goldberg machine intro",
       "speakers":[
          "Johan Potums"
       ],
-      "title":"Rube Goldberg machine intro",
-      "description":"Johan introduceert de Rube Goldberg Machine.",
+      "id":66,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"11:15",
          "end":"11:45"
-      }
+      },
+      "description":"Johan introduceert de Rube Goldberg Machine.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"main stage",
+      "title":"Rube Goldberg machine bouwen",
       "speakers":[
          "Johan Potums"
       ],
-      "title":"Rube Goldberg machine bouwen",
-      "description":"Gedurende een volledige dag krijg je de kans om aan een Rube Goldberg machine te werken! Op het einde van de dag steken we de machine in gang, spektakel verzekerd!",
+      "id":67,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"11:45",
          "end":"16:20"
-      }
+      },
+      "description":"Gedurende een volledige dag krijg je de kans om aan een Rube Goldberg machine te werken! Op het einde van de dag steken we de machine in gang, spektakel verzekerd!",
+      "track":"main stage"
    },
    {
       "type":"orga",
-      "track":"main stage",
+      "title":"SHA2017, Fri3d Camp 2018,... brainstorm",
       "speakers":[
          "Iedereen"
       ],
-      "title":"SHA2017, Fri3d Camp 2018,... brainstorm",
-      "description":"We blikken samen even vooruit naar de komende events.",
+      "id":68,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"20:30",
          "end":"21:00"
-      }
+      },
+      "description":"We blikken samen even vooruit naar de komende events.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"knutselba(a)r",
+      "title":"Sieraden van afval",
       "speakers":[
          "Igor Nikolic"
       ],
-      "title":"Sieraden van afval",
-      "description":"In deze workshop maken we sieraden van afval zoals elektronica en plastic. Wij gaan o.a. bloem-broches met lichtjes maken van Petflessen. Neem zeker een klein PET flesje (of twee) mee.",
+      "id":69,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"13:45",
          "end":"14:45"
-      }
+      },
+      "description":"In deze workshop maken we sieraden van afval zoals elektronica en plastic. Wij gaan o.a. bloem-broches met lichtjes maken van Petflessen. Neem zeker een klein PET flesje (of twee) mee.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"orga",
-      "track":"main stage",
       "title":"Sluitingsceremonie",
       "speakers":[
          "Fri3d Camp Organisatie"
       ],
-      "description":"Dit was Fri3d Camp 2016. Bedankt iedereen!",
+      "id":70,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"15:00",
          "end":"16:00"
-      }
+      },
+      "description":"Dit was Fri3d Camp 2016. Bedankt iedereen!",
+      "track":"main stage"
    },
    {
+      "z-index":50,
       "type":"workshop",
-      "track":"op het terrein",
-      "z-index": 50,
-      "extraclass":"overlap",
+      "title":"The One Ring",
       "speakers":[
          "Daan Uttien"
       ],
-      "title":"The One Ring",
-      "description":"SawuGo brengt een mobiele goudsmederij naar Fri3d. Er zullen verschillende workshops gehouden worden, waaronder 'The One Ring workshop' waarin je de basisbeginselen van goudsmeden leert en een zilveren ring maakt.",
+      "id":71,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"11:00",
          "end":"15:00"
-      }
+      },
+      "description":"SawuGo brengt een mobiele goudsmederij naar Fri3d. Er zullen verschillende workshops gehouden worden, waaronder 'The One Ring workshop' waarin je de basisbeginselen van goudsmeden leert en een zilveren ring maakt.",
+      "extraclass":"overlap",
+      "track":"op het terrein"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Too less Too little Too late",
       "speakers":[
          "Mark Pecqueur"
       ],
-      "title":"Too less Too little Too late",
-      "description":"Zero emission mobility without depleting the world's rare earth materials. Mark geeft een overzicht van waar we staan met onze wens om mobiliteit emissie-vrij te krijgen, wat we doen en waar we naar toe kunnen. Erna heel treedt hij graag in discussie, hoe kritischer hoe liever.",
+      "id":72,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"13:00",
          "end":"13:45"
-      }
+      },
+      "description":"Zero emission mobility without depleting the world's rare earth materials. Mark geeft een overzicht van waar we staan met onze wens om mobiliteit emissie-vrij te krijgen, wat we doen en waar we naar toe kunnen. Erna heel treedt hij graag in discussie, hoe kritischer hoe liever.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Trebuchet in actie",
       "speakers":[
          "Geert Fannes"
       ],
-      "title":"Trebuchet in actie",
-      "description":"Na zijn presentatie over de middeleeuwse \"gooi\"-machines, laat Geert deze machines voor zichzelf spreken in een workshop op de velden van Fri3d Camp.",
+      "id":73,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"10:30",
          "end":"13:00"
-      }
+      },
+      "description":"Na zijn presentatie over de middeleeuwse \"gooi\"-machines, laat Geert deze machines voor zichzelf spreken in een workshop op de velden van Fri3d Camp.",
+      "track":"op het terrein"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Trebuchets",
       "speakers":[
          "Geert Fannes"
       ],
-      "title":"Trebuchets",
-      "description":"Geert geeft een overzicht van de geschiedenis van deze middeleeuwse \"gooi\"-machines, de verschillende types en de elementaire fysica nodig om hun werking te begrijpen.",
+      "id":74,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"17:30",
          "end":"18:00"
-      }
+      },
+      "description":"Geert geeft een overzicht van de geschiedenis van deze middeleeuwse \"gooi\"-machines, de verschillende types en de elementaire fysica nodig om hun werking te begrijpen.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Waterraketten",
       "speakers":[
          "Luc Bastiaens"
       ],
-      "title":"Waterraketten",
-      "description":"Samen met Luc maken we watergestuurde raketten en lanceren ze! En als het weer het toelaat, lanceren we ook een echte raket.",
+      "id":75,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"10:30",
          "end":"11:30"
-      }
+      },
+      "description":"Samen met Luc maken we watergestuurde raketten en lanceren ze! En als het weer het toelaat, lanceren we ook een echte raket.",
+      "track":"op het terrein"
    },
    {
       "type":"workshop",
-      "track":"soldeerhoek",
+      "title":"Wearables",
       "speakers":[
          "Dewi Van De Vyver"
       ],
-      "title":"Wearables",
-      "description":"Tesamen met volleerde naaister en übergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt, ... mee om het te personaliseren met lichtjespatronen.",
+      "id":76,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"12:45",
          "end":"13:45"
-      }
+      },
+      "description":"Tesamen met volleerde naaister en \u00fcbergeek Dewi willen we kinderen en volwassenen electronics in hun kleding helpen inbouwen. Breng je eigen das, t-shirt, ... mee om het te personaliseren met lichtjespatronen.",
+      "track":"soldeerhoek"
    },
    {
       "type":"talk",
-      "track":"main stage",
+      "title":"Wireless Belgi\u00eb",
       "speakers":[
          "Ward De Ridder"
       ],
-      "title":"Wireless België",
-      "description":"Het draadloze netwerk van Fri3d Camp wordt verzorgd door Wireless België. Ward komt vertellen over hoe het netwerk is gegroeid, en hoe het er nu uit ziet.",
+      "id":77,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"11:15",
          "end":"12:00"
-      }
+      },
+      "description":"Het draadloze netwerk van Fri3d Camp wordt verzorgd door Wireless Belgi\u00eb. Ward komt vertellen over hoe het netwerk is gegroeid, en hoe het er nu uit ziet.",
+      "track":"main stage"
    },
    {
       "type":"workshop",
-      "track":"op het terrein",
+      "title":"Zenderzoektocht",
       "speakers":[
          "Hans Van Ingelgom"
       ],
-      "title":"Zenderzoektocht",
-      "description":"Hans heeft een aantal zenders verstopt op het terrein. Tijd om de SDRs boven te halen en ze te zoeken.",
+      "id":78,
       "timing":{
-         "day":"zaterdag",
          "date":"13 augustus 2016",
+         "day":"zaterdag",
          "start":"15:00",
          "end":"18:00"
-      }
+      },
+      "description":"Hans heeft een aantal zenders verstopt op het terrein. Tijd om de SDRs boven te halen en ze te zoeken.",
+      "track":"op het terrein"
    },
    {
       "type":"kids",
-      "track":"fablab",
+      "title":"Zinvol tekenen met ouder en kind.",
       "speakers":[
          "Ira Laurencin"
       ],
-      "title":"Zinvol tekenen met ouder en kind.",
-      "description":"Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen.",
+      "id":79,
       "timing":{
-         "day":"maandag",
          "date":"15 augustus 2016",
+         "day":"maandag",
          "start":"12:30",
          "end":"13:30"
-      }
+      },
+      "description":"Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen.",
+      "track":"fablab"
    },
    {
       "type":"kids",
-      "track":"op het terrein",
+      "title":"Zoektocht",
       "speakers":[
          "Tom Van de Zande"
       ],
-      "title":"Zoektocht",
-      "description":"De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden.",
+      "id":80,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"13:30",
          "end":"15:30"
-      }
+      },
+      "description":"De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden.",
+      "track":"op het terrein"
    },
    {
       "type":"kids",
-      "track":"knutselba(a)r",
+      "title":"Zwevende lichtgevende monsters",
       "speakers":[
          "Christophe Van Ginneken & familie"
       ],
-      "title":"Zwevende lichtgevende monsters",
-      "description":"<a href='./images/glow-stick-monsters.jpg' target='_blank'><img src='./images/glow-stick-monsters-thumb.jpg' style='float:right;position:relative;top:-75px;margin-left:20px;'></a>Met (minstens) 200 glow sticks en 5 ballonnen van 90cm vol helium gaan we feërieke zwevende monsters het luchtruim in sturen. We kunnen veel vingers gebruiken om alle glow sticks aan elkaar te bevestigen en veel papa's en mama's met fototoestellen (met een lange sluitertijd).",
+      "id":81,
       "timing":{
-         "day":"zondag",
          "date":"14 augustus 2016",
+         "day":"zondag",
          "start":"20:30",
          "end":"22:00"
-      }
+      },
+      "description":"<a href='./images/glow-stick-monsters.jpg' target='_blank'><img src='./images/glow-stick-monsters-thumb.jpg' style='float:right;position:relative;top:-75px;margin-left:20px;'></a>Met (minstens) 200 glow sticks en 5 ballonnen van 90cm vol helium gaan we fe\u00ebrieke zwevende monsters het luchtruim in sturen. We kunnen veel vingers gebruiken om alle glow sticks aan elkaar te bevestigen en veel papa's en mama's met fototoestellen (met een lange sluitertijd).",
+      "track":"knutselba(a)r"
    }
 ]
