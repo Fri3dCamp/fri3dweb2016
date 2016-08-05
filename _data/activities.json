@@ -291,22 +291,6 @@
       "track":"soldeerhoek"
    },
    {
-      "type":"talk",
-      "title":"De wonderen van het heelal",
-      "speakers":[
-         "Jeroen Toelen"
-      ],
-      "id":19,
-      "timing":{
-         "date":"13 augustus 2016",
-         "day":"zaterdag",
-         "start":"20:30",
-         "end":"21:00"
-      },
-      "description":"We praten over bepaalde fenomenen (supernovae, pulsars, kometen...) en laten de verwondering de vrije loop.",
-      "track":"main stage"
-   },
-   {
       "type":"workshop",
       "title":"Dingen maken met beton",
       "speakers":[
@@ -811,10 +795,10 @@
       "timing":{
          "date":"13 augustus 2016",
          "day":"zaterdag",
-         "start":"21:00",
-         "end":"21:30"
+         "start":"22:00",
+         "end":"23:00"
       },
-      "description":"Na zonsondergang gaan er (afhankelijk van het weer en de bijna volle maan) vallende sterren te zien zijn. Misschien is Saturnus (met z'n prachtige ringen) en Jupiter goed te zien.",
+      "description":"Na zonsondergang gaan er (afhankelijk van het weer en de bijna volle maan) vallende sterren te zien zijn. Misschien is Saturnus (met z'n prachtige ringen) en Jupiter goed te zien. We praten over bepaalde fenomenen (supernovae, pulsars, kometen...) en laten de verwondering de vrije loop.",
       "track":"op het terrein"
    },
    {
@@ -1271,6 +1255,22 @@
       },
       "description":"De befaamde VoidWarranties Evil Gnome tuinkabouters nemen ook deel aan Fri3d Camp. Op het kamp hangen posters met geheimzinnige tips over een vermiste tuinkabouter. We zoeken 32 speurneuzen en codekra(a)k(st)ers om de kabouter terug te vinden.",
       "track":"op het terrein"
+   },
+   {
+      "type":"kids",
+      "title":"Zonnestelsel op mini-schaal",
+      "speakers":[
+         "Jeroen Toelen"
+      ],
+      "id":19,
+      "timing":{
+         "date":"15 augustus 2016",
+         "day":"maandag",
+         "start":"13:00",
+         "end":"13:45"
+      },
+      "description":"Aan de hand van klei gaat Jeroen de kinderen zelf laten ervaren hoe groot het zonnestelsel en de planeten wel zijn. Samen maken we een zonnestelsel met de juiste onderlinge verhoudingen.",
+      "track":"knutselba(a)r"
    },
    {
       "type":"kids",
