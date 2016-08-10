@@ -6,10 +6,10 @@ speakers:
 - Jan Baeyens
 id: 57
 timing: 
-   date: '14 augustus 2016'
    end: '15:30'
-   day: 'zondag'
    start: '14:30'
+   day: 'zondag'
+   date: '14 augustus 2016'
 track: op het terrein
 extraclass: overlap
 z-index: 50

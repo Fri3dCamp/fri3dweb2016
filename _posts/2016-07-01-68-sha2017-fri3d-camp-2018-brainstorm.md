@@ -6,10 +6,10 @@ speakers:
 - Iedereen
 id: 68
 timing: 
-   date: '14 augustus 2016'
    end: '21:00'
-   day: 'zondag'
    start: '20:30'
+   day: 'zondag'
+   date: '14 augustus 2016'
 track: main stage
 ---
 We blikken samen even vooruit naar de komende events.

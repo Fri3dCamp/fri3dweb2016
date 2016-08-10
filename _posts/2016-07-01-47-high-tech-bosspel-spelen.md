@@ -6,10 +6,10 @@ speakers:
 - Kurt Beheydt
 id: 47
 timing: 
-   date: '15 augustus 2016'
    end: '14:00'
-   day: 'maandag'
    start: '13:00'
+   day: 'maandag'
+   date: '15 augustus 2016'
 track: op het terrein
 z-index: 60
 ---

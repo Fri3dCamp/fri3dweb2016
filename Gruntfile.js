@@ -1,6 +1,12 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        shell: {
+            genposts: {
+                // generate md files from json posts. Only needed if program is updated. Slugify required.
+                command: 'python3 splitter-json.py',
+            }
+        },
         less: {
             production: {
                 options: {
@@ -67,6 +73,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-shell');
 
-    grunt.registerTask('default', ['copy:updatevars','less:production','copy:production', 'copy:restore', 'clean:backup']);
+    grunt.registerTask('default', ['shell:genposts','copy:updatevars','less:production','copy:production', 'copy:restore', 'clean:backup']);
 };

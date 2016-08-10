@@ -2,13 +2,13 @@
 #Tool to split posts in one file up into separate md files with proper names
 from slugify import slugify
 import json
-activities = json.loads(open('../_data/activities.json').read())
+activities = json.loads(open('_data/activities.json').read())
 #print repr(len(posts)) + " posts found"
 #print " posts found"
 for activity in activities:
     ID = activity["id"]
     title = activity["title"]
-    print (activity)
+    #print (activity)
     filecontent="---\n"
     filecontent+="layout: post\n"
     filecontent+="type: "+activity["type"]+"\n"
@@ -43,7 +43,7 @@ for activity in activities:
     filecontent+="---\n"
     if ("description" in activity):
         filecontent+=activity["description"]
-    filename = '2016-07-01-{}-{}.md'.format(activity["id"],slugify(activity["title"]))
+    filename = '_posts/2016-07-01-{}-{}.md'.format(activity["id"],slugify(activity["title"]))
     with open(filename, 'w') as postfile:
         postfile.write(filecontent)
 print ("all done!")

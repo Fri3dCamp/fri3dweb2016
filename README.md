@@ -21,6 +21,9 @@ $ bundle exec jekyll serve
 
 Check [http://localhost:4000](http://localhost:4000) om je wijzigingen te valideren.
 
+### Over Python
+Python wordt in Gruntfile.js gebruikt om posts te genereren vanuit activities.json. Hiervoor is Python3 vereist, en de slugify library: https://github.com/un33k/python-slugify
+
 ## Meewerken aan het design van de site...
 
 Het design van de site (de look & feel, de kleuren en lijndiktes) gebeurt aan de hand van Bootstrap en CSS. Deze worden bewerkt en vervolgens automatisch samengebracht door middel van Grunt.
@@ -44,15 +47,15 @@ npm WARN deprecated lodash@0.9.2: lodash@<2.0.0 is no longer maintained. Upgrade
 npm WARN deprecated lodash@1.0.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
 npm WARN prefer global jshint@2.5.11 should be installed with -g
 rofl@0.1.0 /Users/xtof/Workspace/fri3d/www.fri3d.be
-├── grunt@0.4.5 
-├── grunt-contrib-clean@0.7.0 
-├── grunt-contrib-copy@0.8.2 
-├── grunt-contrib-jshint@0.10.0 
-├── grunt-contrib-less@1.0.1 
-├── grunt-contrib-uglify@0.5.1 
-├── grunt-contrib-watch@0.6.1 
-├── grunt-exec@0.4.6 
-└── normalize.css@3.0.3 
+├── grunt@0.4.5
+├── grunt-contrib-clean@0.7.0
+├── grunt-contrib-copy@0.8.2
+├── grunt-contrib-jshint@0.10.0
+├── grunt-contrib-less@1.0.1
+├── grunt-contrib-uglify@0.5.1
+├── grunt-contrib-watch@0.6.1
+├── grunt-exec@0.4.6
+└── normalize.css@3.0.3
 
 npm WARN EPACKAGEJSON rofl@0.1.0 No repository field.
 npm WARN EPACKAGEJSON rofl@0.1.0 No license field.
@@ -66,17 +69,17 @@ Grunt wordt gebruikt om alle design elementen samen te brengen in één `app.css
 $ sudo npm install -g grunt-cli
 /usr/local/bin/grunt -> /usr/local/lib/node_modules/grunt-cli/bin/grunt
 /usr/local/lib
-└─┬ grunt-cli@0.1.13 
-  ├─┬ findup-sync@0.1.3 
-  │ ├─┬ glob@3.2.11 
-  │ │ ├── inherits@2.0.1 
-  │ │ └─┬ minimatch@0.3.0 
-  │ │   ├── lru-cache@2.7.3 
-  │ │   └── sigmund@1.0.1 
-  │ └── lodash@2.4.2 
-  ├─┬ nopt@1.0.10 
-  │ └── abbrev@1.0.7 
-  └── resolve@0.3.1 
+└─┬ grunt-cli@0.1.13
+  ├─┬ findup-sync@0.1.3
+  │ ├─┬ glob@3.2.11
+  │ │ ├── inherits@2.0.1
+  │ │ └─┬ minimatch@0.3.0
+  │ │   ├── lru-cache@2.7.3
+  │ │   └── sigmund@1.0.1
+  │ └── lodash@2.4.2
+  ├─┬ nopt@1.0.10
+  │ └── abbrev@1.0.7
+  └── resolve@0.3.1
 ```
 
 ### De stijl van de site opbouwen
