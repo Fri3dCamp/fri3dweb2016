@@ -836,6 +836,22 @@
       "track":"knutselba(a)r"
    },
    {
+     "type":"workshop",
+     "title":"Leren werken met de lasercutter in het Fri3d FabLab",
+     "speakers":[
+        "Ann Peeters"
+     ],
+     "id":32,
+     "timing":{
+        "date":"13 augustus 2016",
+        "day":"zaterdag",
+        "start":"12:45",
+        "end":"14:45"
+     },
+     "description":"Ann van EHB brengt een lasercutter mee naar Fri3d Camp. In deze workshop leert ze je hoe er mee aan de slag te gaan en na deze introductie kan je heel het weekend er zelf mee aan de slag.",
+     "track":"fablab"
+   },
+   {
       "type":"workshop",
       "title":"Lockpicking workshop",
       "speakers":[
@@ -1170,7 +1186,7 @@
       "timing":{
          "date":"15 augustus 2016",
          "day":"maandag",
-         "start":"12:30",
+         "start":"13:00",
          "end":"13:30"
       },
       "description":"Ruzie thuis? Kindertolk Ira helpt je zoiets creatief op te lossen.",
