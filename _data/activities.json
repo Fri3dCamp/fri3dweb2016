@@ -464,22 +464,6 @@
    },
    {
       "type":"workshop",
-      "title":"Dowse",
-      "speakers":[
-         "Federico Bonelli"
-      ],
-      "id":32,
-      "timing":{
-         "date":"13 augustus 2016",
-         "day":"zaterdag",
-         "start":"13:45",
-         "end":"14:45"
-      },
-      "description":"Dowse wil een Privacy Hub voor het Internet of Things bouwen. Deze workshop gaat dieper in op de security aspecten van IoT in de thuisomgeving.",
-      "track":"fablab"
-   },
-   {
-      "type":"workshop",
       "title":"Draadloze elektriciteitsoverdracht",
       "speakers":[
          "Maarten Weyn"
