@@ -14,10 +14,10 @@ PRODID:-//Fri3d Camp//Programma 2016//NL{%
     capture start %}{{ activity.timing.start | remove: ":" | minus: 200 | prepend: "0" | slice: -4, 4 }}00{% endcapture %}{%
     capture end   %}{{ activity.timing.end   | remove: ":" | minus: 200 | prepend: "0" | slice: -4, 4 }}00{% endcapture %}
 BEGIN:VEVENT
-UID:{{ date }}T{{ start }}Z-{{ uid }}@fri3d.be
-DTSTAMP:{{ date }}T{{ start }}Z
-DTSTART:{{ date }}T{{ start }}Z
-DTEND:{{ date }}T{{ end }}Z
+UID:{{ date }}T{{ start }}-{{ uid }}@fri3d.be
+DTSTAMP:{{ date }}T{{ start }}
+DTSTART:{{ date }}T{{ start }}
+DTEND:{{ date }}T{{ end }}
 SUMMARY:{{ activity.title }} {% if activity.speakers %}door {{ activity.speakers | join: ", " }}{% endif %}
 DESCRIPTION:{{ activity.description }}
 LOCATION:{{ activity.track }}{%
