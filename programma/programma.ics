@@ -4,6 +4,7 @@ layout: stp
 BEGIN:VCALENDAR
 METHOD:PUBLISH
 VERSION:2.0
+TZ:+02
 PRODID:-//Fri3d Camp//Programma 2016//NL{%
   for activity in site.data.activities %}{%
     unless activity.noics %}{%
