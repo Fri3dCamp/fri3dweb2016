@@ -1,20 +1,36 @@
 [
-   {
-      "type":"kids",
-      "title":"3D printing met pennen",
-      "speakers":[
-         "Liselore Lathouwers"
-      ],
-      "id":1,
-      "timing":{
-         "date":"13 augustus 2016",
-         "day":"zaterdag",
-         "start":"13:45",
-         "end":"15:15"
-      },
-      "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
-      "track":"fablab"
-   },
+  {
+     "type":"kids",
+     "title":"3D printing met pennen",
+     "speakers":[
+        "Liselore Lathouwers"
+     ],
+     "id":1,
+     "timing":{
+        "date":"13 augustus 2016",
+        "day":"zaterdag",
+        "start":"13:45",
+        "end":"15:15"
+     },
+     "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
+     "track":"fablab"
+  },
+  {
+     "type":"kids",
+     "title":"3D printing met pennen",
+     "speakers":[
+        "Liselore Lathouwers"
+     ],
+     "id":82,
+     "timing":{
+        "date":"14 augustus 2016",
+        "day":"zondag",
+        "start":"10:30",
+        "end":"12:00"
+     },
+     "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
+     "track":"soldeerhoek"
+  },
    {
       "type":"workshop",
       "title":"Aluminium smelten - gieten stap 1",
