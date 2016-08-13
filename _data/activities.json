@@ -13,7 +13,7 @@
          "end":"15:15"
       },
       "description":"Liselore vindt dat iedereen die al's een 3D pen heeft geprobeerd daar nooit goed mee leren werken heeft. Dat wil ze veranderen.",
-      "track":"soldeerhoek"
+      "track":"fablab"
    },
    {
       "type":"workshop",
@@ -731,11 +731,11 @@
       "timing":{
          "date":"13 augustus 2016",
          "day":"zaterdag",
-         "start":"14:45",
-         "end":"15:45"
+         "start":"14:30",
+         "end":"15:30"
       },
       "description":"Zelfs zonder een echte Arduino kan je er toch mee aan de slag. Dankzij de Circuits.io website kan je virtueel aan de slag met deze hardware. Bruce legt de werking uit en begeleidt je bij je eerste stappen.",
-      "track":"fablab"
+      "track":"soldeerhoek"
    },
    {
       "type":"workshop",
@@ -834,22 +834,6 @@
       },
       "description":"Het STEM-platform in Vlaanderen heeft met Prof. Marian Verhelst een vurige voorvechtster. Haar interesse in dit gebied vertrekt vanuit haar passie voor technologie en de overtuiging dat kinderen en technologie hand in hand gaan. Die overtuiging deelt ze met Fri3d Camp. Samen met haar collega Prof. Wim Dehaene brengt ze hun fantastische Ir13 project naar Fri3d Camp. Niet te missen!",
       "track":"knutselba(a)r"
-   },
-   {
-     "type":"workshop",
-     "title":"Leren werken met de lasercutter in het Fri3d FabLab",
-     "speakers":[
-        "Ann Peeters"
-     ],
-     "id":32,
-     "timing":{
-        "date":"13 augustus 2016",
-        "day":"zaterdag",
-        "start":"12:45",
-        "end":"14:45"
-     },
-     "description":"Ann van EHB brengt een lasercutter mee naar Fri3d Camp. In deze workshop leert ze je hoe er mee aan de slag te gaan en na deze introductie kan je heel het weekend er zelf mee aan de slag.",
-     "track":"fablab"
    },
    {
       "type":"workshop",
