@@ -11,7 +11,7 @@ Wil je ons bereiken met een suggestie, opmerkingen of vragen, dan kan je op de v
 * **<a href="mailto:info@fri3d.be">info@fri3d.be</a>**: Algemene vragen over Fri3d Camp
 * **<a href="mailto:content@fri3d.be">content@fri3d.be</a>**: Vragen over en <a href="/uitnodiging">suggesties</a> voor ons inhoudelijk programma
 * **<a href="mailto:tickets@fri3d.be">tickets@fri3d.be</a>**: Vragen over tickets en customer care
-  
+
 # Sociale media
 
 {% include mc_form.html %}

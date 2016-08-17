@@ -21,7 +21,7 @@ Want ze maken Fri3d Camp weer dat iets specialer voor jou!
 
 **Rombit mag zich terecht Platinum Sponsor noemen van Fri3d Camp 2016. Met een financiële ondersteuning ter waarde van de aankoopkosten voor de componenten van de [Fri3d Camp Badge](https://github.com/Fri3dCamp/badge), dragen zij een zeer groot steentje bij voor elke deelnemer!**
 
-Rombit ontwikkelt smart industry en smart city producten met behulp van Internet of Things en Machine Learning technologie. Het bedrijf is bekend van de slimme verkeersborden A Sign en de mobiele werfscanners BadgeControl. Het voornaamste product Romcore koppelt met bestaande IT-infrastructuren, combineert datasets, laat machines toe zelflerend te zijn en bundelt alles in overzichtelijke en mobiele interfaces. Systemen worden ook slimmer gemaakt door toevoeging van IoT-sensortechnologie. 
+Rombit ontwikkelt smart industry en smart city producten met behulp van Internet of Things en Machine Learning technologie. Het bedrijf is bekend van de slimme verkeersborden A Sign en de mobiele werfscanners BadgeControl. Het voornaamste product Romcore koppelt met bestaande IT-infrastructuren, combineert datasets, laat machines toe zelflerend te zijn en bundelt alles in overzichtelijke en mobiele interfaces. Systemen worden ook slimmer gemaakt door toevoeging van IoT-sensortechnologie.
 
 Rombit kwam recent nog in het nieuws door haar succesvolle kapitaalronde van 10 miljoen euro. Het bedrijf breidt fors uit en is volop op zoek naar ingenieurs, project managers en developers.
 
@@ -98,7 +98,3 @@ De inspiratie van dit kamp komt uit vele Belgische en Europese non-profit organi
   <br><br>
   [![Fablab Brussels](images/fablabxl.png)](http://fablab-brussels.be)
 </p>
-
-# Wil jij ook Fri3d Camp steunen?
-
-Sta je met je bedrijf achter het gedachtengoed dat Fri3d Camp verspreid? We kunnen je hulp via sponsoring goed gebruiken, contacteer ons via <a href="mailto:info@fri3d.be">info@fri3d.be</a>.

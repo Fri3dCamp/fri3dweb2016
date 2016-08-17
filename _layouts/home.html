@@ -2,80 +2,44 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    
-    <div class="center-block" id="mainlogo" class="logo">{% include logo.html %} <div class="logo-name">F<span style="letter-spacing: -5px;">r</span>i<span style="letter-spacing: -3px;">3d</span><br>C<span style="letter-spacing: -3px;">a</span><span style="letter-spacing: -8px;">mp</span></div><div class="logo-year">2016</div></div>
-    
-    <p>{{page.intro}}</p>  
-    
-    <hr/>
-    
-    <div class="row">
-    
-      <div class="col-md-6">
-        <h3><a href="/programma/tijdsindeling">Programma</a></h3>
-        <p>
-          In 3D tekenen, een raket lanceren, alle TV's uitzetten, slimme kleren maken, aluminium gieten, DNA uit een kiwi halen, ...
-          Met ons <a href="/programma/tijdsindeling">programma</a> zal niemand zich vervelen.
-        </p>
-      </div>  
-      
-      <div class="col-md-6">
-        <h3><a href="/faq">Veelgestelde vragen</a></h3>
-        <p>
-          Kamperen met het hele gezin en je halve werkplek in je rugzak, dat roept heel wat vragen op.
-          Je vindt al een pak antwoorden bij onze <a href="/faq">veelgestelde vragen</a>.
-        </p>
-      </div>
-    
-    </div>
 
-    <hr/>
-    
-    <p class="text-center">
-      <img src="/images/sold_out.gif" width="250px">
-    </p>
-    <p class="text-center">
-      Fri3d Camp 2016 is volledig, en zelf een beetje meer, uitverkocht.
-    </p>
-    
-    
+    <div class="center-block" id="mainlogo" class="logo">{% include logo.html %} <div class="logo-name">F<span style="letter-spacing: -5px;">r</span>i<span style="letter-spacing: -3px;">3d</span><br>C<span style="letter-spacing: -3px;">a</span><span style="letter-spacing: -8px;">mp</span></div><div class="logo-year">2016</div></div>
+    <p>{{page.intro}}</p>
   </div>
 </div>
 
 <div class="container">
-  <!-- Example row of columns -->
   <div class="row">
-    
+    <div class="col-md-12">
+        <h2>Blijf op de hoogte</h2>
+        <p>Wil je weten wat de toekomst brengt voor Fri3d Camp? Schrijf je dan in op de mailinglist of volg één van de Fri3d social media kanalen.</p>
+    </div>
+    <div class="col-md-6">
+      {% include mc_form.html %}
+    </div>
+    <div class="col-md-6">
+        <h4>Social media</h4>
+        {% include socialbuttons.html %}
+    </div>
+  </div>
+</div>
+<hr/>
+<div class="container">
+  <div class="row">
+
     <div class="col-md-6">
       {{page.watisfri3d}}
-    </div>  
-      
-    <div class="col-md-6">
-      {% include carousel2014.html %}
     </div>
-    
+
+    <div class="col-md-6">
+      {% include carousel2016.html %}
+    </div>
+
   </div>
 
-  <hr/>
 
-  <div class="row">
-
-    <div class="col-md-6">
-      <h2>Blijf op de hoogte</h2>
-      {% include mc_form.html %}
-      {% include socialbuttons.html %}
-    </div>
-    
-    <div class="col-md-6">
-      {{page.kalender}}
-    </div>  
-      
-  </div>
-  
-  <hr/>
-  
   {{page.sponsors}}
-  
+
 </div> <!-- /container -->
 
 {% include pagefooter.html %}

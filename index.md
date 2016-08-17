@@ -4,12 +4,16 @@ layout: home
 
 intro: >
     <div class="well well-fri3d text-center">
-      <strong>Fri3d Camp</strong> is een gezinsvriendelijk zomerkamp voor hackers, makers en DIY'ers.<br/>
-      <strong>Zaterdag 13 tot en met maandag 15 augustus 2016</strong>, in <strong>de Hoge Rielen</strong> in Kasterlee.
+      <h3>Fri3d Camp 2016</strong> is afgelopen!</h3><strong>Bedankt</strong> aan alle deelnemers die er samen een geweldige drie dagen van hebben gemaakt.
     </div>
 
+
 watisfri3d: >
-  <h2>Wat je mag verwachten</h2>
+  <h2>Wat is Fri3d Camp?</h2>  
+  <div class="well">
+  <strong>Fri3d Camp</strong> is een gezinsvriendelijk zomerkamp voor hackers, makers en DIY'ers.
+  De tweede editie vond plaats van Zaterdag 13 tot en met maandag 15 augustus 2016, in de Hoge Rielen in Kasterlee.
+  </div>
   <ul>
   <li>Met 256 samen veilig <strong>kamperen</strong> in de natuur, met tenten en kampvuren, van vrijdagavond tot maandagavond.</li>
   <li>Snel wireless <strong>internet</strong> in het bos en altijd een stopcontact en <strong>stroom</strong> in de buurt.</li>
@@ -51,8 +55,11 @@ ticketinfo: >
   <p>Er zullen in totaal 256 tickets beschikbaar zijn voor Fri3d Camp 2016. Tickets zijn nog niet te koop. Onze shop gaat pas in mei of juni open.
   <a href="http://twitter.com/fri3dcamp">Volg ons op Twitter</a> om op de hoogte te blijven.</p>
 
-fotocredits: >
+fotocredits2014: >
   Foto's door <a href="https://www.flickr.com/photos/christophevg/sets/72157646541776286">christophevg</a>, <a href="https://www.flickr.com/photos/lieven_blancke/">lievenblancke</a> & <a href="https://www.flickr.com/photos/automaton_be/albums/72157646154967970">automaton_be</a>.
+fotocredits2016: >
+  Foto's door <a href="https://www.flickr.com/photos/maltman23/sets/72157671128284810/">maltman23</a>, <a href="https://www.flickr.com/photos/ddr/albums/72157672457433756">ddr</a> & <a href="https://www.flickr.com/photos/automaton_be/">automaton_be</a>
+
 
 sponsors: >
   <h2>Onze sponsors</h2>

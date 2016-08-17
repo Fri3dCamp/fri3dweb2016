@@ -1,0 +1,26 @@
+<!-- begin fotocarousel -->
+<h2>Foto's van editie 2016</h2>
+<div id="carousel2" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {% for i in (0..18) %}
+    <li data-target="#carousel2" data-slide-to="{{ i }}" class="{% if i == 0 %}active{% endif %}"></li>
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    {% for i in (1..19) %}
+    <div class="item{% if i == 1 %} active{% endif %}">
+      <img data-src="/images/fri3d2016/{{ i }}.jpg" alt="Foto van Fri3d Camp 2016" src="/images/fri3d2016/{{ i }}.jpg" data-holder-rendered="true">
+    </div>
+    {% endfor %}
+  </div>
+  <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Vorige</span>
+  </a>
+  <a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Volgende</span>
+  </a>
+</div>
+<p><small>{{page.fotocredits2016}}</small></p>
+<!-- end fotocarousel -->
